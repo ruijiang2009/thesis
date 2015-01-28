@@ -71,7 +71,7 @@ import simplejson as json
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-from model import Business
+from model import Business, Category, BusinessCategory
 
 engine = create_engine('postgresql://ruijiang:@localhost/yelp', echo=True)
 Session = sessionmaker()
@@ -82,28 +82,27 @@ dir = 'data'
 file = 'yelp_academic_dataset_business.json'
 fp = open( os.path.join(dir, file) )
 
-counter = 0
 for line in fp:
     if line is not None or line != '':
         try:
             business_line = json.loads(line)
-            business = Business(business_id=business_line['business_id'],
-                                name=business_line['name'],
-                                neighborhoods=str(business_line['neighborhoods']),
-                                full_address=business_line['full_address'],
-                                city=business_line['city'],
-                                state=business_line['state'],
-                                stars=business_line['stars'],
-                                review_count=business_line['review_count'],
-                                hours=str(business_line['hours']),
-                                attributes=str(business_line['attributes']),
-                                business_type=business_line['type'])
-            session.add(business)
-            session.commit()
-            counter += 1
+            business = session.query(Business).filter(Business.business_id==business_line['business_id']).first()
+            category_id = -1
+            for category_name in business_line['categories']:
+                db_query = session.query(Category).filter(Category.name==category_name)
+                if db_query.count() != 0:
+                    category_id = db_query.first().id
+                else:
+                    category = Category(name=category_name)
+                    session.add(category)
+                    session.commit()
+                    category_id = category.id
+
+                business_category = BusinessCategory(business_id=business.id, category_id=category_id)
+                session.add(business_category)
+                session.commit()
+
         except UnicodeEncodeError:
             print "UnicodeEncodeError"
-
-print counter
 
 
