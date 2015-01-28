@@ -67,25 +67,31 @@ One example is:
 
 """
 import os
-import simplejson
+import simplejson as json
 
-from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine
+from model import Business
 
+engine = create_engine('postgresql://ruijiang:@localhost/yelp', echo=True)
+Session = sessionmaker()
+Session.configure(bind=engine)
+session = Session()
 
-class Business(Base):
-    __tablename__ = 'users'
-    id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
-    name = Column(String(50))
-    fullname = Column(String(50))
-    password = Column(String(12))
-
-dir = 'process_data/data'
-file = 'yelp_academic_dataset_business'
+dir = 'data'
+file = 'yelp_academic_dataset_business.json'
 fp = open( os.path.join(dir, file) )
+
+counter = 1
 for line in fp:
-    business = json.loads(line)
+    if line is not None:
+        business_json = json.loads(line)
+        business = Business(business_id=business_json['business_id'], name=business_json['name'])
+        counter += 1
 
+    # print business
 
+# session.commit()
 
-
+print counter
 

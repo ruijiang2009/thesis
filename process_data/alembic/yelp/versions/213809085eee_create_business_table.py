@@ -33,7 +33,7 @@ def upgrade():
     op.create_table(
         'business',
         sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column('business_id', sa.String(50), nullable=False),
+        sa.Column('business_id', sa.Unicode(50), nullable=False),
         sa.Column('name', sa.String(200), nullable=False),
         sa.Column('neighborhoods', sa.String(200)),
         sa.Column('full_address', sa.String(200)),
