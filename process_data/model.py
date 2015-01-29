@@ -68,7 +68,6 @@ class User(Base):
     votes = Column('votes', String(200))
     elite = Column('elite', String(200))
 
-
     def __repr__(self):
         return "<User(user_id='%s', name='%s', review_count='%d', average_stars='%f', yelping_since='%s')>" % (
                 self.user_id,
@@ -95,3 +94,18 @@ class Tip(Base):
     likes = Column('likes', Integer)
     date = Column('date', Date())
     tip_type = Column('type', String(3))
+
+class Attribute(Base):
+    __tablename__ = 'attribute'
+
+    id = Column('id', Integer)
+    name = Column('name', String(200), primary_key=True)
+    value = Column('value', String(2000), primary_key=True)
+
+class BusinessAttribute(Base):
+    __tablename__ = 'business_attribute'
+
+    attribute_id = Column('attribute_id', Integer, primary_key=True)
+    business_id = Column('business_id', Integer)
+    business_bid = Column('business_bid', String(22), primary_key=True)
+
