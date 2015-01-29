@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, String, Column, Float, Boolean, Text, Unicode, Time
+from sqlalchemy import Integer, String, Column, Float, Boolean, Text, Unicode, Time, Date
 
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -84,3 +84,14 @@ class Friendship(Base):
 
     user1 = Column('user1', String(22), primary_key=True)
     user2 = Column('user2', String(22), primary_key=True)
+
+
+class Tip(Base):
+    __tablename__ = 'tip'
+
+    business_id = Column('business_id', String(22), primary_key=True)
+    user_id = Column('user_id', String(22), primary_key=True)
+    text = Column('text', Text())
+    likes = Column('likes', Integer)
+    date = Column('date', Date())
+    tip_type = Column('type', String(3))

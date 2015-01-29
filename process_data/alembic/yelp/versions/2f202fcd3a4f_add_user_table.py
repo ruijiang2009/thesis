@@ -34,8 +34,8 @@ def upgrade():
 
     op.create_table(
         'friendship',
-        sa.Column('user1', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False),
-        sa.Column('user2', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False)
+        sa.Column('user1', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True),
+        sa.Column('user2', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True)
         )
 
 
