@@ -34,12 +34,12 @@ def upgrade():
 
     op.create_table(
         'friendship',
-        sa.Column('user1', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True),
-        sa.Column('user2', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True)
+        sa.Column('user1', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True, primary_key=True),
+        sa.Column('user2', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, index=True, primary_key=True)
         )
 
 
 
 def downgrade():
     op.drop_table('friendship')
-    op.drop_table('user')
+    op.drop_table('yelp_user')

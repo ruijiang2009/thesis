@@ -42,10 +42,8 @@ def upgrade():
     op.create_table(
         'tip',
         sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column('business_id', sa.String(50), nullable=False),
-        sa.Column('user_id', sa.String(22), nullable=False),
-        # sa.Column('business_id', sa.String(50), sa.ForeignKey('business.business_id'), primary_key=True, nullable=False),
-        # sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), primary_key=True, nullable=False),
+        sa.Column('business_id', sa.String(50), sa.ForeignKey('business.business_id'), primary_key=True, nullable=False),
+        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), primary_key=True, nullable=False),
         sa.Column('text', sa.Text()),
         sa.Column('likes', sa.Integer),
         sa.Column('date', sa.Date()),

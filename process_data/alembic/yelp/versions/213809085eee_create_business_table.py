@@ -22,14 +22,6 @@ def upgrade():
         sa.Column('name', sa.String(200), unique=True, index=True)
     )
 
-    # op.create_table(
-    #     'hour',
-    #     sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-    #     sa.Column('weekday', sa.String(10)),
-    #     sa.Column('open', sa.Time()),
-    #     sa.Column('close', sa.Time()),
-    #     )
-
     op.create_table(
         'business',
         sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
@@ -55,16 +47,7 @@ def upgrade():
         sa.Column('business_id', sa.Integer, sa.ForeignKey('business.id'), nullable=False),
     )
 
-    # op.create_table(
-    #     'business_hour',
-    #     sa.Column('business_id', sa.Integer, sa.ForeignKey('business.id'), nullable=False),
-    #     sa.Column('hour_id', sa.Integer, sa.ForeignKey('hour.id'), nullable=False),
-    # )
-
-
 def downgrade():
     op.drop_table('business_category')
-    # op.drop_table('business_hour')
-    # op.drop_table('hour')
     op.drop_table('business')
     op.drop_table('category')
