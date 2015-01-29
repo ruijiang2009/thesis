@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, String, Column, Float, Boolean, Text, Unicode
+from sqlalchemy import Integer, String, Column, Float, Boolean, Text, Unicode, Time
 
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -52,3 +52,35 @@ class BusinessCategory(Base):
 
     category_id = Column('category_id', Integer, primary_key=True)
     business_id = Column('business_id', Integer, primary_key=True)
+
+
+class User(Base):
+    __tablename__ = 'yelp_user'
+
+    id = Column('id', Integer, primary_key=True)
+    user_id = Column('user_id', String(22), unique=True, index=True)
+    user_type= Column('type', String(10))
+    name = Column('name', String(200))
+    review_count = Column('review_count', Integer)
+    average_stars = Column('average_stars', Float(precision=6))
+    yelping_since = Column('yelping_since', String(20))
+    compliments = Column('compliments', String(2000))
+    votes = Column('votes', String(200))
+    elite = Column('elite', String(200))
+
+
+    def __repr__(self):
+        return "<User(user_id='%s', name='%s', review_count='%d', average_stars='%f', yelping_since='%s')>" % (
+                self.user_id,
+                self.name,
+                self.review_count,
+                self.average_stars,
+                self.yelping_since
+                )
+
+
+class Friendship(Base):
+    __tablename__ = 'friendship'
+
+    user1 = Column('user1', String(22), primary_key=True)
+    user2 = Column('user2', String(22), primary_key=True)
