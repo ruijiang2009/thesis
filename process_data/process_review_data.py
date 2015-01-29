@@ -22,13 +22,14 @@ for line in fp:
         try:
             review_line = json.loads(line)
             review = Review(review_id=review_line['review_id'],
-                            user_id=review_line['user_id']
-                            business_id=review_line['business_id']
-                            stars=review_line['stars']
-                            text=review_line['text']
-                            review_type=review_line['review_type']
-                            date=datetime.datetime.strptime(review_line['date'] , '%Y-%m-%d'),)
+                            user_id=review_line['user_id'],
+                            business_id=review_line['business_id'],
+                            stars=review_line['stars'],
+                            text=review_line['text'],
+                            review_type=review_line['type'],
+                            date=datetime.datetime.strptime(review_line['date'] , '%Y-%m-%d'))
             session.add(review)
+            session.commit()
 
             review_vote = ReviewVote(review_id=review_line['review_id'],
                                      vote='funny',
