@@ -19,26 +19,18 @@ def upgrade():
     op.create_table(
         'category',
         sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column('name', sa.String(200), unique=True)
+        sa.Column('name', sa.String(200), unique=True, index=True)
     )
-
-    # op.create_table(
-    #     'hour',
-    #     sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-    #     sa.Column('weekday', sa.String(10)),
-    #     sa.Column('open', sa.Time()),
-    #     sa.Column('close', sa.Time()),
-    #     )
 
     op.create_table(
         'business',
         sa.Column('id', sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column('business_id', sa.Unicode(50), nullable=False),
-        sa.Column('name', sa.String(200), nullable=False),
+        sa.Column('business_id', sa.String(50), nullable=False, unique=True, index=True),
+        sa.Column('name', sa.Unicode(200), nullable=False),
         sa.Column('neighborhoods', sa.String(200)),
         sa.Column('full_address', sa.String(200)),
         sa.Column('city', sa.String(200)),
-        sa.Column('state', sa.String(2)),
+        sa.Column('state', sa.String(20)),
         sa.Column('latitude', sa.Float(precision=6)),
         sa.Column('longitude', sa.Float(precision=6)),
         sa.Column('stars', sa.Float(precision=1)),
@@ -55,16 +47,7 @@ def upgrade():
         sa.Column('business_id', sa.Integer, sa.ForeignKey('business.id'), nullable=False),
     )
 
-    # op.create_table(
-    #     'business_hour',
-    #     sa.Column('business_id', sa.Integer, sa.ForeignKey('business.id'), nullable=False),
-    #     sa.Column('hour_id', sa.Integer, sa.ForeignKey('hour.id'), nullable=False),
-    # )
-
-
 def downgrade():
     op.drop_table('business_category')
-    # op.drop_table('business_hour')
-    # op.drop_table('hour')
     op.drop_table('business')
     op.drop_table('category')
