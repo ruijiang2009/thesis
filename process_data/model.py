@@ -95,6 +95,7 @@ class Tip(Base):
     date = Column('date', Date())
     tip_type = Column('type', String(3))
 
+
 class Attribute(Base):
     __tablename__ = 'attribute'
 
@@ -102,10 +103,30 @@ class Attribute(Base):
     name = Column('name', String(200), primary_key=True)
     value = Column('value', String(2000), primary_key=True)
 
+
 class BusinessAttribute(Base):
     __tablename__ = 'business_attribute'
 
     attribute_id = Column('attribute_id', Integer, primary_key=True)
     business_id = Column('business_id', Integer)
     business_bid = Column('business_bid', String(22), primary_key=True)
+
+
+class Review(Base):
+    __tablename__ = 'review'
+
+    review_id = Column('review_id', String(22), primary_key=True)
+    user_id = Column('user_id', String(22))
+    business_id = Column('business_id', String(22))
+    date = Column('date', Date())
+    stars = Column('stars', Integer)
+    text = Column('text', Text())
+    review_type = Column('type', String(6))
+
+class ReviewVote(Base):
+    __tablename__ = 'review_vote'
+
+    review_id = Column('review_id', String(22), primary_key=True)
+    vote = Column('vote', String(22), primary_key=True)
+    number = Column('number', Integer)
 
