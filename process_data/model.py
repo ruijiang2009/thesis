@@ -22,6 +22,7 @@ class Business(Base):
     hours = Column('hours', String(500))
     attributes = Column('attributes', Text())
     business_type = Column('type', String(50))
+    category = Column('category', String(500))
 
     def __repr__(self):
         return "<Business(business_id='%s', name='%s', city='%s', state='%s', stars='%f', review_count='%d', hours='%s', attributes='%s', type='%s')>" % (
