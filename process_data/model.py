@@ -124,6 +124,7 @@ class Review(Base):
     text = Column('text', Text())
     review_type = Column('type', String(6))
 
+
 class ReviewVote(Base):
     __tablename__ = 'review_vote'
 
@@ -131,3 +132,10 @@ class ReviewVote(Base):
     vote = Column('vote', String(22), primary_key=True)
     number = Column('number', Integer)
 
+
+class UserVote(Base):
+    __tablename__ = 'user_vote'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    vote = Column('vote', String(22), primary_key=True)
+    number = Column('number', Integer)
