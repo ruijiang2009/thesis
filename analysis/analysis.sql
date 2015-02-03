@@ -12,13 +12,15 @@ ON b.id=bc.business_id
 WHERE bc.category_id=3 GROUP BY city, state ORDER BY c DESC;
 
 -- SELECT category for restaurants in Las Vegas, NV
-SELECT b.business_id, name, full_address, category
+SELECT b.id, b.business_id, name, full_address, category
 FROM business b
 JOIN business_category bc
 ON b.id=bc.business_id
 WHERE bc.category_id = 3
 AND state = 'NV'
-AND city = 'Las Vegas';
+AND city = 'Las Vegas'
+AND name ilike '%buffet%'
+ORDER BY b.id;
 
 -- Find the most popular category
 SELECT COUNT(business_id) AS b, c.name
@@ -86,3 +88,6 @@ AND b.city = 'Las Vegas'
 AND bc.category_id=3
 GROUP BY b.business_id, b.name, b.category
 ORDER BY rc DESC;
+
+
+SELECT name, full_address, category from business where business_id = '4bEjOyTaDG24SY5TxsaUNQ';
