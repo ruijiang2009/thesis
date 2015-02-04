@@ -4,3 +4,5 @@ simplejson==3.6.5
 psycopg2==2.5.4
 gensim==0.10.3
 scikit-learn==0.15.2
+pymongo==2.8
+nltk==3.0.1 # natual lauguage toolkit
