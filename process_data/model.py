@@ -122,6 +122,8 @@ class Review(Base):
     date = Column('date', Date())
     stars = Column('stars', Integer)
     text = Column('text', Text())
+    tags = Column('tags', Text())
+    words = Column('words', Text())
     review_type = Column('type', String(6))
 
 

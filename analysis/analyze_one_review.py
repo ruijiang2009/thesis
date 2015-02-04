@@ -24,7 +24,7 @@ class Corpus(object):
 
 class Dictionary(object):
     def __init__(self, nouns, dictionary_path):
-        self.nouns = nouns
+    self.nouns = nouns
         self.dictionary_path = dictionary_path
 
     def build(self):
