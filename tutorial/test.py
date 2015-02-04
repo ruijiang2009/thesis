@@ -23,6 +23,9 @@ texts = [[word for word in text if word not in tokens_once]
 
 print(texts)
 
+dictionary = corpora.Dictionary(texts)
+
+
 dir = 'output_data'
 file = 'test_token.txt'
 fp = open(os.path.join(dir, file) , 'wb')

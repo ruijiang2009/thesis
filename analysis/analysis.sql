@@ -90,4 +90,6 @@ GROUP BY b.business_id, b.name, b.category
 ORDER BY rc DESC;
 
 
-SELECT name, full_address, category from business where business_id = '4bEjOyTaDG24SY5TxsaUNQ';
+SELECT name, full_address, category FROM business WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ';
+
+SELECT review_id, user_id, business_id, text FROM review WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ'
