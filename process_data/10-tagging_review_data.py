@@ -29,12 +29,12 @@ fp = open( os.path.join(dir, file) )
 stopwords = load_stopwords()
 lem = WordNetLemmatizer()
 
+i = 0
 for line in fp:
     if line is not None or line != '':
         try:
             review_line = simplejson.loads(line)
             review_id = review_line['review_id']
-            print review_id
             review = session.query(Review).filter(Review.review_id==review_id).first()
             text = review.text
 
@@ -61,7 +61,8 @@ for line in fp:
 
             session.add(review)
             session.commit()
-            break
+            i += 1
+            print "index %d " % (i)
 
         except UnicodeEncodeError:
             print "UnicodeEncodeError"
