@@ -61,8 +61,18 @@ def get_tokens(reviews, session, stopwords):
 
         session.add(review)
         session.commit()
-        return corp
-    # return corp
+        # return corp
+    return corp
+
+
+def get_nouns(session, business_id='4bEjOyTaDG24SY5TxsaUNQ'):
+    if session is None:
+        print "None session"
+    reviews = session.query(Review).filter(Review.business_id==business_id)
+    words = []
+    for review in reviews:
+        words.append(json.loads(review.words))
+    return words
 
 class Corpus(object):
     def __init__(self, cursor, reviews_dictionary, corpus_path):
@@ -87,8 +97,8 @@ class Dictionary(object):
 
     def build(self):
         dictionary = corpora.Dictionary(self.cursor)
+        dictionary.filter_extremes(keep_n=10000)
         print dictionary
-        # dictionary.filter_extremes(keep_n=1000)
         dictionary.compactify()
         corpora.Dictionary.save(dictionary, self.dictionary_path)
 
@@ -106,30 +116,38 @@ class Train:
 
         return lda
 
+def get_session():
+    engine = create_engine('postgresql://ruijiang:@localhost/yelp', echo=False)
+    Session = sessionmaker()
+    Session.configure(bind=engine)
+    session = Session()
+    return session
 
+# session = get_session()
 engine = create_engine('postgresql://ruijiang:@localhost/yelp', echo=False)
 Session = sessionmaker()
 Session.configure(bind=engine)
 session = Session()
-
 # preprocess reviews
-reviews = get_review_from_db(session=session)
-stopwords = load_stopwords()
-corp = get_tokens(reviews, session, stopwords)
-
+# reviews = get_review_from_db(session=session)
+# stopwords = load_stopwords()
+# corp = get_tokens(reviews, session, stopwords)
+corp = get_nouns(session=session)
 
 dictionary_path = '/Users/ruijiang/thesis/analysis/dictionary/4bEjOyTaDG24SY5TxsaUNQ.dict'
 corpus_path = '/Users/ruijiang/thesis/analysis/corpus/4bEjOyTaDG24SY5TxsaUNQ-corpus.lda-c'
-lda_model_path = '/Users/ruijiang/thesis/analysis/model/4bEjOyTaDG24SY5TxsaUNQ-lda_model_10_topics.lda'
-lda_num_topics = 10
+lda_model_path = '/Users/ruijiang/thesis/analysis/model/4bEjOyTaDG24SY5TxsaUNQ-lda_model_20_topics.lda'
+lda_num_topics = 20
 
 dictionary = Dictionary(corp, dictionary_path).build()
 print dictionary
-print "save dictionary"
+print "saved dictionary"
 Corpus(corp, dictionary, corpus_path).serialize()
-print "save corpus"
+print "saved corpus"
 Train.run(lda_model_path, corpus_path, lda_num_topics, dictionary)
 print "finish training"
+
+print "# %d topics:" % (lda_num_topics)
 
 # display
 lda = LdaModel.load(lda_model_path)
