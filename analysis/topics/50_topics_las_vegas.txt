@@ -1,0 +1,51 @@
+# 50 topics:
+#0: (mexicon food) 0.201*taco + 0.060*salsa + 0.054*mexican + 0.054*bean + 0.037*burrito + 0.034*downtown + 0.034*nacho + 0.021*food + 0.021*rice + 0.018*pastor
+#1: (american food) 0.389*burger + 0.061*onion + 0.046*bun + 0.032*ring + 0.024*wrap + 0.019*cheese + 0.017*burgr + 0.016*lettuce + 0.013*ticket + 0.013*mustard
+#2: (breakfast) 0.104*juice + 0.083*sausage + 0.067*cafe + 0.045*orange + 0.034*truck + 0.029*container + 0.023*snow + 0.018*stack + 0.015*prime + 0.013*delight
+#3: (drink) 0.040*venue + 0.025*stage + 0.024*pink + 0.024*milkshake + 0.022*hair + 0.020*chorizo + 0.019*superb + 0.019*total + 0.017*skinny + 0.016*comparison
+#4: (service) 0.175*food + 0.103*place + 0.089*service + 0.056*price + 0.034*staff + 0.026*quality + 0.026*portion + 0.023*awesome + 0.021*excellent + 0.021*great
+#5: (japanese food) 0.155*roll + 0.114*sushi + 0.043*salmon + 0.030*chef + 0.027*sashimi + 0.026*tempura + 0.026*unique + 0.023*fish + 0.022*presentation + 0.019*rock
+#6: (food -- meat) 0.071*meat + 0.058*pork + 0.055*beef + 0.043*sauce + 0.034*bbq + 0.033*side + 0.032*chicken + 0.029*flavor + 0.021*tender + 0.019*salty
+#7: (service) 0.142*show + 0.059*date + 0.057*view + 0.042*sample + 0.035*park + 0.022*entrance + 0.019*building + 0.014*floor + 0.014*deserves + 0.012*patient
+#8: (service) 0.051*minute + 0.051*wait + 0.039*time + 0.038*food + 0.030*table + 0.026*order + 0.026*service + 0.025*waiter + 0.023*party + 0.019*people
+#9: (food) 0.069*food + 0.060*place + 0.036*money + 0.027*people + 0.026*counter + 0.025*line + 0.023*thing + 0.014*worth + 0.014*eat + 0.013*star
+#10: (breakfast)0.162*egg + 0.102*breakfast + 0.100*coffee + 0.052*pancake + 0.025*fruit + 0.022*ham + 0.021*biscuit + 0.017*quesadilla + 0.016*cup + 0.016*mimosa
+#11: (good for group) 0.065*place + 0.042*friend + 0.041*night + 0.040*guy + 0.037*time + 0.025*girl + 0.021*game + 0.020*lol + 0.019*people + 0.017*thing
+#12: (food & place) 0.073*place + 0.051*nice + 0.042*food + 0.039*cool + 0.035*pricey + 0.030*bit + 0.023*sit + 0.022*area + 0.022*drink + 0.022*watch
+#13: (place) 0.115*place + 0.063*time + 0.057*food + 0.043*vega + 0.035*visit + 0.033*restaurant + 0.028*town + 0.021*service + 0.015*eat + 0.014*price
+#14: (place) 0.050*trip + 0.043*vega + 0.038*family + 0.037*glad + 0.028*time + 0.027*day + 0.027*stop + 0.026*place + 0.023*weekend + 0.021*tonight
+#15: (breakfast) 0.093*happy + 0.089*bacon + 0.077*cheese + 0.066*hour + 0.053*mac + 0.022*toast + 0.019*pasty + 0.016*side + 0.014*drink + 0.012*half
+#16: (environment) 0.048*atmosphere + 0.042*fusion + 0.028*secret + 0.027*wood + 0.025*basket + 0.022*fremont + 0.022*foodie + 0.021*expectation + 0.021*band + 0.021*sister
+#17: (service) 0.071*order + 0.053*customer + 0.047*service + 0.045*food + 0.043*time + 0.027*manager + 0.026*waitress + 0.017*card + 0.015*minute + 0.014*check
+#18: (drink) 0.060*tortilla + 0.047*concept + 0.042*specialty + 0.041*guacamole + 0.038*avocado + 0.034*farm + 0.031*american + 0.030*cut + 0.030*creme + 0.029*spoon
+#19: (food) 0.123*pie + 0.052*foie + 0.038*gras + 0.035*cute + 0.031*scoop + 0.028*fork + 0.027*brulee + 0.027*pineapple + 0.024*everyday + 0.022*convenient
+#20: (food) 0.040*pickle + 0.026*bone + 0.026*hype + 0.026*raw + 0.025*mozzarella + 0.021*con + 0.019*marrow + 0.018*thin + 0.018*fluffy + 0.018*sweetness
+#21: (american food) 0.215*fry + 0.127*sandwich + 0.125*location + 0.034*truffle + 0.018*bread + 0.017*order + 0.013*time + 0.012*sport + 0.011*cheese + 0.011*option
+#22: (review) 0.210*star + 0.084*strip + 0.031*rating + 0.028*son + 0.026*reason + 0.022*mall + 0.021*floor + 0.018*car + 0.018*pool + 0.014*dollar
+#23: (american food) 0.286*beer + 0.174*rib + 0.057*selection + 0.023*def + 0.020*pretzel + 0.018*draft + 0.014*text + 0.013*coleslaw + 0.012*rock + 0.010*bone
+#24: (review) 0.096*review + 0.049*yelp + 0.024*business + 0.024*owner + 0.020*door + 0.020*read + 0.018*space + 0.017*reading + 0.016*place + 0.014*event
+#25: (food) 0.086*salad + 0.058*bread + 0.048*pasta + 0.036*sauce + 0.033*mushroom + 0.033*oyster + 0.032*lamb + 0.031*butter + 0.026*patio + 0.023*caesar
+#26: (thai food) 0.099*spicy + 0.059*thai + 0.039*chili + 0.035*yum + 0.034*spice + 0.023*place + 0.021*level + 0.018*food + 0.015*coconut + 0.013*jam
+#27: (italian food, chicken wing) 0.304*pizza + 0.056*wing + 0.049*slice + 0.040*meatball + 0.034*sauce + 0.026*crust + 0.024*cheese + 0.018*place + 0.017*sausage + 0.017*pepperoni
+#28: (steak) 0.201*steak + 0.088*dog + 0.045*side + 0.037*wife + 0.025*potato + 0.021*steakhouse + 0.019*hot + 0.019*eye + 0.017*meat + 0.017*school
+#29: 0.095*ayce + 0.035*miss + 0.028*design + 0.027*art + 0.026*mile + 0.025*cook + 0.024*short + 0.022*sense + 0.021*eaten + 0.017*grit
+#30: 0.112*topping + 0.063*gordon + 0.061*waffle + 0.052*ramsay + 0.042*sea + 0.042*filet + 0.022*ramsey + 0.021*spinach + 0.020*pan + 0.020*bass
+#31: 0.116*server + 0.055*service + 0.048*food + 0.046*water + 0.032*experience + 0.026*table + 0.024*restaurant + 0.024*time + 0.021*drink + 0.016*refill
+#32: 0.060*rice + 0.047*shrimp + 0.047*soup + 0.046*noodle + 0.029*sauce + 0.029*pork + 0.025*dish + 0.020*bowl + 0.017*broth + 0.017*duck
+#33: 0.115*pho + 0.074*bowl + 0.048*girlfriend + 0.047*http + 0.038*tasting + 0.028*beat + 0.028*spring + 0.025*break + 0.024*express + 0.024*recipe
+#34: 0.048*flavor + 0.028*sauce + 0.026*taste + 0.020*perfect + 0.020*sweet + 0.014*mouth + 0.014*lemon + 0.013*texture + 0.012*perfection + 0.011*pastry
+#35: 0.086*chocolate + 0.055*strawberry + 0.051*shake + 0.050*margarita + 0.037*tapa + 0.030*outdoor + 0.030*cake + 0.029*vanilla + 0.023*dessert + 0.023*tot
+#36: 0.146*bar + 0.077*drink + 0.055*wine + 0.043*cocktail + 0.039*bartender + 0.023*bottle + 0.022*glass + 0.022*slider + 0.021*area + 0.018*list
+#37: 0.183*crab + 0.143*lobster + 0.062*leg + 0.059*seafood + 0.040*clam + 0.027*ribeye + 0.021*gelato + 0.020*shrimp + 0.016*chowder + 0.015*men
+#38: 0.065*crepe + 0.064*medium + 0.055*room + 0.045*scallop + 0.045*banana + 0.037*dessert + 0.033*rare + 0.024*nutella + 0.024*modern + 0.019*arugula
+#39: 0.090*menu + 0.052*restaurant + 0.040*meal + 0.039*dish + 0.037*chef + 0.033*appetizer + 0.032*item + 0.027*dinner + 0.025*option + 0.022*entree
+#40: 0.106*buffet + 0.046*sushi + 0.040*food + 0.039*selection + 0.036*station + 0.035*quality + 0.027*price + 0.027*variety + 0.025*line + 0.023*section
+#41: 0.082*birthday + 0.071*patty + 0.049*mayo + 0.045*buy + 0.039*batter + 0.032*fat + 0.031*korean + 0.031*popper + 0.030*board + 0.029*machine
+#42: 0.105*tuna + 0.083*kid + 0.063*love + 0.058*music + 0.050*turkey + 0.043*ketchup + 0.035*bomb + 0.024*ahi + 0.022*loud + 0.021*vibe
+#43: 0.211*ramen + 0.178*chip + 0.038*store + 0.035*monta + 0.024*delivery + 0.022*island + 0.017*kobe + 0.016*tonkotsu + 0.014*bitter + 0.013*season
+#44: 0.317*lunch + 0.048*today + 0.041*amazing + 0.034*salad + 0.023*city + 0.018*dinner + 0.015*kale + 0.015*beet + 0.015*chicken + 0.013*john
+#45: 0.039*casino + 0.038*hotel + 0.034*asada + 0.028*carne + 0.027*vega + 0.019*shop + 0.018*strip + 0.018*room + 0.018*inside + 0.017*stay
+#46: 0.120*flavor + 0.118*curry + 0.043*mom + 0.031*gem + 0.022*notch + 0.020*meh + 0.020*grill + 0.019*fire + 0.017*homemade + 0.017*carrot
+#47: 0.041*rice + 0.025*katsu + 0.022*plate + 0.020*piece + 0.018*bowl + 0.017*pita + 0.017*skewer + 0.016*teriyaki + 0.015*tonkatsu + 0.014*bulgogi
+#48: 0.118*ice + 0.117*cream + 0.084*dessert + 0.080*tea + 0.042*brunch + 0.026*sunday + 0.016*item + 0.015*milk + 0.013*cooky + 0.012*filipino
+#49: 0.087*cake + 0.036*smoke + 0.027*summerlin + 0.023*center + 0.021*breast + 0.021*rainbow + 0.020*ranch + 0.020*step + 0.018*cart + 0.015*tiny
