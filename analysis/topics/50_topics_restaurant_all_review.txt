@@ -15,7 +15,7 @@
 #12: (good for celebration or deal) 0.078*boyfriend + 0.063*card + 0.055*birthday + 0.039*deal + 0.036*charge + 0.028*support + 0.027*tip + 0.025*venue + 0.025*cash + 0.024*pay
 #13: (steak & chiken wing)0.248*steak + 0.176*wing + 0.093*medium + 0.046*rare + 0.029*cut + 0.019*perfection + 0.019*peak + 0.017*house + 0.015*side + 0.014*temperature
 #14: (general about restaurant)0.076*concept + 0.043*girlfriend + 0.038*sister + 0.030*fire + 0.028*bloody + 0.028*mary + 0.024*scene + 0.020*jar + 0.019*admit + 0.018*sell
-#15: (break fast) 0.102*egg + 0.079*breakfast + 0.047*bacon + 0.030*place + 0.030*brunch + 0.029*pancake + 0.027*morning + 0.025*toast + 0.022*sunday + 0.021*waffle
+#15: (breakfast) 0.102*egg + 0.079*breakfast + 0.047*bacon + 0.030*place + 0.030*brunch + 0.029*pancake + 0.027*morning + 0.025*toast + 0.022*sunday + 0.021*waffle
 #16: (vietnamese) 0.107*quick + 0.068*bite + 0.043*grab + 0.038*cilantro + 0.028*gourmet + 0.026*vietnamese + 0.024*fancy + 0.023*octopus + 0.021*thumb + 0.021*mountain
 #17: (mexican food) 0.168*taco + 0.077*chip + 0.050*salsa + 0.040*mexican + 0.036*bean + 0.032*burrito + 0.030*food + 0.028*place + 0.025*tortilla + 0.022*corn
 #18: (chinese food) 0.067*rice + 0.065*soup + 0.057*bowl + 0.055*chicken + 0.034*food + 0.033*beef + 0.023*place + 0.022*noodle + 0.019*pork + 0.017*chinese
