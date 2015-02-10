@@ -78,6 +78,14 @@ GROUP BY c.name
 HAVING COUNT(business_id) >= 30
 ORDER BY b DESC;
 
+-- how many reviews are on restaurant
+SELECT COUNT(review_id) AS rc
+FROM review r
+JOIN business b ON r.business_id=b.business_id
+JOIN business_category bc ON bc.business_id=b.id
+WHERE bc.category_id=3
+ORDER BY rc DESC;
+
 -- Las Vegas, NV: Find how many reviewers one restaurant can have
 SELECT COUNT(review_id) AS rc, b.business_id, b.name, b.category
 FROM review r
@@ -92,4 +100,9 @@ ORDER BY rc DESC;
 
 SELECT name, full_address, category FROM business WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ';
 
-SELECT review_id, user_id, business_id, text FROM review WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ'
+SELECT review_id, user_id, business_id, text FROM review WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ';
+
+
+SELECT review_id, user_id, business_id, text FROM review WHERE review_id = 'xTGollxKKRh7ANzKs1OfEg';
+
+SELECT * FROM review WHERE review_id = '15SdjuK7DmYqUAj6rjGowg';
