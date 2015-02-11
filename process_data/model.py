@@ -23,6 +23,7 @@ class Business(Base):
     attributes = Column('attributes', Text())
     business_type = Column('type', String(50))
     category = Column('category', String(500))
+    predicted_topic_50 = Column('predicted_topic_50', Text())
 
     def __repr__(self):
         return "<Business(business_id='%s', name='%s', city='%s', state='%s', stars='%f', review_count='%d', hours='%s', attributes='%s', type='%s')>" % (
@@ -141,3 +142,4 @@ class UserVote(Base):
     user_id = Column('user_id', String(22), primary_key=True)
     vote = Column('vote', String(22), primary_key=True)
     number = Column('number', Integer)
+
