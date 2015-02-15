@@ -24,6 +24,7 @@ class Business(Base):
     business_type = Column('type', String(50))
     category = Column('category', String(500))
     predicted_topic_50 = Column('predicted_topic_50', Text())
+    predicted_topic_22 = Column('predicted_topic_22', Text())
 
     def __repr__(self):
         return "<Business(business_id='%s', name='%s', city='%s', state='%s', stars='%f', review_count='%d', hours='%s', attributes='%s', type='%s')>" % (
