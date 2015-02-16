@@ -144,3 +144,17 @@ class UserVote(Base):
     vote = Column('vote', String(22), primary_key=True)
     number = Column('number', Integer)
 
+class BusinessTopic22(Base):
+    __tablename__ = 'business_topic22'
+
+    business_id = Column('business_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
+
+
+class BusinessTopic50(Base):
+    __tablename__ = 'business_topic50'
+
+    business_id = Column('business_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
