@@ -17,6 +17,9 @@ import sqlalchemy as sa
 
 
 def upgrade():
+    op.add_column('review', sa.Column('predicted_topic_22', sa.Text()))
+    op.add_column('review', sa.Column('predicted_topic_50', sa.Text()))
+
     op.create_table(
         'review_topic22',
         sa.Column('topic_id', sa.Integer, sa.ForeignKey('topic22.id'), nullable=False),
@@ -34,7 +37,7 @@ def upgrade():
     )
 
 def downgrade():
+    op.drop_column('review', 'predicted_topic_22')
+    op.drop_column('review', 'predicted_topic_22')
     op.drop_table('review_topic22')
     op.drop_table('review_topic50')
-
-
