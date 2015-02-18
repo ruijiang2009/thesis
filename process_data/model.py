@@ -127,6 +127,8 @@ class Review(Base):
     tags = Column('tags', Text())
     words = Column('words', Text())
     review_type = Column('type', String(6))
+    predicted_topic_50 = Column('predicted_topic_50', Text())
+    predicted_topic_22 = Column('predicted_topic_22', Text())
 
 
 class ReviewVote(Base):
@@ -150,7 +152,7 @@ class BusinessTopic22(Base):
     business_id = Column('business_id', String(22), primary_key=True)
     topic_id = Column('topic_id', Integer, primary_key=True)
     relationship = Column('relationship', Float(precision=20))
-
+    stars = Column('stars', Float(precision=1))
 
 class BusinessTopic50(Base):
     __tablename__ = 'business_topic50'
@@ -158,3 +160,36 @@ class BusinessTopic50(Base):
     business_id = Column('business_id', String(22), primary_key=True)
     topic_id = Column('topic_id', Integer, primary_key=True)
     relationship = Column('relationship', Float(precision=20))
+    stars = Column('stars', Float(precision=1))
+
+class ReviewTopic22(Base):
+    __tablename__ = 'review_topic22'
+
+    review_id = Column('review_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
+    stars = Column('stars', Float(precision=1))
+
+class ReviewTopic50(Base):
+    __tablename__ = 'review_topic50'
+
+    review_id = Column('review_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
+    stars = Column('stars', Float(precision=1))
+
+class UserTopic22(Base):
+    __tablename__ = 'user_topic22'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
+    stars = Column('stars', Float(precision=1))
+
+class UserTopic50(Base):
+    __tablename__ = 'user_topic50'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    topic_id = Column('topic_id', Integer, primary_key=True)
+    relationship = Column('relationship', Float(precision=20))
+    stars = Column('stars', Float(precision=1))
