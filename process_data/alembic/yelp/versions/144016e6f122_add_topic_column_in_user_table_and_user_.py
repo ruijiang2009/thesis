@@ -22,16 +22,16 @@ def upgrade():
 
     op.create_table(
         'user_topic22',
-        sa.Column('topic_id', sa.Integer, sa.ForeignKey('topic22.id'), nullable=False),
-        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False),
+        sa.Column('topic_id', sa.Integer, sa.ForeignKey('topic22.id'), nullable=False, primary_key=True),
+        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, primary_key=True),
         sa.Column('stars', sa.Float(precision=20)),
         sa.Column('relationship', sa.Float(precision=20))
     )
 
     op.create_table(
         'user_topic50',
-        sa.Column('topic_id', sa.Integer, sa.ForeignKey('topic50.id'), nullable=False),
-        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False),
+        sa.Column('topic_id', sa.Integer, sa.ForeignKey('topic50.id'), nullable=False, primary_key=True),
+        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, primary_key=True),
         sa.Column('stars', sa.Float(precision=20)),
         sa.Column('relationship', sa.Float(precision=20))
     )

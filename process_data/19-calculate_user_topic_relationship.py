@@ -58,7 +58,7 @@ def get_review_ids(user_id):
 def get_nouns(review_ids):
     nouns = []
     for review_id in review_ids:
-        reviews = session.query(Review).filter(Review.review_id==review_id).first()
+        review = session.query(Review).filter(Review.review_id==review_id).first()
         words = json.loads(review.words)
         for word in words:
             nouns.append(word)
@@ -84,18 +84,26 @@ def load_dictionary():
 session = get_session()
 user_ids = get_user_ids()
 dictionary = load_dictionary()
-lda = load_model()
+lda22 = load_22model()
+lda50 = load_50model()
 
 # start prediction
 for user_id in user_ids:
     review_ids = get_review_ids(user_id)
     nouns = get_nouns(review_ids)
     bow = dictionary.doc2bow(nouns)
-    review_lda = lda[bow]
+    review_lda22 = lda22[bow]
+    review_lda50 = lda50[bow]
     user = session.query(User).filter(User.user_id==user_id).first()
-    user.predicted_topic_50 = json.dumps(review_lda)
-    user_topic22 = UserTopic22()
-    session.add(user_topic22)
-    user_topic50 = UserTopic50()
+    user.predicted_topic_50 = json.dumps(review_lda50)
+    user.predicted_topic_22 = json.dumps(review_lda22)
     session.add(user)
+    for topic in review_lda22:
+        user_topic22 = UserTopic22(user_id=user_id, topic_id=(topic[0]+1), relationship=topic[1])
+        session.add(user_topic22)
+
+    for topic in review_lda50:
+        user_topic50 = UserTopic50(user_id=user_id, topic_id=(topic[0]+1), relationship=topic[1])
+        session.add(user_topic50)
+
     session.commit()

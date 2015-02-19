@@ -70,6 +70,8 @@ class User(Base):
     compliments = Column('compliments', String(2000))
     votes = Column('votes', String(200))
     elite = Column('elite', String(200))
+    predicted_topic_50 = Column('predicted_topic_50', Text())
+    predicted_topic_22 = Column('predicted_topic_22', Text())
 
     def __repr__(self):
         return "<User(user_id='%s', name='%s', review_count='%d', average_stars='%f', yelping_since='%s')>" % (
