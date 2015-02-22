@@ -17,8 +17,9 @@ import sqlalchemy as sa
 
 
 def upgrade():
-    op.execute("ALTER TABLE review ADD CONSTRAINT review_pkey PRIMARY KEY USING INDEX ix_review_review_id;")
+    op.execute("CREATE UNIQUE INDEX review_pkey ON review (review_id);")
+    op.execute("ALTER TABLE review ADD CONSTRAINT pk_review PRIMARY KEY USING INDEX review_pkey;")
 
 
 def downgrade():
-    op.execute("ALTER TABLE review DROP CONSTRAINT review_pkey;")
+    op.execute("ALTER TABLE review DROP CONSTRAINT pk_review;")
