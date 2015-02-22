@@ -106,3 +106,28 @@ SELECT review_id, user_id, business_id, text FROM review WHERE business_id = '4b
 SELECT review_id, user_id, business_id, text FROM review WHERE review_id = 'xTGollxKKRh7ANzKs1OfEg';
 
 SELECT * FROM review WHERE review_id = '15SdjuK7DmYqUAj6rjGowg';
+
+SELECT AVG(t.stars) FROM
+(SELECT r.review_id, r.stars AS stars FROM review_topic22 rt
+JOIN review r ON rt.review_id=r.review_id
+WHERE business_id = 'q2SZa5g85758iW1L9sSL1g'
+AND rt.topic_id = 2) t;
+
+SELECT COUNT(DISTINCT user_id) FROM review r
+JOIN business b ON r.business_id = b.business_id
+JOIN business_category bc ON b.id = bc.business_id
+WHERE bc.category_id=3;
+
+SELECT r.review_id FROM review r
+JOIN business b ON r.business_id = b.business_id
+JOIN business_category bc ON b.id = bc.business_id
+WHERE bc.category_id=3 AND r.user_id = 'fEXxa3d0cjqysrQk4hmudA';
+
+
+SELECT COUNT(r.review_id) c, r.business_id
+FROM review r
+JOIN business b ON r.business_id=b.business_id
+JOIN business_category bc ON bc.business_id=b.id
+WHERE bc.category_id=3
+GROUP BY r.business_id
+ORDER BY c DESC;

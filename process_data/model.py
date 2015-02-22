@@ -195,3 +195,10 @@ class UserTopic50(Base):
     topic_id = Column('topic_id', Integer, primary_key=True)
     relationship = Column('relationship', Float(precision=20))
     stars = Column('stars', Float(precision=1))
+
+class UserBusiness(Base):
+    __tablename__ = 'user_business'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    business_id = Column('business_id', String(22), primary_key=True)
+    stars = Column('stars', Float(precision=20))
