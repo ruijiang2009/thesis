@@ -25,12 +25,12 @@ def get_data():
 
     # getting X
     """
-    training model with first 500 records
+    training model with first 2800 records
     prediction with last 100 records
     """
     sql = "SELECT r.user_id, COUNT(review_id) AS c  FROM review r JOIN \
     (SELECT user_id FROM review WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ') t ON r.user_id=t.user_id \
-    GROUP BY r.user_id ORDER BY c DESC LIMIT 600;"
+    GROUP BY r.user_id ORDER BY c DESC LIMIT 3000;"
     cur.execute(sql)
     rows = cur.fetchall()
 
@@ -61,9 +61,9 @@ def get_data():
     cur.close()
     conn.close()
 
-    X = np.array(user_topic_data[:500])
+    X = np.array(user_topic_data[:2800])
     # X = np.array(X[:, :2])
-    y = np.array(y_target[:500])
+    y = np.array(y_target[:2800])
 
     print "%s got data" % (datetime.datetime.now())
     return (X, y, y_target, user_topic_data)
@@ -78,7 +78,7 @@ cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])#, '#F00000', '#000
 # for weights in ['uniform', 'distance']:
     # we create an instance of Neighbours Classifier and fit the data.
 weights = 'uniform'
-y_actual = np.array(y_target[500:])
+y_actual = np.array(y_target[2800:])
 mse_array = []
 
 max_n_neighbors = 51
@@ -87,7 +87,7 @@ for n_neighbors in range(1, max_n_neighbors):
     clf = neighbors.KNeighborsClassifier(n_neighbors, weights=weights)
     clf.fit(X, y)
 
-    X_predict = np.array(user_topic_data[500:])
+    X_predict = np.array(user_topic_data[2800:])
     Z = clf.predict(X_predict)
     mse_array.append(mse(Z, y_actual))
 
