@@ -146,5 +146,37 @@ GROUP BY r.business_id
 ORDER BY c DESC) t
 LIMIT 300)
 GROUP BY r.user_id
-ORDER BY cc DESC
+ORDER BY review_count DESC
 LIMIT 3000;
+
+SELECT stars, user_id, business_id
+FROM review r
+WHERE user_id IN (
+    SELECT user_id
+    FROM (
+        SELECT COUNT(review_id) AS review_count, user_id
+        FROM review r WHERE business_id IN
+        (SELECT business_id
+        FROM
+        (SELECT COUNT(r.review_id) c, r.business_id
+        FROM review r
+        JOIN business b ON r.business_id=b.business_id
+        JOIN business_category bc ON bc.business_id=b.id
+        WHERE bc.category_id=3
+        GROUP BY r.business_id
+        ORDER BY c DESC) t
+        LIMIT 300)
+    GROUP BY r.user_id
+    ORDER BY review_count DESC
+    LIMIT 3000) s)
+AND business_id IN
+    (SELECT business_id
+    FROM
+    (SELECT COUNT(r.review_id) c, r.business_id
+    FROM review r
+    JOIN business b ON r.business_id=b.business_id
+    JOIN business_category bc ON bc.business_id=b.id
+    WHERE bc.category_id=3
+    GROUP BY r.business_id
+    ORDER BY c DESC) s
+    LIMIT 300);
