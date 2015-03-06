@@ -36,6 +36,8 @@ def get_data(number_user=3000, number_restaurant=300):
         ORDER BY c DESC) s \
         LIMIT %d);" % (number_restaurant, number_user, number_restaurant)
 
+    print sql
+
     conn = psycopg2.connect("dbname='yelp' user='ruijiang' host='localhost' password=''")
     cur = conn.cursor()
 
@@ -179,15 +181,25 @@ def bias_from_mean(vector, index):
 
 # u and v are two lists
 def similarity_measure(u, v):
-    corr = pearsonr(u, v)
-    rho = 2.5 # based in paper
-    r = corr * power(abs(corr), rho)
-    return r
+    try:
+        corr = pearsonr(u, v)
+        rho = 2.5 # based in paper
+        if np.isnan(corr[0]):
+            return 0
+        r = corr[0] * pow(abs(corr[0]), rho)
+        return r
+    except np.seterr as e:
+        print "np.seterr {}".format(e)
+        return None
+    except:
+        print "Unexpected Error"
+        return None
 
 def similarity_matrix(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
     smatrix = np.zeros([rows, rows])
+
     for i in range(rows):
         for j in range(rows):
             if i != j and i < j:
@@ -196,18 +208,18 @@ def similarity_matrix(matrix):
                 smatrix[i][j] = smatrix[j][i]
     return smatrix
 
-def get_similarity_matrix(training_matrix):
-    similarity_matrix = []
-    number_user = len(user_item_matrix)
-    for i in range(number_user):
-        user_similarity = [0] * number_user
-        for j in range(number_user):
-            if j > i:
-                user_similarity[j] = similarity_measure(user_item_matrix[i], user_item_matrix[i])
-            else:
-                user_similarity[j] = similarity_matrix[j][i]
-        similarity_matrix.append(user_similarity)
-    return similarity_matrix
+# def get_similarity_matrix(training_matrix):
+#     similarity_matrix = []
+#     number_user = len(user_item_matrix)
+#     for i in range(number_user):
+#         user_similarity = [0] * number_user
+#         for j in range(number_user):
+#             if j > i:
+#                 user_similarity[j] = similarity_measure(user_item_matrix[i], user_item_matrix[i])
+#             else:
+#                 user_similarity[j] = similarity_matrix[j][i]
+#         similarity_matrix.append(user_similarity)
+#     return similarity_matrix
 
 
 def predict(user_item_matrix, user_similarity, user_index, item_index):
@@ -218,12 +230,15 @@ def predict(user_item_matrix, user_similarity, user_index, item_index):
     sum_bias_to_mean = 0.0
     for vuser in range(height):
         if user_item_matrix[vuser][item_index] > 0:
-            sum_bias_to_mean += user_similarity[user_index][vuser] * bias_from_mean(user_item_matrix[vuser])
+            sum_bias_to_mean += user_similarity[user_index][vuser] * bias_from_mean(user_item_matrix[vuser], item_index)
 
     sum_similarity = 0.0
     for vuser in range(height):
         if user_item_matrix[vuser][item_index] > 0:
             sum_similarity += abs(user_similarity[user_index][vuser])
+
+    if sum_similarity == 0.0:
+        return 0
 
     return user_mean + (sum_bias_to_mean / sum_similarity)
 
@@ -236,7 +251,7 @@ def mse(prediction, test):
     for i in range(height):
         for j in range(width):
             if test[i][j] > 0:
-                diff = pow(prediction[i][j] - test[i][j])
+                diff = pow(prediction[i][j] - test[i][j], 2)
                 s += diff
                 counter += 1
     return (s / counter)
@@ -250,23 +265,44 @@ number_reviewer = 3000
 # user_item_matrix = get_matrix(business_index_map, user_ids)
 # user_similarity_matrix = get_similarity_matrix(matrix)
 
-user_item_training_matrix, user_item_test_matrix = get_data(number_user=number_reviewer, number_restaurant=number_restaurant)
-np.savetxt(fname='user_item_training_matrix.txt', X=user_item_training_matrix, delimiter=',', header='user_item_training_matrix')
-np.savetxt(fname='user_item_test_matrix.txt', X=user_item_test_matrix, delimiter=',', header='user_item_test_matrix')
+import os.path
 
-user_similarity = similarity_matrix(user_item_training_matrix)
-user_item_predict_matrix = np.zeros([number_reviewer, number_restaurant])
+user_item_training_matrix_fname = 'user_item_training_matrix.txt'
+user_item_test_matrix_fname = 'user_item_test_matrix.txt'
+if os.path.isfile(user_item_training_matrix_fname) and os.path.isfile(user_item_test_matrix_fname):
+    user_item_training_matrix = np.loadtxt(user_item_training_matrix_fname, delimiter=',')
+    user_item_test_matrix = np.loadtxt(user_item_test_matrix_fname, delimiter=',')
+else:
+    user_item_training_matrix, user_item_test_matrix = get_data(number_user=number_reviewer, number_restaurant=number_restaurant)
+    np.savetxt(fname=user_item_training_matrix_fname, X=user_item_training_matrix, delimiter=',', header='user_item_training_matrix')
+    np.savetxt(fname='user_item_test_matrix.txt', X=user_item_test_matrix, delimiter=',', header='user_item_test_matrix')
 
-np.savetxt(fname='user_similarity.txt', X=user_similarity, delimiter=',', header='user_similarity')
-np.savetxt(fname='user_item_predict_matrix.txt', X=user_item_predict_matrix, delimiter=',', header='user_item_predict_matrix')
+user_similarity_fname = 'user_similarity.txt'
+user_item_predict_matrix_fname='user_item_predict_matrix.txt'
+if os.path.isfile(user_similarity_fname):
+    print "load existing user_similarity_matrix"
+    if not os.path.isfile(user_item_predict_matrix_fname):
+        user_similarity = np.loadtxt(user_similarity_fname, delimiter=',')
+    else:
+        print "prediction is already there, no need to get similarity."
+else:
+    print "user_similarity_matrix does not exist"
+    user_similarity = similarity_matrix(user_item_training_matrix)
+    np.savetxt(fname=user_similarity_fname, X=user_similarity, delimiter=',', header='user_similarity')
 
+if os.path.isfile(user_item_predict_matrix_fname):
+    print "load existing user_item_predict_matrix_fname"
+    user_item_predict_matrix = np.loadtxt(user_item_predict_matrix_fname, delimiter=',')
+else:
+    print "user_item_predict_matrix_fname does not exist"
+    user_item_predict_matrix = np.zeros([number_reviewer, number_restaurant])
+    for user in range(number_reviewer):
+        for item in range(number_restaurant):
+            if user_item_test_matrix[user][item] > 0:
+                user_item_predict_matrix[user][item] = predict(user_item_training_matrix, user_similarity, user, item)
+    np.savetxt(fname=user_item_predict_matrix_fname, X=user_item_predict_matrix, delimiter=',', header='user_item_predict_matrix')
 
-for user in range(number_reviewer):
-    for item in range(number_restaurant):
-        if user_item_test_matrix[user][item] > 0:
-            user_item_predict_matrix[user][item] = predict(user_item_training_matrix, user_similarity, user, item)
-
-
-# # calculate MSE between user_item_predict_matrix and user_item_test_matrix
+# # # calculate MSE between user_item_predict_matrix and user_item_test_matrix
 m = mse(user_item_predict_matrix, user_item_test_matrix)
 
+print m
