@@ -1,6 +1,6 @@
 import psycopg2
 import numpy as np
-
+import math
 from scipy.stats import pearsonr
 
 def get_data(number_user=3000, number_restaurant=300):
@@ -46,12 +46,12 @@ def get_data(number_user=3000, number_restaurant=300):
     data_len = len(rows)
 
     training_size = int(data_len * 9 / 10)
+    print "training size: {}".format(training_size)
+    print "test size: {}".format(data_len - training_size)
     business_index_map = {}
     user_index_map = {}
     user_item_training_matrix = np.zeros([number_user, number_restaurant])
-    user_item_training_matrix.fill(0)
     user_item_test_matrix = np.zeros([number_user, number_restaurant])
-    user_item_test_matrix.fill(0)
 
     recorded_user = 0
     recorded_business = 0
@@ -180,20 +180,58 @@ def bias_from_mean(vector, index):
     return vector[index] - np.average(vector)
 
 # u and v are two lists
+# the calculation is based on the following link
+# http://grouplens.org/similarity-functions-for-user-user-collaborative-filtering/
 def similarity_measure(u, v):
-    try:
-        corr = pearsonr(u, v)
-        rho = 2.5 # based in paper
-        if np.isnan(corr[0]):
-            return 0
-        r = corr[0] * pow(abs(corr[0]), rho)
-        return r
-    except np.seterr as e:
-        print "np.seterr {}".format(e)
-        return None
-    except:
-        print "Unexpected Error"
-        return None
+    # fine the intersection between u and v
+
+    intersection = []
+    for i in range(len(u)):
+        if u[i] != 0 and v[i] != 0:
+            intersection.append(i)
+    if len(intersection) == 0:
+        return 0
+
+    usum = .0
+    vsum = .0
+    for i in intersection:
+        usum += u[i]
+        vsum += v[i]
+
+    umean = usum / len(intersection)
+    vmean = vsum / len(intersection)
+
+    numerator = .0
+    for i in intersection:
+        numerator += (u[i] - umean) * (v[i] - vmean)
+
+    udenominator = .0
+    vdenominator = .0
+    for i in intersection:
+        udenominator += pow((u[i] - umean), 2)
+        vdenominator += pow((v[i] - vmean), 2)
+
+    denominator = math.sqrt(udenominator) * math.sqrt(vdenominator)
+
+    if denominator == 0:
+        return 0
+    corr = number_restaurant / denominator
+    rho = 2.5 # case amplication
+    return corr * pow(abs(corr), rho)
+    # old way or wrong way to calculate
+    # try:
+    #     corr = pearsonr(u, v)
+    #     rho = 2.5 # based in paper
+    #     if np.isnan(corr[0]):
+    #         return 0
+    #     r = corr[0] * pow(abs(corr[0]), rho)
+    #     return r
+    # except np.seterr as e:
+    #     print "np.seterr {}".format(e)
+    #     return None
+    # except:
+    #     print "Unexpected Error"
+    #     return None
 
 def similarity_matrix(matrix):
     rows = len(matrix)
@@ -221,9 +259,22 @@ def similarity_matrix(matrix):
 #         similarity_matrix.append(user_similarity)
 #     return similarity_matrix
 
+# only take average of rated item, u is a list of rating
+def mean(u):
+    counter = .0
+    sum = .0
+    for i in range(len(u)):
+        if u[i] != 0:
+            counter += 1
+            sum += u[i]
+    if counter == 0:
+        return 0
+    return sum / counter
 
 def predict(user_item_matrix, user_similarity, user_index, item_index):
-    user_mean = np.average(user_item_matrix[user_index])
+    # user_mean = np.average(user_item_matrix[user_index])
+    user_mean = mean(user_item_matrix[user_index])
+    # print "user_index: {} user_mean: {}".format(user_index, user_mean)
     height = len(user_item_matrix)
     width = len(user_item_matrix[0])
 
@@ -257,8 +308,8 @@ def mse(prediction, test):
     return (s / counter)
 
 
-number_restaurant = 300
-number_reviewer = 3000
+number_restaurant = 30
+number_reviewer = 30
 
 # business_ids, business_index = get_business_ids(number_restaurant)
 # user_ids, user_index = get_user_ids(number_restaurant, number_reviewer)
@@ -277,8 +328,8 @@ else:
     np.savetxt(fname=user_item_training_matrix_fname, X=user_item_training_matrix, delimiter=',', header='user_item_training_matrix')
     np.savetxt(fname='user_item_test_matrix.txt', X=user_item_test_matrix, delimiter=',', header='user_item_test_matrix')
 
-user_similarity_fname = 'user_similarity.txt'
-user_item_predict_matrix_fname='user_item_predict_matrix.txt'
+user_similarity_fname = 'user_similarity2.txt'
+user_item_predict_matrix_fname='user_item_predict_matrix2.txt'
 if os.path.isfile(user_similarity_fname):
     print "load existing user_similarity_matrix"
     if not os.path.isfile(user_item_predict_matrix_fname):
@@ -300,9 +351,13 @@ else:
         for item in range(number_restaurant):
             if user_item_test_matrix[user][item] > 0:
                 user_item_predict_matrix[user][item] = predict(user_item_training_matrix, user_similarity, user, item)
+                if user_item_predict_matrix[user][item] != 0.0:
+                    print "user: {} item: {} prediction: {} actual: {}".format(user, item, user_item_predict_matrix[user][item], user_item_test_matrix[user][item])
     np.savetxt(fname=user_item_predict_matrix_fname, X=user_item_predict_matrix, delimiter=',', header='user_item_predict_matrix')
 
 # # # calculate MSE between user_item_predict_matrix and user_item_test_matrix
 m = mse(user_item_predict_matrix, user_item_test_matrix)
 
 print m
+
+# the result is 16.3921997271
