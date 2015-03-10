@@ -174,11 +174,6 @@ def get_matrix(business_index_map, user_ids):
 
     return user_item_matrix
 
-# bias from mean = vector[index] - main(vector)
-def bias_from_mean(vector, index):
-    # vector should be numpy array []
-    return vector[index] - np.average(vector)
-
 # u and v are two lists
 # the calculation is based on the following link
 # http://grouplens.org/similarity-functions-for-user-user-collaborative-filtering/
@@ -270,6 +265,11 @@ def mean(u):
     if counter == 0:
         return 0
     return sum / counter
+
+# bias from mean = vector[index] - main(vector)
+def bias_from_mean(vector, index):
+    # vector should be numpy array []
+    return vector[index] - mean(vector)
 
 def predict(user_item_matrix, user_similarity, user_index, item_index):
     # user_mean = np.average(user_item_matrix[user_index])
