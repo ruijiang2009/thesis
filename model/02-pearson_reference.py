@@ -301,15 +301,18 @@ def mse(prediction, test):
     counter = 0
     for i in range(height):
         for j in range(width):
-            if test[i][j] > 0:
+            if prediction[i][j] > 0:
+                print "actual: {} predicion: {}".format(test[i][j], prediction[i][j])
                 diff = pow(prediction[i][j] - test[i][j], 2)
                 s += diff
                 counter += 1
+    print "{} is sum".format(s)
+    print "{} # prediction".format(counter)
     return (s / counter)
 
 
-number_restaurant = 30
-number_reviewer = 30
+number_restaurant = 300
+number_reviewer = 3000
 
 # business_ids, business_index = get_business_ids(number_restaurant)
 # user_ids, user_index = get_user_ids(number_restaurant, number_reviewer)
