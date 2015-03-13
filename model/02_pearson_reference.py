@@ -308,7 +308,7 @@ def mse(prediction, test):
                 counter += 1
     print "{} is sum".format(s)
     print "{} # prediction".format(counter)
-    return (s / counter)
+    return math.sqrt(s / counter)
 
 
 number_restaurant = 300
