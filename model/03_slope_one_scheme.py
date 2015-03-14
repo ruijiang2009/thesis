@@ -97,27 +97,52 @@ def avg_deviation(user_item_matrix, item_i, item_j):
     width = len(user_item_matrix[0])
     counter = 0
     deviation_sum = 0
-    for user in range height:
-        if user_item_matrix[user][item_i] != 0 and user_item_matrix[user][item_j] != 0
+    for user in range(height):
+        if user_item_matrix[user][item_i] != 0 and user_item_matrix[user][item_j] != 0:
             counter += 1
             deviation_sum += user_item_matrix[user][item_i] - user_item_matrix[user][item_j]
     if counter == 0:
-        return 0
-    return deviation_sum / counter
+        return 0, 0
+    # print 'deviation_sum: {} counter: {}'.format(deviation_sum, counter)
+    return deviation_sum / counter, counter
 
 def get_item_deviation_matrix(user_item_matrix):
-    width = len(user_item_matrx[0])
+    width = len(user_item_matrix[0])
+    print "width {}".format(width)
     deviation_matrix = np.zeros([width, width])
+    card_matrix = np.zeros([width, width]) # how many common user between item i and item j
+
     for i in range(width):
         for j in range(width):
             if j > i:
-                deviation_matrix[i][j] = avg_deviation(user_item_matrix, i, j)
+                deviation_matrix[i][j], card_matrix[i][j] = avg_deviation(user_item_matrix, i, j)
             else:
                 deviation_matrix[i][j] = deviation_matrix[j][i]
+                card_matrix[i][j] = card_matrix[j][i]
+    return deviation_matrix, card_matrix
 
+def predict(user_item_matrix, item_deviation_matrix, card_matrix, user_index, item_index):
+    height = len(user_item_matrix)
+    width = len(user_item_matrix[0])
 
+    # find value card(Rj)
+    card_Rj = 0
+    item_list = []
+    for item in range(width):
+        if item != item_index:
+            if user_item_matrix[user_index][item] > 0 and card_matrix[item_index][item] > 0:
+                card_Rj += 1
+                item_list.append(item)
 
+    if card_Rj == 0:
+        return np.nan
 
+    prediction = 0
+
+    for item in item_list:
+        prediction += item_deviation_matrix[item_index][item] + user_item_matrix[user_index][item]
+
+    return prediction / card_Rj
 
 def mse(prediction, test):
     height = len(prediction)
@@ -136,13 +161,12 @@ def mse(prediction, test):
     return math.sqrt(s / counter)
 
 
-number_restaurant = 300
-number_reviewer = 3000
-
+number_restaurant = 30
+number_reviewer = 300
 
 import os.path
 
-prefix = 'slope_one'
+prefix = 'slope_one_'
 
 user_item_training_matrix_fname = prefix + 'user_item_training_matrix.txt'
 user_item_test_matrix_fname = prefix + 'user_item_test_matrix.txt'
@@ -154,18 +178,20 @@ else:
     np.savetxt(fname=user_item_training_matrix_fname, X=user_item_training_matrix, delimiter=',', header=prefix+user_item_training_matrix_fname[:-4])
     np.savetxt(fname=user_item_test_matrix_fname, X=user_item_test_matrix, delimiter=',', header=prefix+user_item_test_matrix_fname[:-4])
 
-user_similarity_fname = prefix + 'user_similarity.txt'
 user_item_predict_matrix_fname = prefix +'user_item_predict_matrix.txt'
-if os.path.isfile(user_similarity_fname):
-    print "load existing {}".format(user_similarity_fname)
-    if not os.path.isfile(user_item_predict_matrix_fname):
-        user_similarity = np.loadtxt(user_similarity_fname, delimiter=',')
-    else:
-        print "prediction is already there, no need to get similarity."
+item_deviation_matrix_fname = prefix + 'item_deviation_matrix.txt'
+item_card_matrix_fname = prefix + 'item_card_matrix.txt'
+
+if os.path.isfile(item_deviation_matrix_fname) and os.path.isfile(item_card_matrix_fname):
+    print "load existing {}".format(item_deviation_matrix_fname)
+    print "load existing {}".format(item_card_matrix_fname)
+    item_deviation_matrix = np.loadtxt(item_deviation_matrix_fname, delimiter=',')
+    item_card_matrix = np.loadtxt(item_card_matrix_fname, delimiter=',')
 else:
     print "{} does not exist".format(user_item_predict_matrix_fname)
-    user_similarity = similarity_matrix(user_item_training_matrix)
-    np.savetxt(fname=user_similarity_fname, X=user_similarity, delimiter=',', header=prefix+user_similarity_fname[:-4])
+    item_deviation_matrix, item_card_matrix = get_item_deviation_matrix(user_item_training_matrix)
+    np.savetxt(fname=item_deviation_matrix_fname, X=item_deviation_matrix, delimiter=',', header=prefix+item_deviation_matrix_fname[:-4])
+    np.savetxt(fname=item_card_matrix_fname, X=item_card_matrix, delimiter=',', header=prefix+item_card_matrix_fname[:-4])
 
 if os.path.isfile(user_item_predict_matrix_fname):
     print "load existing {}".format(user_item_predict_matrix_fname)
@@ -176,7 +202,7 @@ else:
     for user in range(number_reviewer):
         for item in range(number_restaurant):
             if user_item_test_matrix[user][item] > 0:
-                user_item_predict_matrix[user][item] = predict(user_item_training_matrix, user_similarity, user, item)
+                user_item_predict_matrix[user][item] = predict(user_item_training_matrix, item_deviation_matrix, item_card_matrix, user, item)
                 if user_item_predict_matrix[user][item] != 0.0:
                     print "user: {} item: {} prediction: {} actual: {}".format(user, item, user_item_predict_matrix[user][item], user_item_test_matrix[user][item])
         np.savetxt(fname=user_item_predict_matrix_fname, X=user_item_predict_matrix, delimiter=',', header=prefix+user_item_predict_matrix_fname[:-4])
