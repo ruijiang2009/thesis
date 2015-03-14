@@ -18,6 +18,7 @@ def get_data(number_user=3000, number_restaurant=300):
             JOIN business b ON r.business_id=b.business_id \
             JOIN business_category bc ON bc.business_id=b.id \
             WHERE bc.category_id=3 \
+            AND b.city = 'Las Vegas'\
             GROUP BY r.business_id \
             ORDER BY c DESC) t \
             LIMIT %d) \
@@ -32,6 +33,7 @@ def get_data(number_user=3000, number_restaurant=300):
         JOIN business b ON r.business_id=b.business_id \
         JOIN business_category bc ON bc.business_id=b.id \
         WHERE bc.category_id=3 \
+        AND b.city = 'Las Vegas'\
         GROUP BY r.business_id \
         ORDER BY c DESC) s \
         LIMIT %d);" % (number_restaurant, number_user, number_restaurant)
@@ -311,8 +313,8 @@ def mse(prediction, test):
     return math.sqrt(s / counter)
 
 
-number_restaurant = 300
-number_reviewer = 3000
+number_restaurant = 30
+number_reviewer = 300
 
 # business_ids, business_index = get_business_ids(number_restaurant)
 # user_ids, user_index = get_user_ids(number_restaurant, number_reviewer)
@@ -321,42 +323,44 @@ number_reviewer = 3000
 
 import os.path
 
-user_item_training_matrix_fname = 'las_vegas_user_item_training_matrix.txt'
-user_item_test_matrix_fname = 'las_vegas_user_item_test_matrix.txt'
+prefix = 'las_vegas'
+
+user_item_training_matrix_fname = prefix + 'user_item_training_matrix.txt'
+user_item_test_matrix_fname = prefix + 'user_item_test_matrix.txt'
 if os.path.isfile(user_item_training_matrix_fname) and os.path.isfile(user_item_test_matrix_fname):
     user_item_training_matrix = np.loadtxt(user_item_training_matrix_fname, delimiter=',')
     user_item_test_matrix = np.loadtxt(user_item_test_matrix_fname, delimiter=',')
 else:
     user_item_training_matrix, user_item_test_matrix = get_data(number_user=number_reviewer, number_restaurant=number_restaurant)
-    np.savetxt(fname=user_item_training_matrix_fname, X=user_item_training_matrix, delimiter=',', header='las_vegas_user_item_training_matrix')
-    np.savetxt(fname=user_item_test_matrix_fname, X=user_item_test_matrix, delimiter=',', header='las_vegas_user_item_test_matrix')
+    np.savetxt(fname=user_item_training_matrix_fname, X=user_item_training_matrix, delimiter=',', header=prefix+user_item_training_matrix_fname[:-4])
+    np.savetxt(fname=user_item_test_matrix_fname, X=user_item_test_matrix, delimiter=',', header=prefix+user_item_test_matrix_fname[:-4])
 
-user_similarity_fname = 'las_vegas_user_similarity2.txt'
-user_item_predict_matrix_fname='las_vegas_user_item_predict_matrix2.txt'
+user_similarity_fname = prefix + 'user_similarity.txt'
+user_item_predict_matrix_fname = prefix +'user_item_predict_matrix.txt'
 if os.path.isfile(user_similarity_fname):
-    print "load existing las_vegas_user_similarity_matrix"
+    print "load existing {}".format(user_similarity_fname)
     if not os.path.isfile(user_item_predict_matrix_fname):
         user_similarity = np.loadtxt(user_similarity_fname, delimiter=',')
     else:
         print "prediction is already there, no need to get similarity."
 else:
-    print "las_vegas_user_similarity_matrix does not exist"
+    print "{} does not exist".format(user_item_predict_matrix_fname)
     user_similarity = similarity_matrix(user_item_training_matrix)
-    np.savetxt(fname=user_similarity_fname, X=user_similarity, delimiter=',', header='user_similarity')
+    np.savetxt(fname=user_similarity_fname, X=user_similarity, delimiter=',', header=prefix+user_similarity_fname[:-4])
 
 if os.path.isfile(user_item_predict_matrix_fname):
-    print "load existing user_item_predict_matrix_fname"
-    user_item_predict_matrix = np.loadtxt(las_vegas_user_item_predict_matrix_fname, delimiter=',')
+    print "load existing {}".format(user_item_predict_matrix_fname)
+    user_item_predict_matrix = np.loadtxt(user_item_predict_matrix_fname, delimiter=',')
 else:
-    print "user_item_predict_matrix_fname does not exist"
+    print "{} does not exist".format(user_item_predict_matrix_fname)
     user_item_predict_matrix = np.zeros([number_reviewer, number_restaurant])
     for user in range(number_reviewer):
         for item in range(number_restaurant):
             if user_item_test_matrix[user][item] > 0:
-                user_item_predict_matrix[user][item] = predict(las_vegas_user_item_training_matrix, user_similarity, user, item)
+                user_item_predict_matrix[user][item] = predict(user_item_training_matrix, user_similarity, user, item)
                 if user_item_predict_matrix[user][item] != 0.0:
                     print "user: {} item: {} prediction: {} actual: {}".format(user, item, user_item_predict_matrix[user][item], user_item_test_matrix[user][item])
-    np.savetxt(fname=user_item_predict_matrix_fname, X=user_item_predict_matrix, delimiter=',', header='user_item_predict_matrix')
+    np.savetxt(fname=user_item_predict_matrix_fname, X=user_item_predict_matrix, delimiter=',', header=prefix+user_item_predict_matrix_fname[:-4])
 
 # # # calculate MSE between user_item_predict_matrix and user_item_test_matrix
 m = mse(user_item_predict_matrix, user_item_test_matrix)
