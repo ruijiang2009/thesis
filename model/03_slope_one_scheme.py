@@ -161,8 +161,8 @@ def mse(prediction, test):
     return math.sqrt(s / counter)
 
 
-number_restaurant = 30
-number_reviewer = 300
+number_restaurant = 300
+number_reviewer = 3000
 
 import os.path
 

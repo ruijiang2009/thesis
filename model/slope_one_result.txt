@@ -1,0 +1,26 @@
+load existing slope_one_item_deviation_matrix.txt
+load existing slope_one_item_card_matrix.txt
+load existing slope_one_user_item_predict_matrix.txt
+actual: 4.0 predicion: 5.04761904762
+actual: 3.0 predicion: 4.79573037323
+actual: 5.0 predicion: 5.03529411765
+actual: 3.0 predicion: 4.96761904762
+actual: 4.0 predicion: 5.01333333333
+actual: 4.0 predicion: 5.30714285714
+actual: 4.0 predicion: 4.93443223443
+actual: 4.0 predicion: 4.68571428571
+actual: 2.0 predicion: 5.36158459596
+actual: 5.0 predicion: 4.94562937063
+actual: 5.0 predicion: 5.10532212885
+actual: 3.0 predicion: 5.78311688312
+actual: 2.0 predicion: 5.15777777778
+actual: 4.0 predicion: 4.57619047619
+actual: 5.0 predicion: 5.310891623
+actual: 3.0 predicion: 4.84365079365
+actual: 4.0 predicion: 5.23444444444
+actual: 5.0 predicion: 5.35222222222
+actual: 4.0 predicion: 5.6375
+actual: 2.0 predicion: 6.03333333333
+65.7301531233 is sum
+20 # prediction
+1.81287276337
