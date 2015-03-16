@@ -162,7 +162,7 @@ def mse(prediction, test):
 
 
 number_restaurant = 300
-number_reviewer = 3000
+number_reviewer = 30000
 
 import os.path
 
