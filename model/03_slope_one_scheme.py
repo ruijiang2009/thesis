@@ -202,6 +202,7 @@ else:
     for user in range(number_reviewer):
         for item in range(number_restaurant):
             if user_item_test_matrix[user][item] > 0:
+                print "predict user: {} item: {}".format(user, item)
                 user_item_predict_matrix[user][item] = predict(user_item_training_matrix, item_deviation_matrix, item_card_matrix, user, item)
                 if user_item_predict_matrix[user][item] != 0.0:
                     print "user: {} item: {} prediction: {} actual: {}".format(user, item, user_item_predict_matrix[user][item], user_item_test_matrix[user][item])
