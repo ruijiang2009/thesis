@@ -43,7 +43,7 @@ def get_business_ids(number_items=300):
     business_ids = []
     f = open('restaurant_id_order_by_number_reviewers_desc.txt', 'r')
     for i in range(number_items):
-        business_ids.append(f.readline()[:-1])
+        business_ids.append(f.readline())
     f.close()
     return business_ids
 
@@ -127,28 +127,27 @@ def mse(prediction, actual):
     return m
 
 def multiclass_svm(business_id):
-    path = './data'
-    training_data_fname = os.path.join(path, "training_data_{}.txt".format(business_id))
-    test_data_fname = os.path.join(path, "test_data_{}.txt".format(business_id))
+    training_data_fname = "training_data_{}.txt".format(business_id)
+    test_data_fname = "test_data_{}.txt".format(business_id)
 
     if os.path.isfile(training_data_fname) and os.path.isfile(test_data_fname):
-        print "{!r} and {!r} already exist".format(training_data_fname, test_data_fname)
+        print "{} and {} already exist".format(training_data_fname, test_data_fname)
         training_user_data = json.loads(load_data(training_data_fname))
         test_user_data = json.loads(load_data(test_data_fname))
     else:
-        print "{!r} and {!r} does not exist".format(training_data_fname, test_data_fname)
+        print "{} and {} does not exist".format(training_data_fname, test_data_fname)
         training_user_data, test_user_data = get_reviewers_for_one_restaurant(business_id)
         write_data(training_data_fname, json.dumps(training_user_data))
         write_data(test_data_fname, json.dumps(test_user_data))
 
-    X_fname = os.path.join(path, "X_{}.txt".format(business_id))
-    Y_fname = os.path.join(path, "Y_{}.txt".format(business_id))
+    X_fname = "X_{}.txt".format(business_id)
+    Y_fname = "Y_{}.txt".format(business_id)
     if os.path.isfile(X_fname) and os.path.isfile(Y_fname):
-        print "{!r} and {!r} already exist".format(X_fname, Y_fname)
+        print "{} and {} already exist".format(X_fname, Y_fname)
         X = np.loadtxt(X_fname, delimiter=',')
         Y = np.loadtxt(Y_fname, delimiter=',')
     else:
-        print "{!r} and {!r} does not exist".format(X_fname, Y_fname)
+        print "{} and {} does not exist".format(X_fname, Y_fname)
         number_training_data = len(training_user_data)
         Y = np.zeros([number_training_data])
         X = np.zeros([number_training_data, 22])
@@ -164,16 +163,16 @@ def multiclass_svm(business_id):
     clf.fit(X.tolist(), Y.tolist())
 
     # prediction
-    X_test_fname = os.path.join(path, "X_test_{}.txt".format(business_id))
-    Y_prediction_fname = os.path.join(path, "Y_prediction_{}.txt".format(business_id))
-    Y_actual_fname = os.path.join(path, "Y_actual_{}.txt".format(business_id))
+    X_test_fname = "X_test_{}.txt".format(business_id)
+    Y_prediction_fname = "Y_prediction_{}.txt".format(business_id)
+    Y_actual_fname = "Y_actual_{}.txt".format(business_id)
     if os.path.isfile(X_test_fname) and os.path.isfile(Y_prediction_fname) and os.path.isfile(Y_actual_fname):
-        print "{!r}, {!r} and {!r} already exist.".format(X_test_fname, Y_prediction_fname, Y_actual_fname)
+        print "{}, {} and {} already exist.".format(X_test_fname, Y_prediction_fname, Y_actual_fname)
         Y_prediction = np.loadtxt(Y_prediction_fname, delimiter=',')
         Y_actual = np.loadtxt(Y_actual_fname, delimiter=',')
         X_test = np.loadtxt(X_test_fname, delimiter=',')
     else:
-        print "{!r}, {!r} and {!r} does not exist.".format(X_test_fname, Y_prediction_fname, Y_actual_fname)
+        print "{}, {} and {} does not exist.".format(X_test_fname, Y_prediction_fname, Y_actual_fname)
         number_test_data = len(test_user_data)
         Y_prediction = np.zeros([number_test_data])
         Y_actual = np.zeros([number_test_data])
@@ -191,27 +190,8 @@ def multiclass_svm(business_id):
         np.savetxt(fname=Y_prediction_fname, X=Y_prediction, delimiter=',')
         np.savetxt(fname=Y_actual_fname, X=Y_actual, delimiter=',')
 
-    return Y_actual.tolist(), Y_prediction.tolist()
+    return mse(Y_actual.tolist(), Y_prediction.tolist())
 
-number_business = 30
-business_ids = get_business_ids(number_business)
+business_id = '4bEjOyTaDG24SY5TxsaUNQ'
+multiclass_svm(business_id)
 
-# Method 1. calculate MSE accross all the businesses
-# Method 2. calculate MSE for each business, then average them
-total_actual = []
-total_prediction = []
-total_mse = []
-for business_id in business_ids:
-    print "business_id {}".format(business_id)
-    Y_actual, Y_prediction = multiclass_svm(business_id)
-    total_actual.extend(Y_actual)
-    total_prediction.extend(Y_prediction)
-    total_mse.append(mse(Y_actual, Y_prediction))
-
-# Method 1:
-mse1 = mse(total_actual, total_prediction)
-print "method 1 MSE is {!r}".format(mse1)
-
-# Method
-mse2 = np.mean(total_mse)
-print "method 2 MSE is {!r}".format(mse2)
