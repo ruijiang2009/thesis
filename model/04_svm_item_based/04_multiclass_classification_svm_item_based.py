@@ -43,7 +43,7 @@ def get_business_ids(number_items=300):
     business_ids = []
     f = open('restaurant_id_order_by_number_reviewers_desc.txt', 'r')
     for i in range(number_items):
-        business_ids.append(f.readline()[:-1])
+        business_ids.append(f.readline()[-23:-1])
     f.close()
     return business_ids
 
@@ -193,7 +193,7 @@ def multiclass_svm(business_id):
 
     return Y_actual.tolist(), Y_prediction.tolist()
 
-number_business = 30
+number_business = 300
 business_ids = get_business_ids(number_business)
 
 # Method 1. calculate MSE accross all the businesses
@@ -210,6 +210,7 @@ for business_id in business_ids:
 
 # Method 1:
 mse1 = mse(total_actual, total_prediction)
+print "total # prediction is {}".format(len(total_actual))
 print "method 1 MSE is {!r}".format(mse1)
 
 # Method
