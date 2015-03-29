@@ -28,5 +28,5 @@ def upgrade():
 
 
 def downgrade():
+    op.drop_index('ix_user_category_user_id', 'user_category')
     op.drop_table('user_category')
-    op.drop_index('ix_user_category_user_id')
