@@ -19,9 +19,9 @@ import sqlalchemy as sa
 def upgrade():
     op.create_table(
         'detailed_attribute',
-        sa.Column('id', sa.Integer, primary_key=True, unique=True),
-        sa.Column('parent_id', sa.String(10), primary_key=True),
-        sa.Column('name', sa.Integer))
+        sa.Column('id', sa.Integer, primary_key=True, unique=True, autoincrement=True),
+        sa.Column('parent_id', sa.Integer, sa.ForeignKey('detailed_attribute.id'), nullable=True),
+        sa.Column('name', sa.String))
 
     op.create_table(
         'business_detailed_attribute',

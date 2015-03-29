@@ -207,3 +207,26 @@ class UserBusiness(Base):
     user_id = Column('user_id', String(22), primary_key=True)
     business_id = Column('business_id', String(22), primary_key=True)
     stars = Column('stars', Float(precision=20))
+
+class UserCategory(Base):
+    __tablename__ = 'user_category'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    category_id = Column('category_id', Integer, primary_key=True)
+    stars = Column('stars', Float(precision=1))
+    relationship = Column('relationship', Float(precision=20))
+
+class DetailedAttribute(Base):
+    __tablename__ = 'detailed_attribute'
+
+    id = Column('id', Integer, primary_key=True)
+    parent_id = Column('parent_id', Integer)
+    name = Column('name', String)
+
+class BusinessDetailedAttribute(Base):
+    __tablename__ = 'business_detailed_attribute'
+
+    attribute_id = Column('attribute_id', Integer, primary_key=True)
+    business_id = Column('business_id', String(22), primary_key=True)
+    stars = Column('stars', Float(precision=1))
+    value = Column('value', String)
