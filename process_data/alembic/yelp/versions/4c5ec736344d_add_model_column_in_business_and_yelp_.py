@@ -17,16 +17,16 @@ import sqlalchemy as sa
 from sqlalchemy.dialects.postgresql import BYTEA
 
 def upgrade():
-    op.add_column('yelp_user', sa.Column('model_topic_50', BYTEA()))
-    op.add_column('yelp_user', sa.Column('model_topic_22', BYTEA()))
-    op.add_column('business', sa.Column('model_topic_50', BYTEA()))
-    op.add_column('business', sa.Column('model_topic_22', BYTEA()))
+    op.add_column('yelp_user', sa.Column('svm_model_topic_50', BYTEA()))
+    op.add_column('yelp_user', sa.Column('svm_model_topic_22', BYTEA()))
+    op.add_column('business', sa.Column('svm_model_topic_50', BYTEA()))
+    op.add_column('business', sa.Column('svm_model_topic_22', BYTEA()))
 
 
 
 
 def downgrade():
-    op.drop_column('yelp_user', 'model_topic_22')
-    op.drop_column('yelp_user', 'model_topic_50')
-    op.drop_column('business', 'model_topic_22')
-    op.drop_column('business', 'model_topic_50')
+    op.drop_column('yelp_user', 'svm_model_topic_22')
+    op.drop_column('yelp_user', 'svm_model_topic_50')
+    op.drop_column('business', 'svm_model_topic_22')
+    op.drop_column('business', 'svm_model_topic_50')
