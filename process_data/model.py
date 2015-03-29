@@ -1,6 +1,7 @@
 from sqlalchemy import Integer, String, Column, Float, Boolean, Text, Unicode, Time, Date
 
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.dialects.postgresql import BYTEA
 
 Base = declarative_base()
 
@@ -25,6 +26,8 @@ class Business(Base):
     category = Column('category', String(500))
     predicted_topic_50 = Column('predicted_topic_50', Text())
     predicted_topic_22 = Column('predicted_topic_22', Text())
+    svm_model_topic_22 = Column('svm_model_topic_22', BYTEA())
+    svm_model_topic_50 = Column('svm_model_topic_50', BYTEA())
 
     def __repr__(self):
         return "<Business(business_id='%s', name='%s', city='%s', state='%s', stars='%f', review_count='%d', hours='%s', attributes='%s', type='%s')>" % (
@@ -72,6 +75,8 @@ class User(Base):
     elite = Column('elite', String(200))
     predicted_topic_50 = Column('predicted_topic_50', Text())
     predicted_topic_22 = Column('predicted_topic_22', Text())
+    svm_model_topic_22 = Column('svm_model_topic_22', BYTEA())
+    svm_model_topic_50 = Column('svm_model_topic_50', BYTEA())
 
     def __repr__(self):
         return "<User(user_id='%s', name='%s', review_count='%d', average_stars='%f', yelping_since='%s')>" % (
