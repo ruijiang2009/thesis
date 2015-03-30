@@ -19,13 +19,14 @@ import sqlalchemy as sa
 def upgrade():
     op.create_table(
         'user_category',
-        sa.Column('category_id', sa.Integer, sa.ForeignKey('category.id'), nullable=False),
-        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False),
+        sa.Column('category_id', sa.Integer, sa.ForeignKey('category.id'), nullable=False, primary_key=True),
+        sa.Column('user_id', sa.String(22), sa.ForeignKey('yelp_user.user_id'), nullable=False, primary_key=True),
         sa.Column('stars', sa.Float(precision=20)),
         sa.Column('relationship', sa.Float(precision=20))
     )
-    pass
+    op.create_index('ix_user_category_user_id', 'user_category', ['user_id'])
 
 
 def downgrade():
-    pass
+    op.drop_index('ix_user_category_user_id', 'user_category')
+    op.drop_table('user_category')

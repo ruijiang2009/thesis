@@ -105,3 +105,4 @@ for line in fp:
             print "UnicodeEncodeError"
 
 print counter
+fp.close()
