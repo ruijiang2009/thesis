@@ -58,6 +58,7 @@ class BusinessCategory(Base):
 
     category_id = Column('category_id', Integer, primary_key=True)
     business_id = Column('business_id', Integer, primary_key=True)
+    stars = Column('stars', Float(precision=1))
 
 
 class User(Base):
