@@ -64,7 +64,7 @@ ORDER BY bc.category_id ASC;  " % (user_id)
             session.add(user_category)
         session.commit()
     except sqlalchemy.exc.IntegrityError as e:
-        print e.strerror
+        print e.message
 
 cur.close()
 conn.close()
