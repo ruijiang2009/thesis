@@ -217,6 +217,14 @@ class UserCategory(Base):
     stars = Column('stars', Float(precision=1))
     relationship = Column('relationship', Float(precision=20))
 
+class UserAttribute(Base):
+    __tablename__ = 'user_detailed_attribute'
+
+    user_id = Column('user_id', String(22), primary_key=True)
+    attribute_id = Column('detailed_attribute_id', Integer, primary_key=True)
+    stars = Column('stars', Float(precision=1))
+    relationship = Column('relationship', Float(precision=20))
+
 class DetailedAttribute(Base):
     __tablename__ = 'detailed_attribute'
 
