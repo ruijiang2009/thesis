@@ -66,7 +66,7 @@ GROUP BY business_id" % (user_id)
     cur.execute(sql)
     rows = cur.fetchall()
     data_len = len(rows)
-    training_size = int(data_len * 6 / 10)
+    training_size = int(data_len * 9 / 10)
 
     training_restaurant_data = []
     for i in range(training_size):
@@ -84,19 +84,19 @@ GROUP BY business_id" % (user_id)
     return training_restaurant_data, test_restaurant_data
 
 # use calculated stars in business_topic table
-def get_business_feature_data(business_id):
+def get_business_attribute_data(business_id):
     conn = psycopg2.connect("dbname='yelp' user='ruijiang' host='localhost' password=''")
     cur = conn.cursor()
 
     sql = \
-"SELECT topic_id, relationship \
-FROM business_topic22 \
+"SELECT attribute_id, stars \
+FROM business_detailed_attribute \
 WHERE business_id = '%s'\
-ORDER BY topic_id ASC" % (business_id)
+ORDER BY attribute_id ASC" % (business_id)
 
     cur.execute(sql)
     rows = cur.fetchall()
-    result = np.zeros([22])
+    result = np.zeros([85])
 
     for row in rows:
         result[row[0]-1] = row[1]
@@ -130,7 +130,7 @@ def mse(prediction, actual):
     return m
 
 def multiclass_svm(user_id):
-    path = './data_60'
+    path = './data_90'
     training_data_fname = os.path.join(path, "training_data_{}.txt".format(user_id))
     test_data_fname = os.path.join(path, "test_data_{}.txt".format(user_id))
 
@@ -154,12 +154,12 @@ def multiclass_svm(user_id):
         print "{!r} and {!r} does not exist".format(X_fname, Y_fname)
         number_training_data = len(training_restaurant_data)
         Y = np.zeros([number_training_data])
-        X = np.zeros([number_training_data, 22])
+        X = np.zeros([number_training_data, 85])
         for i in range(number_training_data):
             business_data = training_restaurant_data[i]
             business_id = business_data['business_id']
-            business_feature = get_business_feature_data(business_id)
-            X[i] = business_feature
+            business_attribute = get_business_attribute_data(business_id)
+            X[i] = business_attribute
             Y[i] = business_data['stars']
         np.savetxt(fname=X_fname, X=X, delimiter=',')
         np.savetxt(fname=Y_fname, X=Y, delimiter=',')
@@ -180,12 +180,12 @@ def multiclass_svm(user_id):
         number_test_data = len(test_restaurant_data)
         Y_prediction = np.zeros([number_test_data])
         Y_actual = np.zeros([number_test_data])
-        X_test = np.zeros([number_test_data, 22])
+        X_test = np.zeros([number_test_data, 85])
 
         for i in range(number_test_data):
             business_data = training_restaurant_data[i]
             business_id = business_data['business_id']
-            business_feature = get_business_feature_data(user_id)
+            business_feature = get_business_attribute_data(business_id)
             X_test[i] = business_feature
             Y_actual[i] = business_data['stars']
         Y_prediction = clf.predict(X_test.tolist())
