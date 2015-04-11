@@ -21,8 +21,6 @@ JOIN business_category bc on b.id=bc.business_id
 WHERE bc.category_id <> 3
 GROUP BY bc.category_id
 ORDER BY bc.category_id ASC; 
-
-
 """
 
 
@@ -35,13 +33,21 @@ def get_session():
 
 session = get_session()
 
-users = session.query(User).all()
+def get_user_ids(number_users=1000):
+    user_ids = []
+    f = open('user_id_order_by_number_visited_restaurant_desc.txt')
+    for i in range(number_users):
+        user_ids.append(f.readline()[-23:-1])
+    f.close()
+    return user_ids
+
+# users = session.query(User).all()
+user_ids = get_user_ids(10000)
 
 conn = psycopg2.connect("dbname='yelp' user='ruijiang' host='localhost' password=''")
 cur = conn.cursor()
 
-for user in users:
-    user_id = user.user_id
+for user_id in user_ids:
     sql = \
 "SELECT AVG(T.stars), bc.category_id \
 FROM (SELECT r.business_id AS business_id , AVG(r.stars) AS stars \
@@ -60,8 +66,9 @@ ORDER BY bc.category_id ASC;  " % (user_id)
     rows = cur.fetchall()
     try:
         for row in rows:
-            user_category = UserCategory(user_id=user_id, category_id=row[1], stars=row[0])
-            session.add(user_category)
+            if 0 == session.query(UserCategory).filter(UserCategory.user_id==user_id, UserCategory.category_id==row[1]).count():
+                user_category = UserCategory(user_id=user_id, category_id=row[1], stars=row[0])
+                session.add(user_category)
         session.commit()
     except sqlalchemy.exc.IntegrityError as e:
         print e.message

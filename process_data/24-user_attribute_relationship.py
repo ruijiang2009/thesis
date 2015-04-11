@@ -1,7 +1,7 @@
 import sqlalchemy
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-from model import UserCategory,User
+from model import UserAttribute,User
 import psycopg2
 
 """
@@ -21,7 +21,6 @@ JOIN business_category bc on b.id=bc.business_id
 WHERE bc.category_id <> 3
 GROUP BY bc.category_id
 ORDER BY bc.category_id ASC; 
-
 """
 
 
@@ -34,38 +33,47 @@ def get_session():
 
 session = get_session()
 
-users = session.query(User).all()
+def get_user_ids(number_users=1000):
+    user_ids = []
+    f = open('user_id_order_by_number_visited_restaurant_desc.txt')
+    for i in range(number_users):
+        user_ids.append(f.readline()[-23:-1])
+    f.close()
+    return user_ids
+
+# users = session.query(User).all()
+user_ids = get_user_ids(10000)
 
 conn = psycopg2.connect("dbname='yelp' user='ruijiang' host='localhost' password=''")
 cur = conn.cursor()
 
-for user in users:
-    user_id = user.user_id
+for user_id in user_ids:
     sql = \
-"SELECT AVG(T.stars), bc.category_id \
+"SELECT AVG(T.stars), bd.attribute_id \
 FROM (SELECT r.business_id AS business_id , AVG(r.stars) AS stars \
 FROM review r \
 JOIN business b on r.business_id=b.business_id \
-JOIN business_category bc on b.id=bc.business_id \
+JOIN business_detailed_attribute bd on b.business_id=bd.business_id \
+JOIN business_category bc on bc.business_id=b.id \
 WHERE r.user_id='%s' \
 AND bc.category_id=3 \
 GROUP BY r.business_id) T \
 JOIN business b on T.business_id=b.business_id \
 JOIN business_category bc on b.id=bc.business_id \
+JOIN business_detailed_attribute bd on b.business_id=bd.business_id \
 WHERE bc.category_id <> 3 \
-GROUP BY bc.category_id \
-ORDER BY bc.category_id ASC;  " % (user_id)
+GROUP BY bd.attribute_id \
+ORDER BY bd.attribute_id ASC;" % (user_id)
+    print "query: {}".format(sql)
     cur.execute(sql)
     rows = cur.fetchall()
     try:
         for row in rows:
-            user_category = UserCategory(user_id=user_id, category_id=row[1], stars=row[0])
-            session.add(user_category)
+            if 0 == session.query(UserAttribute).filter(UserAttribute.user_id==user_id, UserAttribute.attribute_id==row[1]).count():
+                user_attribute = UserAttribute(user_id=user_id, attribute_id=row[1], stars=row[0])
+                session.add(user_attribute)
         session.commit()
     except sqlalchemy.exc.IntegrityError as e:
-        session.rollback()
-        session.close()
-        session = get_session()
         print e.message
 
 cur.close()

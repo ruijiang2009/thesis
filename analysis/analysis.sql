@@ -180,3 +180,36 @@ AND business_id IN
     GROUP BY r.business_id
     ORDER BY c DESC) s
     LIMIT 300);
+
+
+SELECT bt.stars, t.name
+FROM business_topic50 bt 
+JOIN topic50 t on bt.topic_id = t.id
+WHERE business_id = '4bEjOyTaDG24SY5TxsaUNQ';
+
+SELECT bt.stars, bt.relationship, b.name, b.stars
+FROM business_topic50 bt 
+JOIN business b on bt.business_id=b.business_id
+WHERE bt.topic_id = 19 AND bt.stars is not NULL
+ORDER BY bt.stars DESC
+LIMIT 50;
+
+-- how many people has visited restaurant in Las Vegas
+SELECT COUNT(DISTINCT user_id)
+FROM review r
+JOIN business b ON r.business_id = b.business_id
+WHERE b.city = 'Las Vegas';
+
+
+-- get topic 22 from top 
+
+SELECT business_id \
+        FROM \
+        (SELECT COUNT(r.review_id) c, r.business_id \
+        FROM review r \
+        JOIN business b ON r.business_id=b.business_id \
+        JOIN business_category bc ON bc.business_id=b.id \
+        WHERE bc.category_id=3 \
+        GROUP BY r.business_id \
+        ORDER BY c DESC) s \
+        LIMIT %d
