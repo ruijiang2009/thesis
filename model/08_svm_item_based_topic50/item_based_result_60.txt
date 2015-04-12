@@ -1,0 +1,1805 @@
+business_id 4bEjOyTaDG24SY5TxsaUNQ
+'./data_60/training_data_4bEjOyTaDG24SY5TxsaUNQ.txt' and './data_60/test_data_4bEjOyTaDG24SY5TxsaUNQ.txt' does not exist
+'./data_60/X_4bEjOyTaDG24SY5TxsaUNQ.txt' and './data_60/Y_4bEjOyTaDG24SY5TxsaUNQ.txt' does not exist
+'./data_60/X_test_4bEjOyTaDG24SY5TxsaUNQ.txt', './data_60/Y_prediction_4bEjOyTaDG24SY5TxsaUNQ.txt' and './data_60/Y_actual_4bEjOyTaDG24SY5TxsaUNQ.txt' does not exist.
+1446 # prediction
+mse is 0.984668081631
+business_id 2e2e7WgqU1BnpxmQL5jbfw
+'./data_60/training_data_2e2e7WgqU1BnpxmQL5jbfw.txt' and './data_60/test_data_2e2e7WgqU1BnpxmQL5jbfw.txt' does not exist
+'./data_60/X_2e2e7WgqU1BnpxmQL5jbfw.txt' and './data_60/Y_2e2e7WgqU1BnpxmQL5jbfw.txt' does not exist
+'./data_60/X_test_2e2e7WgqU1BnpxmQL5jbfw.txt', './data_60/Y_prediction_2e2e7WgqU1BnpxmQL5jbfw.txt' and './data_60/Y_actual_2e2e7WgqU1BnpxmQL5jbfw.txt' does not exist.
+1273 # prediction
+mse is 1.04268672234
+business_id zt1TpTuJ6y9n551sw9TaEg
+'./data_60/training_data_zt1TpTuJ6y9n551sw9TaEg.txt' and './data_60/test_data_zt1TpTuJ6y9n551sw9TaEg.txt' does not exist
+'./data_60/X_zt1TpTuJ6y9n551sw9TaEg.txt' and './data_60/Y_zt1TpTuJ6y9n551sw9TaEg.txt' does not exist
+'./data_60/X_test_zt1TpTuJ6y9n551sw9TaEg.txt', './data_60/Y_prediction_zt1TpTuJ6y9n551sw9TaEg.txt' and './data_60/Y_actual_zt1TpTuJ6y9n551sw9TaEg.txt' does not exist.
+1178 # prediction
+mse is 1.14596805557
+business_id YNQgak-ZLtYJQxlDwN-qIg
+'./data_60/training_data_YNQgak-ZLtYJQxlDwN-qIg.txt' and './data_60/test_data_YNQgak-ZLtYJQxlDwN-qIg.txt' does not exist
+'./data_60/X_YNQgak-ZLtYJQxlDwN-qIg.txt' and './data_60/Y_YNQgak-ZLtYJQxlDwN-qIg.txt' does not exist
+'./data_60/X_test_YNQgak-ZLtYJQxlDwN-qIg.txt', './data_60/Y_prediction_YNQgak-ZLtYJQxlDwN-qIg.txt' and './data_60/Y_actual_YNQgak-ZLtYJQxlDwN-qIg.txt' does not exist.
+966 # prediction
+mse is 1.15559669726
+business_id Xhg93cMdemu5pAMkDoEdtQ
+'./data_60/training_data_Xhg93cMdemu5pAMkDoEdtQ.txt' and './data_60/test_data_Xhg93cMdemu5pAMkDoEdtQ.txt' does not exist
+'./data_60/X_Xhg93cMdemu5pAMkDoEdtQ.txt' and './data_60/Y_Xhg93cMdemu5pAMkDoEdtQ.txt' does not exist
+'./data_60/X_test_Xhg93cMdemu5pAMkDoEdtQ.txt', './data_60/Y_prediction_Xhg93cMdemu5pAMkDoEdtQ.txt' and './data_60/Y_actual_Xhg93cMdemu5pAMkDoEdtQ.txt' does not exist.
+944 # prediction
+mse is 1.47937801864
+business_id tFU2Js_nbIZOrnKfYJYBBg
+'./data_60/training_data_tFU2Js_nbIZOrnKfYJYBBg.txt' and './data_60/test_data_tFU2Js_nbIZOrnKfYJYBBg.txt' does not exist
+'./data_60/X_tFU2Js_nbIZOrnKfYJYBBg.txt' and './data_60/Y_tFU2Js_nbIZOrnKfYJYBBg.txt' does not exist
+'./data_60/X_test_tFU2Js_nbIZOrnKfYJYBBg.txt', './data_60/Y_prediction_tFU2Js_nbIZOrnKfYJYBBg.txt' and './data_60/Y_actual_tFU2Js_nbIZOrnKfYJYBBg.txt' does not exist.
+843 # prediction
+mse is 1.43006192369
+business_id CZjcFdvJhksq9dy58NVEzw
+'./data_60/training_data_CZjcFdvJhksq9dy58NVEzw.txt' and './data_60/test_data_CZjcFdvJhksq9dy58NVEzw.txt' does not exist
+'./data_60/X_CZjcFdvJhksq9dy58NVEzw.txt' and './data_60/Y_CZjcFdvJhksq9dy58NVEzw.txt' does not exist
+'./data_60/X_test_CZjcFdvJhksq9dy58NVEzw.txt', './data_60/Y_prediction_CZjcFdvJhksq9dy58NVEzw.txt' and './data_60/Y_actual_CZjcFdvJhksq9dy58NVEzw.txt' does not exist.
+833 # prediction
+mse is 1.22645900081
+business_id sIyHTizqAiGu12XMLX3N3g
+'./data_60/training_data_sIyHTizqAiGu12XMLX3N3g.txt' and './data_60/test_data_sIyHTizqAiGu12XMLX3N3g.txt' does not exist
+'./data_60/X_sIyHTizqAiGu12XMLX3N3g.txt' and './data_60/Y_sIyHTizqAiGu12XMLX3N3g.txt' does not exist
+'./data_60/X_test_sIyHTizqAiGu12XMLX3N3g.txt', './data_60/Y_prediction_sIyHTizqAiGu12XMLX3N3g.txt' and './data_60/Y_actual_sIyHTizqAiGu12XMLX3N3g.txt' does not exist.
+812 # prediction
+mse is 1.58735768921
+business_id xfwRO04KbAPw_zRotCfWQQ
+'./data_60/training_data_xfwRO04KbAPw_zRotCfWQQ.txt' and './data_60/test_data_xfwRO04KbAPw_zRotCfWQQ.txt' does not exist
+'./data_60/X_xfwRO04KbAPw_zRotCfWQQ.txt' and './data_60/Y_xfwRO04KbAPw_zRotCfWQQ.txt' does not exist
+'./data_60/X_test_xfwRO04KbAPw_zRotCfWQQ.txt', './data_60/Y_prediction_xfwRO04KbAPw_zRotCfWQQ.txt' and './data_60/Y_actual_xfwRO04KbAPw_zRotCfWQQ.txt' does not exist.
+795 # prediction
+mse is 1.6418274831
+business_id DO3Gk17RyJVW7zYMCtYPnw
+'./data_60/training_data_DO3Gk17RyJVW7zYMCtYPnw.txt' and './data_60/test_data_DO3Gk17RyJVW7zYMCtYPnw.txt' does not exist
+'./data_60/X_DO3Gk17RyJVW7zYMCtYPnw.txt' and './data_60/Y_DO3Gk17RyJVW7zYMCtYPnw.txt' does not exist
+'./data_60/X_test_DO3Gk17RyJVW7zYMCtYPnw.txt', './data_60/Y_prediction_DO3Gk17RyJVW7zYMCtYPnw.txt' and './data_60/Y_actual_DO3Gk17RyJVW7zYMCtYPnw.txt' does not exist.
+714 # prediction
+mse is 1.49321528145
+business_id xyTJYlbE_MLouK6rCou6zg
+'./data_60/training_data_xyTJYlbE_MLouK6rCou6zg.txt' and './data_60/test_data_xyTJYlbE_MLouK6rCou6zg.txt' does not exist
+'./data_60/X_xyTJYlbE_MLouK6rCou6zg.txt' and './data_60/Y_xyTJYlbE_MLouK6rCou6zg.txt' does not exist
+'./data_60/X_test_xyTJYlbE_MLouK6rCou6zg.txt', './data_60/Y_prediction_xyTJYlbE_MLouK6rCou6zg.txt' and './data_60/Y_actual_xyTJYlbE_MLouK6rCou6zg.txt' does not exist.
+663 # prediction
+mse is 1.03847550407
+business_id aGbjLWzcrnEx2ZmMCFm3EA
+'./data_60/training_data_aGbjLWzcrnEx2ZmMCFm3EA.txt' and './data_60/test_data_aGbjLWzcrnEx2ZmMCFm3EA.txt' does not exist
+'./data_60/X_aGbjLWzcrnEx2ZmMCFm3EA.txt' and './data_60/Y_aGbjLWzcrnEx2ZmMCFm3EA.txt' does not exist
+'./data_60/X_test_aGbjLWzcrnEx2ZmMCFm3EA.txt', './data_60/Y_prediction_aGbjLWzcrnEx2ZmMCFm3EA.txt' and './data_60/Y_actual_aGbjLWzcrnEx2ZmMCFm3EA.txt' does not exist.
+660 # prediction
+mse is 1.70204867644
+business_id lliksv-tglfUz1T3B3vgvA
+'./data_60/training_data_lliksv-tglfUz1T3B3vgvA.txt' and './data_60/test_data_lliksv-tglfUz1T3B3vgvA.txt' does not exist
+'./data_60/X_lliksv-tglfUz1T3B3vgvA.txt' and './data_60/Y_lliksv-tglfUz1T3B3vgvA.txt' does not exist
+'./data_60/X_test_lliksv-tglfUz1T3B3vgvA.txt', './data_60/Y_prediction_lliksv-tglfUz1T3B3vgvA.txt' and './data_60/Y_actual_lliksv-tglfUz1T3B3vgvA.txt' does not exist.
+636 # prediction
+mse is 1.18162024995
+business_id eq6lQI039SBLC6sHm3idGA
+'./data_60/training_data_eq6lQI039SBLC6sHm3idGA.txt' and './data_60/test_data_eq6lQI039SBLC6sHm3idGA.txt' does not exist
+'./data_60/X_eq6lQI039SBLC6sHm3idGA.txt' and './data_60/Y_eq6lQI039SBLC6sHm3idGA.txt' does not exist
+'./data_60/X_test_eq6lQI039SBLC6sHm3idGA.txt', './data_60/Y_prediction_eq6lQI039SBLC6sHm3idGA.txt' and './data_60/Y_actual_eq6lQI039SBLC6sHm3idGA.txt' does not exist.
+636 # prediction
+mse is 1.26267162106
+business_id QbmcCE_cLq4WO8ZMKImaLw
+'./data_60/training_data_QbmcCE_cLq4WO8ZMKImaLw.txt' and './data_60/test_data_QbmcCE_cLq4WO8ZMKImaLw.txt' does not exist
+'./data_60/X_QbmcCE_cLq4WO8ZMKImaLw.txt' and './data_60/Y_QbmcCE_cLq4WO8ZMKImaLw.txt' does not exist
+'./data_60/X_test_QbmcCE_cLq4WO8ZMKImaLw.txt', './data_60/Y_prediction_QbmcCE_cLq4WO8ZMKImaLw.txt' and './data_60/Y_actual_QbmcCE_cLq4WO8ZMKImaLw.txt' does not exist.
+627 # prediction
+mse is 1.69904748622
+business_id PXviRcHR1mqdH4vRc2LEAQ
+'./data_60/training_data_PXviRcHR1mqdH4vRc2LEAQ.txt' and './data_60/test_data_PXviRcHR1mqdH4vRc2LEAQ.txt' does not exist
+'./data_60/X_PXviRcHR1mqdH4vRc2LEAQ.txt' and './data_60/Y_PXviRcHR1mqdH4vRc2LEAQ.txt' does not exist
+'./data_60/X_test_PXviRcHR1mqdH4vRc2LEAQ.txt', './data_60/Y_prediction_PXviRcHR1mqdH4vRc2LEAQ.txt' and './data_60/Y_actual_PXviRcHR1mqdH4vRc2LEAQ.txt' does not exist.
+582 # prediction
+mse is 1.3114615021
+business_id BqrTtox0JbG-P_DKBB5bBw
+'./data_60/training_data_BqrTtox0JbG-P_DKBB5bBw.txt' and './data_60/test_data_BqrTtox0JbG-P_DKBB5bBw.txt' does not exist
+'./data_60/X_BqrTtox0JbG-P_DKBB5bBw.txt' and './data_60/Y_BqrTtox0JbG-P_DKBB5bBw.txt' does not exist
+'./data_60/X_test_BqrTtox0JbG-P_DKBB5bBw.txt', './data_60/Y_prediction_BqrTtox0JbG-P_DKBB5bBw.txt' and './data_60/Y_actual_BqrTtox0JbG-P_DKBB5bBw.txt' does not exist.
+533 # prediction
+mse is 1.03231101964
+business_id jOuERtVf7QePnK9ZcdH5XA
+'./data_60/training_data_jOuERtVf7QePnK9ZcdH5XA.txt' and './data_60/test_data_jOuERtVf7QePnK9ZcdH5XA.txt' does not exist
+'./data_60/X_jOuERtVf7QePnK9ZcdH5XA.txt' and './data_60/Y_jOuERtVf7QePnK9ZcdH5XA.txt' does not exist
+'./data_60/X_test_jOuERtVf7QePnK9ZcdH5XA.txt', './data_60/Y_prediction_jOuERtVf7QePnK9ZcdH5XA.txt' and './data_60/Y_actual_jOuERtVf7QePnK9ZcdH5XA.txt' does not exist.
+526 # prediction
+mse is 0.945270396063
+business_id HbUQ_3dlm3uCacmhTEMnuA
+'./data_60/training_data_HbUQ_3dlm3uCacmhTEMnuA.txt' and './data_60/test_data_HbUQ_3dlm3uCacmhTEMnuA.txt' does not exist
+'./data_60/X_HbUQ_3dlm3uCacmhTEMnuA.txt' and './data_60/Y_HbUQ_3dlm3uCacmhTEMnuA.txt' does not exist
+'./data_60/X_test_HbUQ_3dlm3uCacmhTEMnuA.txt', './data_60/Y_prediction_HbUQ_3dlm3uCacmhTEMnuA.txt' and './data_60/Y_actual_HbUQ_3dlm3uCacmhTEMnuA.txt' does not exist.
+508 # prediction
+mse is 1.36534729221
+business_id 8buIr1zBCO7OEcAQSZko7w
+'./data_60/training_data_8buIr1zBCO7OEcAQSZko7w.txt' and './data_60/test_data_8buIr1zBCO7OEcAQSZko7w.txt' does not exist
+'./data_60/X_8buIr1zBCO7OEcAQSZko7w.txt' and './data_60/Y_8buIr1zBCO7OEcAQSZko7w.txt' does not exist
+'./data_60/X_test_8buIr1zBCO7OEcAQSZko7w.txt', './data_60/Y_prediction_8buIr1zBCO7OEcAQSZko7w.txt' and './data_60/Y_actual_8buIr1zBCO7OEcAQSZko7w.txt' does not exist.
+480 # prediction
+mse is 1.13376217377
+business_id rBPQuQgTcMtUq5-RYhY2uQ
+'./data_60/training_data_rBPQuQgTcMtUq5-RYhY2uQ.txt' and './data_60/test_data_rBPQuQgTcMtUq5-RYhY2uQ.txt' does not exist
+'./data_60/X_rBPQuQgTcMtUq5-RYhY2uQ.txt' and './data_60/Y_rBPQuQgTcMtUq5-RYhY2uQ.txt' does not exist
+'./data_60/X_test_rBPQuQgTcMtUq5-RYhY2uQ.txt', './data_60/Y_prediction_rBPQuQgTcMtUq5-RYhY2uQ.txt' and './data_60/Y_actual_rBPQuQgTcMtUq5-RYhY2uQ.txt' does not exist.
+468 # prediction
+mse is 1.28684999358
+business_id FV16IeXJp2W6pnghTz2FAw
+'./data_60/training_data_FV16IeXJp2W6pnghTz2FAw.txt' and './data_60/test_data_FV16IeXJp2W6pnghTz2FAw.txt' does not exist
+'./data_60/X_FV16IeXJp2W6pnghTz2FAw.txt' and './data_60/Y_FV16IeXJp2W6pnghTz2FAw.txt' does not exist
+'./data_60/X_test_FV16IeXJp2W6pnghTz2FAw.txt', './data_60/Y_prediction_FV16IeXJp2W6pnghTz2FAw.txt' and './data_60/Y_actual_FV16IeXJp2W6pnghTz2FAw.txt' does not exist.
+468 # prediction
+mse is 1.29842113195
+business_id vxxMqBaAHuWdx4impsLSSA
+'./data_60/training_data_vxxMqBaAHuWdx4impsLSSA.txt' and './data_60/test_data_vxxMqBaAHuWdx4impsLSSA.txt' does not exist
+'./data_60/X_vxxMqBaAHuWdx4impsLSSA.txt' and './data_60/Y_vxxMqBaAHuWdx4impsLSSA.txt' does not exist
+'./data_60/X_test_vxxMqBaAHuWdx4impsLSSA.txt', './data_60/Y_prediction_vxxMqBaAHuWdx4impsLSSA.txt' and './data_60/Y_actual_vxxMqBaAHuWdx4impsLSSA.txt' does not exist.
+464 # prediction
+mse is 1.50502033438
+business_id VVeogjZya58oiTxK7qUjAQ
+'./data_60/training_data_VVeogjZya58oiTxK7qUjAQ.txt' and './data_60/test_data_VVeogjZya58oiTxK7qUjAQ.txt' does not exist
+'./data_60/X_VVeogjZya58oiTxK7qUjAQ.txt' and './data_60/Y_VVeogjZya58oiTxK7qUjAQ.txt' does not exist
+'./data_60/X_test_VVeogjZya58oiTxK7qUjAQ.txt', './data_60/Y_prediction_VVeogjZya58oiTxK7qUjAQ.txt' and './data_60/Y_actual_VVeogjZya58oiTxK7qUjAQ.txt' does not exist.
+463 # prediction
+mse is 1.58420933669
+business_id mDdqifuTrfXAOfxiLMGu5Q
+'./data_60/training_data_mDdqifuTrfXAOfxiLMGu5Q.txt' and './data_60/test_data_mDdqifuTrfXAOfxiLMGu5Q.txt' does not exist
+'./data_60/X_mDdqifuTrfXAOfxiLMGu5Q.txt' and './data_60/Y_mDdqifuTrfXAOfxiLMGu5Q.txt' does not exist
+'./data_60/X_test_mDdqifuTrfXAOfxiLMGu5Q.txt', './data_60/Y_prediction_mDdqifuTrfXAOfxiLMGu5Q.txt' and './data_60/Y_actual_mDdqifuTrfXAOfxiLMGu5Q.txt' does not exist.
+435 # prediction
+mse is 1.38878926846
+business_id SsTxjxo8qvqBMvan1rzNzg
+'./data_60/training_data_SsTxjxo8qvqBMvan1rzNzg.txt' and './data_60/test_data_SsTxjxo8qvqBMvan1rzNzg.txt' does not exist
+'./data_60/X_SsTxjxo8qvqBMvan1rzNzg.txt' and './data_60/Y_SsTxjxo8qvqBMvan1rzNzg.txt' does not exist
+'./data_60/X_test_SsTxjxo8qvqBMvan1rzNzg.txt', './data_60/Y_prediction_SsTxjxo8qvqBMvan1rzNzg.txt' and './data_60/Y_actual_SsTxjxo8qvqBMvan1rzNzg.txt' does not exist.
+425 # prediction
+mse is 1.0255558034
+business_id JokKtdXU7zXHcr20Lrk29A
+'./data_60/training_data_JokKtdXU7zXHcr20Lrk29A.txt' and './data_60/test_data_JokKtdXU7zXHcr20Lrk29A.txt' does not exist
+'./data_60/X_JokKtdXU7zXHcr20Lrk29A.txt' and './data_60/Y_JokKtdXU7zXHcr20Lrk29A.txt' does not exist
+'./data_60/X_test_JokKtdXU7zXHcr20Lrk29A.txt', './data_60/Y_prediction_JokKtdXU7zXHcr20Lrk29A.txt' and './data_60/Y_actual_JokKtdXU7zXHcr20Lrk29A.txt' does not exist.
+403 # prediction
+mse is 1.08222727784
+business_id NsnZ5GhagXBKrCOelxVQxw
+'./data_60/training_data_NsnZ5GhagXBKrCOelxVQxw.txt' and './data_60/test_data_NsnZ5GhagXBKrCOelxVQxw.txt' does not exist
+'./data_60/X_NsnZ5GhagXBKrCOelxVQxw.txt' and './data_60/Y_NsnZ5GhagXBKrCOelxVQxw.txt' does not exist
+'./data_60/X_test_NsnZ5GhagXBKrCOelxVQxw.txt', './data_60/Y_prediction_NsnZ5GhagXBKrCOelxVQxw.txt' and './data_60/Y_actual_NsnZ5GhagXBKrCOelxVQxw.txt' does not exist.
+400 # prediction
+mse is 1.52725243493
+business_id DjOxXobyGDwWt89q4z1twg
+'./data_60/training_data_DjOxXobyGDwWt89q4z1twg.txt' and './data_60/test_data_DjOxXobyGDwWt89q4z1twg.txt' does not exist
+'./data_60/X_DjOxXobyGDwWt89q4z1twg.txt' and './data_60/Y_DjOxXobyGDwWt89q4z1twg.txt' does not exist
+'./data_60/X_test_DjOxXobyGDwWt89q4z1twg.txt', './data_60/Y_prediction_DjOxXobyGDwWt89q4z1twg.txt' and './data_60/Y_actual_DjOxXobyGDwWt89q4z1twg.txt' does not exist.
+397 # prediction
+mse is 1.27759219378
+business_id YrIfgzLj0DPStJ1ESAS_Qg
+'./data_60/training_data_YrIfgzLj0DPStJ1ESAS_Qg.txt' and './data_60/test_data_YrIfgzLj0DPStJ1ESAS_Qg.txt' does not exist
+'./data_60/X_YrIfgzLj0DPStJ1ESAS_Qg.txt' and './data_60/Y_YrIfgzLj0DPStJ1ESAS_Qg.txt' does not exist
+'./data_60/X_test_YrIfgzLj0DPStJ1ESAS_Qg.txt', './data_60/Y_prediction_YrIfgzLj0DPStJ1ESAS_Qg.txt' and './data_60/Y_actual_YrIfgzLj0DPStJ1ESAS_Qg.txt' does not exist.
+392 # prediction
+mse is 1.32480264221
+business_id tqu42L0qXzkvYKSruOz0IA
+'./data_60/training_data_tqu42L0qXzkvYKSruOz0IA.txt' and './data_60/test_data_tqu42L0qXzkvYKSruOz0IA.txt' does not exist
+'./data_60/X_tqu42L0qXzkvYKSruOz0IA.txt' and './data_60/Y_tqu42L0qXzkvYKSruOz0IA.txt' does not exist
+'./data_60/X_test_tqu42L0qXzkvYKSruOz0IA.txt', './data_60/Y_prediction_tqu42L0qXzkvYKSruOz0IA.txt' and './data_60/Y_actual_tqu42L0qXzkvYKSruOz0IA.txt' does not exist.
+391 # prediction
+mse is 1.10567011078
+business_id SLyacGZuMUKqrQJEooSkjw
+'./data_60/training_data_SLyacGZuMUKqrQJEooSkjw.txt' and './data_60/test_data_SLyacGZuMUKqrQJEooSkjw.txt' does not exist
+'./data_60/X_SLyacGZuMUKqrQJEooSkjw.txt' and './data_60/Y_SLyacGZuMUKqrQJEooSkjw.txt' does not exist
+'./data_60/X_test_SLyacGZuMUKqrQJEooSkjw.txt', './data_60/Y_prediction_SLyacGZuMUKqrQJEooSkjw.txt' and './data_60/Y_actual_SLyacGZuMUKqrQJEooSkjw.txt' does not exist.
+382 # prediction
+mse is 1.52122849226
+business_id ngNvH4sxnH9aMukTZ67R_Q
+'./data_60/training_data_ngNvH4sxnH9aMukTZ67R_Q.txt' and './data_60/test_data_ngNvH4sxnH9aMukTZ67R_Q.txt' does not exist
+'./data_60/X_ngNvH4sxnH9aMukTZ67R_Q.txt' and './data_60/Y_ngNvH4sxnH9aMukTZ67R_Q.txt' does not exist
+'./data_60/X_test_ngNvH4sxnH9aMukTZ67R_Q.txt', './data_60/Y_prediction_ngNvH4sxnH9aMukTZ67R_Q.txt' and './data_60/Y_actual_ngNvH4sxnH9aMukTZ67R_Q.txt' does not exist.
+378 # prediction
+mse is 1.18856990232
+business_id EWMwV5V9BxNs_U6nNVMeqw
+'./data_60/training_data_EWMwV5V9BxNs_U6nNVMeqw.txt' and './data_60/test_data_EWMwV5V9BxNs_U6nNVMeqw.txt' does not exist
+'./data_60/X_EWMwV5V9BxNs_U6nNVMeqw.txt' and './data_60/Y_EWMwV5V9BxNs_U6nNVMeqw.txt' does not exist
+'./data_60/X_test_EWMwV5V9BxNs_U6nNVMeqw.txt', './data_60/Y_prediction_EWMwV5V9BxNs_U6nNVMeqw.txt' and './data_60/Y_actual_EWMwV5V9BxNs_U6nNVMeqw.txt' does not exist.
+378 # prediction
+mse is 1.2344267997
+business_id 4UVhuOLaMm2-34SrW8y-ag
+'./data_60/training_data_4UVhuOLaMm2-34SrW8y-ag.txt' and './data_60/test_data_4UVhuOLaMm2-34SrW8y-ag.txt' does not exist
+'./data_60/X_4UVhuOLaMm2-34SrW8y-ag.txt' and './data_60/Y_4UVhuOLaMm2-34SrW8y-ag.txt' does not exist
+'./data_60/X_test_4UVhuOLaMm2-34SrW8y-ag.txt', './data_60/Y_prediction_4UVhuOLaMm2-34SrW8y-ag.txt' and './data_60/Y_actual_4UVhuOLaMm2-34SrW8y-ag.txt' does not exist.
+376 # prediction
+mse is 1.01975174284
+business_id V1nEpIRmEa1768oj_tuxeQ
+'./data_60/training_data_V1nEpIRmEa1768oj_tuxeQ.txt' and './data_60/test_data_V1nEpIRmEa1768oj_tuxeQ.txt' does not exist
+'./data_60/X_V1nEpIRmEa1768oj_tuxeQ.txt' and './data_60/Y_V1nEpIRmEa1768oj_tuxeQ.txt' does not exist
+'./data_60/X_test_V1nEpIRmEa1768oj_tuxeQ.txt', './data_60/Y_prediction_V1nEpIRmEa1768oj_tuxeQ.txt' and './data_60/Y_actual_V1nEpIRmEa1768oj_tuxeQ.txt' does not exist.
+375 # prediction
+mse is 1.13254874803
+business_id 5GKbGn9-fAgQ0njSh3OJ8A
+'./data_60/training_data_5GKbGn9-fAgQ0njSh3OJ8A.txt' and './data_60/test_data_5GKbGn9-fAgQ0njSh3OJ8A.txt' does not exist
+'./data_60/X_5GKbGn9-fAgQ0njSh3OJ8A.txt' and './data_60/Y_5GKbGn9-fAgQ0njSh3OJ8A.txt' does not exist
+'./data_60/X_test_5GKbGn9-fAgQ0njSh3OJ8A.txt', './data_60/Y_prediction_5GKbGn9-fAgQ0njSh3OJ8A.txt' and './data_60/Y_actual_5GKbGn9-fAgQ0njSh3OJ8A.txt' does not exist.
+365 # prediction
+mse is 1.36391860923
+business_id IRYj1b1-mlXqABVsl9SoqQ
+'./data_60/training_data_IRYj1b1-mlXqABVsl9SoqQ.txt' and './data_60/test_data_IRYj1b1-mlXqABVsl9SoqQ.txt' does not exist
+'./data_60/X_IRYj1b1-mlXqABVsl9SoqQ.txt' and './data_60/Y_IRYj1b1-mlXqABVsl9SoqQ.txt' does not exist
+'./data_60/X_test_IRYj1b1-mlXqABVsl9SoqQ.txt', './data_60/Y_prediction_IRYj1b1-mlXqABVsl9SoqQ.txt' and './data_60/Y_actual_IRYj1b1-mlXqABVsl9SoqQ.txt' does not exist.
+365 # prediction
+mse is 1.20045653416
+business_id zTCCbg7mGslxACL5KlAPIQ
+'./data_60/training_data_zTCCbg7mGslxACL5KlAPIQ.txt' and './data_60/test_data_zTCCbg7mGslxACL5KlAPIQ.txt' does not exist
+'./data_60/X_zTCCbg7mGslxACL5KlAPIQ.txt' and './data_60/Y_zTCCbg7mGslxACL5KlAPIQ.txt' does not exist
+'./data_60/X_test_zTCCbg7mGslxACL5KlAPIQ.txt', './data_60/Y_prediction_zTCCbg7mGslxACL5KlAPIQ.txt' and './data_60/Y_actual_zTCCbg7mGslxACL5KlAPIQ.txt' does not exist.
+346 # prediction
+mse is 1.50912446385
+business_id YacTpiq0ZptFcXD7I-kdGA
+'./data_60/training_data_YacTpiq0ZptFcXD7I-kdGA.txt' and './data_60/test_data_YacTpiq0ZptFcXD7I-kdGA.txt' does not exist
+'./data_60/X_YacTpiq0ZptFcXD7I-kdGA.txt' and './data_60/Y_YacTpiq0ZptFcXD7I-kdGA.txt' does not exist
+'./data_60/X_test_YacTpiq0ZptFcXD7I-kdGA.txt', './data_60/Y_prediction_YacTpiq0ZptFcXD7I-kdGA.txt' and './data_60/Y_actual_YacTpiq0ZptFcXD7I-kdGA.txt' does not exist.
+344 # prediction
+mse is 1.36611824882
+business_id KjymOs12Mpy0Kd54b7T9MA
+'./data_60/training_data_KjymOs12Mpy0Kd54b7T9MA.txt' and './data_60/test_data_KjymOs12Mpy0Kd54b7T9MA.txt' does not exist
+'./data_60/X_KjymOs12Mpy0Kd54b7T9MA.txt' and './data_60/Y_KjymOs12Mpy0Kd54b7T9MA.txt' does not exist
+'./data_60/X_test_KjymOs12Mpy0Kd54b7T9MA.txt', './data_60/Y_prediction_KjymOs12Mpy0Kd54b7T9MA.txt' and './data_60/Y_actual_KjymOs12Mpy0Kd54b7T9MA.txt' does not exist.
+340 # prediction
+mse is 1.10613263751
+business_id SDwYQ6eSu1htn8vHWv128g
+'./data_60/training_data_SDwYQ6eSu1htn8vHWv128g.txt' and './data_60/test_data_SDwYQ6eSu1htn8vHWv128g.txt' does not exist
+'./data_60/X_SDwYQ6eSu1htn8vHWv128g.txt' and './data_60/Y_SDwYQ6eSu1htn8vHWv128g.txt' does not exist
+'./data_60/X_test_SDwYQ6eSu1htn8vHWv128g.txt', './data_60/Y_prediction_SDwYQ6eSu1htn8vHWv128g.txt' and './data_60/Y_actual_SDwYQ6eSu1htn8vHWv128g.txt' does not exist.
+334 # prediction
+mse is 0.877189305592
+business_id WNy1uzcmm_UHmTyR--o5IA
+'./data_60/training_data_WNy1uzcmm_UHmTyR--o5IA.txt' and './data_60/test_data_WNy1uzcmm_UHmTyR--o5IA.txt' does not exist
+'./data_60/X_WNy1uzcmm_UHmTyR--o5IA.txt' and './data_60/Y_WNy1uzcmm_UHmTyR--o5IA.txt' does not exist
+'./data_60/X_test_WNy1uzcmm_UHmTyR--o5IA.txt', './data_60/Y_prediction_WNy1uzcmm_UHmTyR--o5IA.txt' and './data_60/Y_actual_WNy1uzcmm_UHmTyR--o5IA.txt' does not exist.
+331 # prediction
+mse is 1.08825090407
+business_id LLDGTT7FExklkQvHebEjRg
+'./data_60/training_data_LLDGTT7FExklkQvHebEjRg.txt' and './data_60/test_data_LLDGTT7FExklkQvHebEjRg.txt' does not exist
+'./data_60/X_LLDGTT7FExklkQvHebEjRg.txt' and './data_60/Y_LLDGTT7FExklkQvHebEjRg.txt' does not exist
+'./data_60/X_test_LLDGTT7FExklkQvHebEjRg.txt', './data_60/Y_prediction_LLDGTT7FExklkQvHebEjRg.txt' and './data_60/Y_actual_LLDGTT7FExklkQvHebEjRg.txt' does not exist.
+317 # prediction
+mse is 1.53507878527
+business_id eLPld7Q17XxlclFGzZQX5g
+'./data_60/training_data_eLPld7Q17XxlclFGzZQX5g.txt' and './data_60/test_data_eLPld7Q17XxlclFGzZQX5g.txt' does not exist
+'./data_60/X_eLPld7Q17XxlclFGzZQX5g.txt' and './data_60/Y_eLPld7Q17XxlclFGzZQX5g.txt' does not exist
+'./data_60/X_test_eLPld7Q17XxlclFGzZQX5g.txt', './data_60/Y_prediction_eLPld7Q17XxlclFGzZQX5g.txt' and './data_60/Y_actual_eLPld7Q17XxlclFGzZQX5g.txt' does not exist.
+317 # prediction
+mse is 1.45922497903
+business_id HyfFenprdpIA4rmKu6DW3g
+'./data_60/training_data_HyfFenprdpIA4rmKu6DW3g.txt' and './data_60/test_data_HyfFenprdpIA4rmKu6DW3g.txt' does not exist
+'./data_60/X_HyfFenprdpIA4rmKu6DW3g.txt' and './data_60/Y_HyfFenprdpIA4rmKu6DW3g.txt' does not exist
+'./data_60/X_test_HyfFenprdpIA4rmKu6DW3g.txt', './data_60/Y_prediction_HyfFenprdpIA4rmKu6DW3g.txt' and './data_60/Y_actual_HyfFenprdpIA4rmKu6DW3g.txt' does not exist.
+314 # prediction
+mse is 1.00634927014
+business_id Pz7SWZQhxL6ZbhL9jE2NTA
+'./data_60/training_data_Pz7SWZQhxL6ZbhL9jE2NTA.txt' and './data_60/test_data_Pz7SWZQhxL6ZbhL9jE2NTA.txt' does not exist
+'./data_60/X_Pz7SWZQhxL6ZbhL9jE2NTA.txt' and './data_60/Y_Pz7SWZQhxL6ZbhL9jE2NTA.txt' does not exist
+'./data_60/X_test_Pz7SWZQhxL6ZbhL9jE2NTA.txt', './data_60/Y_prediction_Pz7SWZQhxL6ZbhL9jE2NTA.txt' and './data_60/Y_actual_Pz7SWZQhxL6ZbhL9jE2NTA.txt' does not exist.
+310 # prediction
+mse is 1.63332236117
+business_id BqD7X5CHXnJ14YbBBlLx1w
+'./data_60/training_data_BqD7X5CHXnJ14YbBBlLx1w.txt' and './data_60/test_data_BqD7X5CHXnJ14YbBBlLx1w.txt' does not exist
+'./data_60/X_BqD7X5CHXnJ14YbBBlLx1w.txt' and './data_60/Y_BqD7X5CHXnJ14YbBBlLx1w.txt' does not exist
+'./data_60/X_test_BqD7X5CHXnJ14YbBBlLx1w.txt', './data_60/Y_prediction_BqD7X5CHXnJ14YbBBlLx1w.txt' and './data_60/Y_actual_BqD7X5CHXnJ14YbBBlLx1w.txt' does not exist.
+307 # prediction
+mse is 1.12998803718
+business_id AeKTQBtPRDHLAFL9bzbUnA
+'./data_60/training_data_AeKTQBtPRDHLAFL9bzbUnA.txt' and './data_60/test_data_AeKTQBtPRDHLAFL9bzbUnA.txt' does not exist
+'./data_60/X_AeKTQBtPRDHLAFL9bzbUnA.txt' and './data_60/Y_AeKTQBtPRDHLAFL9bzbUnA.txt' does not exist
+'./data_60/X_test_AeKTQBtPRDHLAFL9bzbUnA.txt', './data_60/Y_prediction_AeKTQBtPRDHLAFL9bzbUnA.txt' and './data_60/Y_actual_AeKTQBtPRDHLAFL9bzbUnA.txt' does not exist.
+303 # prediction
+mse is 1.65108225333
+business_id -sC66z4SO3tR7nFCjfQwuQ
+'./data_60/training_data_-sC66z4SO3tR7nFCjfQwuQ.txt' and './data_60/test_data_-sC66z4SO3tR7nFCjfQwuQ.txt' does not exist
+'./data_60/X_-sC66z4SO3tR7nFCjfQwuQ.txt' and './data_60/Y_-sC66z4SO3tR7nFCjfQwuQ.txt' does not exist
+'./data_60/X_test_-sC66z4SO3tR7nFCjfQwuQ.txt', './data_60/Y_prediction_-sC66z4SO3tR7nFCjfQwuQ.txt' and './data_60/Y_actual_-sC66z4SO3tR7nFCjfQwuQ.txt' does not exist.
+300 # prediction
+mse is 1.30128141973
+business_id H_SuH7uLiYahDMbNBB9kog
+'./data_60/training_data_H_SuH7uLiYahDMbNBB9kog.txt' and './data_60/test_data_H_SuH7uLiYahDMbNBB9kog.txt' does not exist
+'./data_60/X_H_SuH7uLiYahDMbNBB9kog.txt' and './data_60/Y_H_SuH7uLiYahDMbNBB9kog.txt' does not exist
+'./data_60/X_test_H_SuH7uLiYahDMbNBB9kog.txt', './data_60/Y_prediction_H_SuH7uLiYahDMbNBB9kog.txt' and './data_60/Y_actual_H_SuH7uLiYahDMbNBB9kog.txt' does not exist.
+297 # prediction
+mse is 0.962250448649
+business_id 1yx2zLskVTe5WQdYjL2Apw
+'./data_60/training_data_1yx2zLskVTe5WQdYjL2Apw.txt' and './data_60/test_data_1yx2zLskVTe5WQdYjL2Apw.txt' does not exist
+'./data_60/X_1yx2zLskVTe5WQdYjL2Apw.txt' and './data_60/Y_1yx2zLskVTe5WQdYjL2Apw.txt' does not exist
+'./data_60/X_test_1yx2zLskVTe5WQdYjL2Apw.txt', './data_60/Y_prediction_1yx2zLskVTe5WQdYjL2Apw.txt' and './data_60/Y_actual_1yx2zLskVTe5WQdYjL2Apw.txt' does not exist.
+295 # prediction
+mse is 1.16589966717
+business_id 3fV9sL5LklD9ZSeONKmjkw
+'./data_60/training_data_3fV9sL5LklD9ZSeONKmjkw.txt' and './data_60/test_data_3fV9sL5LklD9ZSeONKmjkw.txt' does not exist
+'./data_60/X_3fV9sL5LklD9ZSeONKmjkw.txt' and './data_60/Y_3fV9sL5LklD9ZSeONKmjkw.txt' does not exist
+'./data_60/X_test_3fV9sL5LklD9ZSeONKmjkw.txt', './data_60/Y_prediction_3fV9sL5LklD9ZSeONKmjkw.txt' and './data_60/Y_actual_3fV9sL5LklD9ZSeONKmjkw.txt' does not exist.
+294 # prediction
+mse is 1.22057196362
+business_id Z0kyK8wCBNGkkUT9UrMWcg
+'./data_60/training_data_Z0kyK8wCBNGkkUT9UrMWcg.txt' and './data_60/test_data_Z0kyK8wCBNGkkUT9UrMWcg.txt' does not exist
+'./data_60/X_Z0kyK8wCBNGkkUT9UrMWcg.txt' and './data_60/Y_Z0kyK8wCBNGkkUT9UrMWcg.txt' does not exist
+'./data_60/X_test_Z0kyK8wCBNGkkUT9UrMWcg.txt', './data_60/Y_prediction_Z0kyK8wCBNGkkUT9UrMWcg.txt' and './data_60/Y_actual_Z0kyK8wCBNGkkUT9UrMWcg.txt' does not exist.
+293 # prediction
+mse is 1.17714295182
+business_id vSf0pqvaLp5sVSjJPeOqqQ
+'./data_60/training_data_vSf0pqvaLp5sVSjJPeOqqQ.txt' and './data_60/test_data_vSf0pqvaLp5sVSjJPeOqqQ.txt' does not exist
+'./data_60/X_vSf0pqvaLp5sVSjJPeOqqQ.txt' and './data_60/Y_vSf0pqvaLp5sVSjJPeOqqQ.txt' does not exist
+'./data_60/X_test_vSf0pqvaLp5sVSjJPeOqqQ.txt', './data_60/Y_prediction_vSf0pqvaLp5sVSjJPeOqqQ.txt' and './data_60/Y_actual_vSf0pqvaLp5sVSjJPeOqqQ.txt' does not exist.
+290 # prediction
+mse is 1.24152298019
+business_id gGeVLZ9j_wAYKbaqgnKSJA
+'./data_60/training_data_gGeVLZ9j_wAYKbaqgnKSJA.txt' and './data_60/test_data_gGeVLZ9j_wAYKbaqgnKSJA.txt' does not exist
+'./data_60/X_gGeVLZ9j_wAYKbaqgnKSJA.txt' and './data_60/Y_gGeVLZ9j_wAYKbaqgnKSJA.txt' does not exist
+'./data_60/X_test_gGeVLZ9j_wAYKbaqgnKSJA.txt', './data_60/Y_prediction_gGeVLZ9j_wAYKbaqgnKSJA.txt' and './data_60/Y_actual_gGeVLZ9j_wAYKbaqgnKSJA.txt' does not exist.
+289 # prediction
+mse is 1.22262409946
+business_id ryvMJK6AlbU35HKrlFT61w
+'./data_60/training_data_ryvMJK6AlbU35HKrlFT61w.txt' and './data_60/test_data_ryvMJK6AlbU35HKrlFT61w.txt' does not exist
+'./data_60/X_ryvMJK6AlbU35HKrlFT61w.txt' and './data_60/Y_ryvMJK6AlbU35HKrlFT61w.txt' does not exist
+'./data_60/X_test_ryvMJK6AlbU35HKrlFT61w.txt', './data_60/Y_prediction_ryvMJK6AlbU35HKrlFT61w.txt' and './data_60/Y_actual_ryvMJK6AlbU35HKrlFT61w.txt' does not exist.
+285 # prediction
+mse is 1.29777136905
+business_id ASOiJ8MmbBTgK2D1_MQrqg
+'./data_60/training_data_ASOiJ8MmbBTgK2D1_MQrqg.txt' and './data_60/test_data_ASOiJ8MmbBTgK2D1_MQrqg.txt' does not exist
+'./data_60/X_ASOiJ8MmbBTgK2D1_MQrqg.txt' and './data_60/Y_ASOiJ8MmbBTgK2D1_MQrqg.txt' does not exist
+'./data_60/X_test_ASOiJ8MmbBTgK2D1_MQrqg.txt', './data_60/Y_prediction_ASOiJ8MmbBTgK2D1_MQrqg.txt' and './data_60/Y_actual_ASOiJ8MmbBTgK2D1_MQrqg.txt' does not exist.
+282 # prediction
+mse is 1.35923424416
+business_id QnAzW6KMSciUcuJ20oI3Bw
+'./data_60/training_data_QnAzW6KMSciUcuJ20oI3Bw.txt' and './data_60/test_data_QnAzW6KMSciUcuJ20oI3Bw.txt' does not exist
+'./data_60/X_QnAzW6KMSciUcuJ20oI3Bw.txt' and './data_60/Y_QnAzW6KMSciUcuJ20oI3Bw.txt' does not exist
+'./data_60/X_test_QnAzW6KMSciUcuJ20oI3Bw.txt', './data_60/Y_prediction_QnAzW6KMSciUcuJ20oI3Bw.txt' and './data_60/Y_actual_QnAzW6KMSciUcuJ20oI3Bw.txt' does not exist.
+282 # prediction
+mse is 1.16843837105
+business_id YKOvlBNkF4KpUP9q7x862w
+'./data_60/training_data_YKOvlBNkF4KpUP9q7x862w.txt' and './data_60/test_data_YKOvlBNkF4KpUP9q7x862w.txt' does not exist
+'./data_60/X_YKOvlBNkF4KpUP9q7x862w.txt' and './data_60/Y_YKOvlBNkF4KpUP9q7x862w.txt' does not exist
+'./data_60/X_test_YKOvlBNkF4KpUP9q7x862w.txt', './data_60/Y_prediction_YKOvlBNkF4KpUP9q7x862w.txt' and './data_60/Y_actual_YKOvlBNkF4KpUP9q7x862w.txt' does not exist.
+282 # prediction
+mse is 1.40918969725
+business_id MuIXnv7Oq7X3-4aEsp9dDA
+'./data_60/training_data_MuIXnv7Oq7X3-4aEsp9dDA.txt' and './data_60/test_data_MuIXnv7Oq7X3-4aEsp9dDA.txt' does not exist
+'./data_60/X_MuIXnv7Oq7X3-4aEsp9dDA.txt' and './data_60/Y_MuIXnv7Oq7X3-4aEsp9dDA.txt' does not exist
+'./data_60/X_test_MuIXnv7Oq7X3-4aEsp9dDA.txt', './data_60/Y_prediction_MuIXnv7Oq7X3-4aEsp9dDA.txt' and './data_60/Y_actual_MuIXnv7Oq7X3-4aEsp9dDA.txt' does not exist.
+276 # prediction
+mse is 1.24528094729
+business_id 3MmHmJXr8Ltk_Z5EGE4KUw
+'./data_60/training_data_3MmHmJXr8Ltk_Z5EGE4KUw.txt' and './data_60/test_data_3MmHmJXr8Ltk_Z5EGE4KUw.txt' does not exist
+'./data_60/X_3MmHmJXr8Ltk_Z5EGE4KUw.txt' and './data_60/Y_3MmHmJXr8Ltk_Z5EGE4KUw.txt' does not exist
+'./data_60/X_test_3MmHmJXr8Ltk_Z5EGE4KUw.txt', './data_60/Y_prediction_3MmHmJXr8Ltk_Z5EGE4KUw.txt' and './data_60/Y_actual_3MmHmJXr8Ltk_Z5EGE4KUw.txt' does not exist.
+274 # prediction
+mse is 1.9027448479
+business_id ES-j5yNTgmgbL4He0h6otA
+'./data_60/training_data_ES-j5yNTgmgbL4He0h6otA.txt' and './data_60/test_data_ES-j5yNTgmgbL4He0h6otA.txt' does not exist
+'./data_60/X_ES-j5yNTgmgbL4He0h6otA.txt' and './data_60/Y_ES-j5yNTgmgbL4He0h6otA.txt' does not exist
+'./data_60/X_test_ES-j5yNTgmgbL4He0h6otA.txt', './data_60/Y_prediction_ES-j5yNTgmgbL4He0h6otA.txt' and './data_60/Y_actual_ES-j5yNTgmgbL4He0h6otA.txt' does not exist.
+273 # prediction
+mse is 1.15152391465
+business_id BW1JCE3Qj4uIokg7kLUL7w
+'./data_60/training_data_BW1JCE3Qj4uIokg7kLUL7w.txt' and './data_60/test_data_BW1JCE3Qj4uIokg7kLUL7w.txt' does not exist
+'./data_60/X_BW1JCE3Qj4uIokg7kLUL7w.txt' and './data_60/Y_BW1JCE3Qj4uIokg7kLUL7w.txt' does not exist
+'./data_60/X_test_BW1JCE3Qj4uIokg7kLUL7w.txt', './data_60/Y_prediction_BW1JCE3Qj4uIokg7kLUL7w.txt' and './data_60/Y_actual_BW1JCE3Qj4uIokg7kLUL7w.txt' does not exist.
+270 # prediction
+mse is 1.03279555899
+business_id uKSX1n1RoAzGq4bV8GPHVg
+'./data_60/training_data_uKSX1n1RoAzGq4bV8GPHVg.txt' and './data_60/test_data_uKSX1n1RoAzGq4bV8GPHVg.txt' does not exist
+'./data_60/X_uKSX1n1RoAzGq4bV8GPHVg.txt' and './data_60/Y_uKSX1n1RoAzGq4bV8GPHVg.txt' does not exist
+'./data_60/X_test_uKSX1n1RoAzGq4bV8GPHVg.txt', './data_60/Y_prediction_uKSX1n1RoAzGq4bV8GPHVg.txt' and './data_60/Y_actual_uKSX1n1RoAzGq4bV8GPHVg.txt' does not exist.
+270 # prediction
+mse is 0.97372899112
+business_id ntN85eu27C04nwyPa8IHtw
+'./data_60/training_data_ntN85eu27C04nwyPa8IHtw.txt' and './data_60/test_data_ntN85eu27C04nwyPa8IHtw.txt' does not exist
+'./data_60/X_ntN85eu27C04nwyPa8IHtw.txt' and './data_60/Y_ntN85eu27C04nwyPa8IHtw.txt' does not exist
+'./data_60/X_test_ntN85eu27C04nwyPa8IHtw.txt', './data_60/Y_prediction_ntN85eu27C04nwyPa8IHtw.txt' and './data_60/Y_actual_ntN85eu27C04nwyPa8IHtw.txt' does not exist.
+269 # prediction
+mse is 1.45949015898
+business_id iXA8Y2bzvZo8MjALfZxrIg
+'./data_60/training_data_iXA8Y2bzvZo8MjALfZxrIg.txt' and './data_60/test_data_iXA8Y2bzvZo8MjALfZxrIg.txt' does not exist
+'./data_60/X_iXA8Y2bzvZo8MjALfZxrIg.txt' and './data_60/Y_iXA8Y2bzvZo8MjALfZxrIg.txt' does not exist
+'./data_60/X_test_iXA8Y2bzvZo8MjALfZxrIg.txt', './data_60/Y_prediction_iXA8Y2bzvZo8MjALfZxrIg.txt' and './data_60/Y_actual_iXA8Y2bzvZo8MjALfZxrIg.txt' does not exist.
+268 # prediction
+mse is 1.25781141362
+business_id aRkYtXfmEKYG-eTDf_qUsw
+'./data_60/training_data_aRkYtXfmEKYG-eTDf_qUsw.txt' and './data_60/test_data_aRkYtXfmEKYG-eTDf_qUsw.txt' does not exist
+'./data_60/X_aRkYtXfmEKYG-eTDf_qUsw.txt' and './data_60/Y_aRkYtXfmEKYG-eTDf_qUsw.txt' does not exist
+'./data_60/X_test_aRkYtXfmEKYG-eTDf_qUsw.txt', './data_60/Y_prediction_aRkYtXfmEKYG-eTDf_qUsw.txt' and './data_60/Y_actual_aRkYtXfmEKYG-eTDf_qUsw.txt' does not exist.
+265 # prediction
+mse is 1.17200038637
+business_id cMvN1j-LK64zqmT4vnl8NA
+'./data_60/training_data_cMvN1j-LK64zqmT4vnl8NA.txt' and './data_60/test_data_cMvN1j-LK64zqmT4vnl8NA.txt' does not exist
+'./data_60/X_cMvN1j-LK64zqmT4vnl8NA.txt' and './data_60/Y_cMvN1j-LK64zqmT4vnl8NA.txt' does not exist
+'./data_60/X_test_cMvN1j-LK64zqmT4vnl8NA.txt', './data_60/Y_prediction_cMvN1j-LK64zqmT4vnl8NA.txt' and './data_60/Y_actual_cMvN1j-LK64zqmT4vnl8NA.txt' does not exist.
+264 # prediction
+mse is 1.6178455558
+business_id N50HceZf1595UtU867u4uQ
+'./data_60/training_data_N50HceZf1595UtU867u4uQ.txt' and './data_60/test_data_N50HceZf1595UtU867u4uQ.txt' does not exist
+'./data_60/X_N50HceZf1595UtU867u4uQ.txt' and './data_60/Y_N50HceZf1595UtU867u4uQ.txt' does not exist
+'./data_60/X_test_N50HceZf1595UtU867u4uQ.txt', './data_60/Y_prediction_N50HceZf1595UtU867u4uQ.txt' and './data_60/Y_actual_N50HceZf1595UtU867u4uQ.txt' does not exist.
+261 # prediction
+mse is 1.82153991525
+business_id rZbHg4ACfN3iShdsT47WKQ
+'./data_60/training_data_rZbHg4ACfN3iShdsT47WKQ.txt' and './data_60/test_data_rZbHg4ACfN3iShdsT47WKQ.txt' does not exist
+'./data_60/X_rZbHg4ACfN3iShdsT47WKQ.txt' and './data_60/Y_rZbHg4ACfN3iShdsT47WKQ.txt' does not exist
+'./data_60/X_test_rZbHg4ACfN3iShdsT47WKQ.txt', './data_60/Y_prediction_rZbHg4ACfN3iShdsT47WKQ.txt' and './data_60/Y_actual_rZbHg4ACfN3iShdsT47WKQ.txt' does not exist.
+260 # prediction
+mse is 0.932325463146
+business_id 50nln4YPr0QDo_v1uBmHfg
+'./data_60/training_data_50nln4YPr0QDo_v1uBmHfg.txt' and './data_60/test_data_50nln4YPr0QDo_v1uBmHfg.txt' does not exist
+'./data_60/X_50nln4YPr0QDo_v1uBmHfg.txt' and './data_60/Y_50nln4YPr0QDo_v1uBmHfg.txt' does not exist
+'./data_60/X_test_50nln4YPr0QDo_v1uBmHfg.txt', './data_60/Y_prediction_50nln4YPr0QDo_v1uBmHfg.txt' and './data_60/Y_actual_50nln4YPr0QDo_v1uBmHfg.txt' does not exist.
+257 # prediction
+mse is 1.37798138043
+business_id K8pM6qQdYu5h6buRE1-_sw
+'./data_60/training_data_K8pM6qQdYu5h6buRE1-_sw.txt' and './data_60/test_data_K8pM6qQdYu5h6buRE1-_sw.txt' does not exist
+'./data_60/X_K8pM6qQdYu5h6buRE1-_sw.txt' and './data_60/Y_K8pM6qQdYu5h6buRE1-_sw.txt' does not exist
+'./data_60/X_test_K8pM6qQdYu5h6buRE1-_sw.txt', './data_60/Y_prediction_K8pM6qQdYu5h6buRE1-_sw.txt' and './data_60/Y_actual_K8pM6qQdYu5h6buRE1-_sw.txt' does not exist.
+256 # prediction
+mse is 1.302041666
+business_id RhbOa-Ft3sZB4B_1j5LfyA
+'./data_60/training_data_RhbOa-Ft3sZB4B_1j5LfyA.txt' and './data_60/test_data_RhbOa-Ft3sZB4B_1j5LfyA.txt' does not exist
+'./data_60/X_RhbOa-Ft3sZB4B_1j5LfyA.txt' and './data_60/Y_RhbOa-Ft3sZB4B_1j5LfyA.txt' does not exist
+'./data_60/X_test_RhbOa-Ft3sZB4B_1j5LfyA.txt', './data_60/Y_prediction_RhbOa-Ft3sZB4B_1j5LfyA.txt' and './data_60/Y_actual_RhbOa-Ft3sZB4B_1j5LfyA.txt' does not exist.
+253 # prediction
+mse is 0.91539317456
+business_id 3oZcTGb_oDHGwZFiP-7kxQ
+'./data_60/training_data_3oZcTGb_oDHGwZFiP-7kxQ.txt' and './data_60/test_data_3oZcTGb_oDHGwZFiP-7kxQ.txt' does not exist
+'./data_60/X_3oZcTGb_oDHGwZFiP-7kxQ.txt' and './data_60/Y_3oZcTGb_oDHGwZFiP-7kxQ.txt' does not exist
+'./data_60/X_test_3oZcTGb_oDHGwZFiP-7kxQ.txt', './data_60/Y_prediction_3oZcTGb_oDHGwZFiP-7kxQ.txt' and './data_60/Y_actual_3oZcTGb_oDHGwZFiP-7kxQ.txt' does not exist.
+252 # prediction
+mse is 1.46249406457
+business_id KcSJUq1kwO8awZRMS6Q49g
+'./data_60/training_data_KcSJUq1kwO8awZRMS6Q49g.txt' and './data_60/test_data_KcSJUq1kwO8awZRMS6Q49g.txt' does not exist
+'./data_60/X_KcSJUq1kwO8awZRMS6Q49g.txt' and './data_60/Y_KcSJUq1kwO8awZRMS6Q49g.txt' does not exist
+'./data_60/X_test_KcSJUq1kwO8awZRMS6Q49g.txt', './data_60/Y_prediction_KcSJUq1kwO8awZRMS6Q49g.txt' and './data_60/Y_actual_KcSJUq1kwO8awZRMS6Q49g.txt' does not exist.
+252 # prediction
+mse is 1.15470053838
+business_id Q_Rwcv9APBLggk2KAsBEvg
+'./data_60/training_data_Q_Rwcv9APBLggk2KAsBEvg.txt' and './data_60/test_data_Q_Rwcv9APBLggk2KAsBEvg.txt' does not exist
+'./data_60/X_Q_Rwcv9APBLggk2KAsBEvg.txt' and './data_60/Y_Q_Rwcv9APBLggk2KAsBEvg.txt' does not exist
+'./data_60/X_test_Q_Rwcv9APBLggk2KAsBEvg.txt', './data_60/Y_prediction_Q_Rwcv9APBLggk2KAsBEvg.txt' and './data_60/Y_actual_Q_Rwcv9APBLggk2KAsBEvg.txt' does not exist.
+250 # prediction
+mse is 1.66012047756
+business_id naLrErBuJr9IWd6_rv6-XQ
+'./data_60/training_data_naLrErBuJr9IWd6_rv6-XQ.txt' and './data_60/test_data_naLrErBuJr9IWd6_rv6-XQ.txt' does not exist
+'./data_60/X_naLrErBuJr9IWd6_rv6-XQ.txt' and './data_60/Y_naLrErBuJr9IWd6_rv6-XQ.txt' does not exist
+'./data_60/X_test_naLrErBuJr9IWd6_rv6-XQ.txt', './data_60/Y_prediction_naLrErBuJr9IWd6_rv6-XQ.txt' and './data_60/Y_actual_naLrErBuJr9IWd6_rv6-XQ.txt' does not exist.
+250 # prediction
+mse is 1.38130373199
+business_id q_DrPmiLrHEpR_SQvQXELQ
+'./data_60/training_data_q_DrPmiLrHEpR_SQvQXELQ.txt' and './data_60/test_data_q_DrPmiLrHEpR_SQvQXELQ.txt' does not exist
+'./data_60/X_q_DrPmiLrHEpR_SQvQXELQ.txt' and './data_60/Y_q_DrPmiLrHEpR_SQvQXELQ.txt' does not exist
+'./data_60/X_test_q_DrPmiLrHEpR_SQvQXELQ.txt', './data_60/Y_prediction_q_DrPmiLrHEpR_SQvQXELQ.txt' and './data_60/Y_actual_q_DrPmiLrHEpR_SQvQXELQ.txt' does not exist.
+247 # prediction
+mse is 1.52575726204
+business_id XDYnLQC8ViZejuCDp4eCwg
+'./data_60/training_data_XDYnLQC8ViZejuCDp4eCwg.txt' and './data_60/test_data_XDYnLQC8ViZejuCDp4eCwg.txt' does not exist
+'./data_60/X_XDYnLQC8ViZejuCDp4eCwg.txt' and './data_60/Y_XDYnLQC8ViZejuCDp4eCwg.txt' does not exist
+'./data_60/X_test_XDYnLQC8ViZejuCDp4eCwg.txt', './data_60/Y_prediction_XDYnLQC8ViZejuCDp4eCwg.txt' and './data_60/Y_actual_XDYnLQC8ViZejuCDp4eCwg.txt' does not exist.
+246 # prediction
+mse is 1.49660863233
+business_id pwpl-rxwNRQdgqFz_-qMPg
+'./data_60/training_data_pwpl-rxwNRQdgqFz_-qMPg.txt' and './data_60/test_data_pwpl-rxwNRQdgqFz_-qMPg.txt' does not exist
+'./data_60/X_pwpl-rxwNRQdgqFz_-qMPg.txt' and './data_60/Y_pwpl-rxwNRQdgqFz_-qMPg.txt' does not exist
+'./data_60/X_test_pwpl-rxwNRQdgqFz_-qMPg.txt', './data_60/Y_prediction_pwpl-rxwNRQdgqFz_-qMPg.txt' and './data_60/Y_actual_pwpl-rxwNRQdgqFz_-qMPg.txt' does not exist.
+246 # prediction
+mse is 1.13696214837
+business_id KJnVuzpveyDrHARVNZaYVg
+'./data_60/training_data_KJnVuzpveyDrHARVNZaYVg.txt' and './data_60/test_data_KJnVuzpveyDrHARVNZaYVg.txt' does not exist
+'./data_60/X_KJnVuzpveyDrHARVNZaYVg.txt' and './data_60/Y_KJnVuzpveyDrHARVNZaYVg.txt' does not exist
+'./data_60/X_test_KJnVuzpveyDrHARVNZaYVg.txt', './data_60/Y_prediction_KJnVuzpveyDrHARVNZaYVg.txt' and './data_60/Y_actual_KJnVuzpveyDrHARVNZaYVg.txt' does not exist.
+244 # prediction
+mse is 2.03151401185
+business_id xNcqwYAUeVOhe3KNC4Xjaw
+'./data_60/training_data_xNcqwYAUeVOhe3KNC4Xjaw.txt' and './data_60/test_data_xNcqwYAUeVOhe3KNC4Xjaw.txt' does not exist
+'./data_60/X_xNcqwYAUeVOhe3KNC4Xjaw.txt' and './data_60/Y_xNcqwYAUeVOhe3KNC4Xjaw.txt' does not exist
+'./data_60/X_test_xNcqwYAUeVOhe3KNC4Xjaw.txt', './data_60/Y_prediction_xNcqwYAUeVOhe3KNC4Xjaw.txt' and './data_60/Y_actual_xNcqwYAUeVOhe3KNC4Xjaw.txt' does not exist.
+242 # prediction
+mse is 1.16420440681
+business_id _FXql6eVhbM923RdCi94SA
+'./data_60/training_data__FXql6eVhbM923RdCi94SA.txt' and './data_60/test_data__FXql6eVhbM923RdCi94SA.txt' does not exist
+'./data_60/X__FXql6eVhbM923RdCi94SA.txt' and './data_60/Y__FXql6eVhbM923RdCi94SA.txt' does not exist
+'./data_60/X_test__FXql6eVhbM923RdCi94SA.txt', './data_60/Y_prediction__FXql6eVhbM923RdCi94SA.txt' and './data_60/Y_actual__FXql6eVhbM923RdCi94SA.txt' does not exist.
+242 # prediction
+mse is 1.32833083602
+business_id LCeF1wK5OqP3PPEVBa5Xfw
+'./data_60/training_data_LCeF1wK5OqP3PPEVBa5Xfw.txt' and './data_60/test_data_LCeF1wK5OqP3PPEVBa5Xfw.txt' does not exist
+'./data_60/X_LCeF1wK5OqP3PPEVBa5Xfw.txt' and './data_60/Y_LCeF1wK5OqP3PPEVBa5Xfw.txt' does not exist
+'./data_60/X_test_LCeF1wK5OqP3PPEVBa5Xfw.txt', './data_60/Y_prediction_LCeF1wK5OqP3PPEVBa5Xfw.txt' and './data_60/Y_actual_LCeF1wK5OqP3PPEVBa5Xfw.txt' does not exist.
+242 # prediction
+mse is 1.24979337135
+business_id Zx8_4zKdDBSO3qGrkukBIA
+'./data_60/training_data_Zx8_4zKdDBSO3qGrkukBIA.txt' and './data_60/test_data_Zx8_4zKdDBSO3qGrkukBIA.txt' does not exist
+'./data_60/X_Zx8_4zKdDBSO3qGrkukBIA.txt' and './data_60/Y_Zx8_4zKdDBSO3qGrkukBIA.txt' does not exist
+'./data_60/X_test_Zx8_4zKdDBSO3qGrkukBIA.txt', './data_60/Y_prediction_Zx8_4zKdDBSO3qGrkukBIA.txt' and './data_60/Y_actual_Zx8_4zKdDBSO3qGrkukBIA.txt' does not exist.
+240 # prediction
+mse is 1.53704261489
+business_id kwEQ3uY9Jwmknb5kNg3UlA
+'./data_60/training_data_kwEQ3uY9Jwmknb5kNg3UlA.txt' and './data_60/test_data_kwEQ3uY9Jwmknb5kNg3UlA.txt' does not exist
+'./data_60/X_kwEQ3uY9Jwmknb5kNg3UlA.txt' and './data_60/Y_kwEQ3uY9Jwmknb5kNg3UlA.txt' does not exist
+'./data_60/X_test_kwEQ3uY9Jwmknb5kNg3UlA.txt', './data_60/Y_prediction_kwEQ3uY9Jwmknb5kNg3UlA.txt' and './data_60/Y_actual_kwEQ3uY9Jwmknb5kNg3UlA.txt' does not exist.
+239 # prediction
+mse is 1.07656667973
+business_id ZP6qFq7LUh6Tr7WHPoOW6g
+'./data_60/training_data_ZP6qFq7LUh6Tr7WHPoOW6g.txt' and './data_60/test_data_ZP6qFq7LUh6Tr7WHPoOW6g.txt' does not exist
+'./data_60/X_ZP6qFq7LUh6Tr7WHPoOW6g.txt' and './data_60/Y_ZP6qFq7LUh6Tr7WHPoOW6g.txt' does not exist
+'./data_60/X_test_ZP6qFq7LUh6Tr7WHPoOW6g.txt', './data_60/Y_prediction_ZP6qFq7LUh6Tr7WHPoOW6g.txt' and './data_60/Y_actual_ZP6qFq7LUh6Tr7WHPoOW6g.txt' does not exist.
+237 # prediction
+mse is 1.34540944782
+business_id lPh02W25cOrAz57UbTpbFQ
+'./data_60/training_data_lPh02W25cOrAz57UbTpbFQ.txt' and './data_60/test_data_lPh02W25cOrAz57UbTpbFQ.txt' does not exist
+'./data_60/X_lPh02W25cOrAz57UbTpbFQ.txt' and './data_60/Y_lPh02W25cOrAz57UbTpbFQ.txt' does not exist
+'./data_60/X_test_lPh02W25cOrAz57UbTpbFQ.txt', './data_60/Y_prediction_lPh02W25cOrAz57UbTpbFQ.txt' and './data_60/Y_actual_lPh02W25cOrAz57UbTpbFQ.txt' does not exist.
+235 # prediction
+mse is 1.79004338471
+business_id xY1sPHTA2RGVFlh5tZhs9g
+'./data_60/training_data_xY1sPHTA2RGVFlh5tZhs9g.txt' and './data_60/test_data_xY1sPHTA2RGVFlh5tZhs9g.txt' does not exist
+'./data_60/X_xY1sPHTA2RGVFlh5tZhs9g.txt' and './data_60/Y_xY1sPHTA2RGVFlh5tZhs9g.txt' does not exist
+'./data_60/X_test_xY1sPHTA2RGVFlh5tZhs9g.txt', './data_60/Y_prediction_xY1sPHTA2RGVFlh5tZhs9g.txt' and './data_60/Y_actual_xY1sPHTA2RGVFlh5tZhs9g.txt' does not exist.
+235 # prediction
+mse is 1.0935011115
+business_id j_pce4pG9krrBeYwUni8Pg
+'./data_60/training_data_j_pce4pG9krrBeYwUni8Pg.txt' and './data_60/test_data_j_pce4pG9krrBeYwUni8Pg.txt' does not exist
+'./data_60/X_j_pce4pG9krrBeYwUni8Pg.txt' and './data_60/Y_j_pce4pG9krrBeYwUni8Pg.txt' does not exist
+'./data_60/X_test_j_pce4pG9krrBeYwUni8Pg.txt', './data_60/Y_prediction_j_pce4pG9krrBeYwUni8Pg.txt' and './data_60/Y_actual_j_pce4pG9krrBeYwUni8Pg.txt' does not exist.
+234 # prediction
+mse is 0.951831343245
+business_id c1yGkETheht_1vjda7G5sA
+'./data_60/training_data_c1yGkETheht_1vjda7G5sA.txt' and './data_60/test_data_c1yGkETheht_1vjda7G5sA.txt' does not exist
+'./data_60/X_c1yGkETheht_1vjda7G5sA.txt' and './data_60/Y_c1yGkETheht_1vjda7G5sA.txt' does not exist
+'./data_60/X_test_c1yGkETheht_1vjda7G5sA.txt', './data_60/Y_prediction_c1yGkETheht_1vjda7G5sA.txt' and './data_60/Y_actual_c1yGkETheht_1vjda7G5sA.txt' does not exist.
+234 # prediction
+mse is 1.20717229809
+business_id BQjGE1Z3nk253XzIZqt8Gg
+'./data_60/training_data_BQjGE1Z3nk253XzIZqt8Gg.txt' and './data_60/test_data_BQjGE1Z3nk253XzIZqt8Gg.txt' does not exist
+'./data_60/X_BQjGE1Z3nk253XzIZqt8Gg.txt' and './data_60/Y_BQjGE1Z3nk253XzIZqt8Gg.txt' does not exist
+'./data_60/X_test_BQjGE1Z3nk253XzIZqt8Gg.txt', './data_60/Y_prediction_BQjGE1Z3nk253XzIZqt8Gg.txt' and './data_60/Y_actual_BQjGE1Z3nk253XzIZqt8Gg.txt' does not exist.
+233 # prediction
+mse is 1.10791146359
+business_id 53YGfwmbW73JhFiemNeyzQ
+'./data_60/training_data_53YGfwmbW73JhFiemNeyzQ.txt' and './data_60/test_data_53YGfwmbW73JhFiemNeyzQ.txt' does not exist
+'./data_60/X_53YGfwmbW73JhFiemNeyzQ.txt' and './data_60/Y_53YGfwmbW73JhFiemNeyzQ.txt' does not exist
+'./data_60/X_test_53YGfwmbW73JhFiemNeyzQ.txt', './data_60/Y_prediction_53YGfwmbW73JhFiemNeyzQ.txt' and './data_60/Y_actual_53YGfwmbW73JhFiemNeyzQ.txt' does not exist.
+232 # prediction
+mse is 1.07879242834
+business_id QJlab4DqvBRJPUfg7Vn5ZQ
+'./data_60/training_data_QJlab4DqvBRJPUfg7Vn5ZQ.txt' and './data_60/test_data_QJlab4DqvBRJPUfg7Vn5ZQ.txt' does not exist
+'./data_60/X_QJlab4DqvBRJPUfg7Vn5ZQ.txt' and './data_60/Y_QJlab4DqvBRJPUfg7Vn5ZQ.txt' does not exist
+'./data_60/X_test_QJlab4DqvBRJPUfg7Vn5ZQ.txt', './data_60/Y_prediction_QJlab4DqvBRJPUfg7Vn5ZQ.txt' and './data_60/Y_actual_QJlab4DqvBRJPUfg7Vn5ZQ.txt' does not exist.
+229 # prediction
+mse is 1.40957424896
+business_id 8zL3V6rmFKBess3bxPLAoQ
+'./data_60/training_data_8zL3V6rmFKBess3bxPLAoQ.txt' and './data_60/test_data_8zL3V6rmFKBess3bxPLAoQ.txt' does not exist
+'./data_60/X_8zL3V6rmFKBess3bxPLAoQ.txt' and './data_60/Y_8zL3V6rmFKBess3bxPLAoQ.txt' does not exist
+'./data_60/X_test_8zL3V6rmFKBess3bxPLAoQ.txt', './data_60/Y_prediction_8zL3V6rmFKBess3bxPLAoQ.txt' and './data_60/Y_actual_8zL3V6rmFKBess3bxPLAoQ.txt' does not exist.
+228 # prediction
+mse is 1.37649440322
+business_id qjmCVYkwP-HDa35jwYucbQ
+'./data_60/training_data_qjmCVYkwP-HDa35jwYucbQ.txt' and './data_60/test_data_qjmCVYkwP-HDa35jwYucbQ.txt' does not exist
+'./data_60/X_qjmCVYkwP-HDa35jwYucbQ.txt' and './data_60/Y_qjmCVYkwP-HDa35jwYucbQ.txt' does not exist
+'./data_60/X_test_qjmCVYkwP-HDa35jwYucbQ.txt', './data_60/Y_prediction_qjmCVYkwP-HDa35jwYucbQ.txt' and './data_60/Y_actual_qjmCVYkwP-HDa35jwYucbQ.txt' does not exist.
+224 # prediction
+mse is 1.0220777158
+business_id ggoYlZeQhATwb_yGSntfdw
+'./data_60/training_data_ggoYlZeQhATwb_yGSntfdw.txt' and './data_60/test_data_ggoYlZeQhATwb_yGSntfdw.txt' does not exist
+'./data_60/X_ggoYlZeQhATwb_yGSntfdw.txt' and './data_60/Y_ggoYlZeQhATwb_yGSntfdw.txt' does not exist
+'./data_60/X_test_ggoYlZeQhATwb_yGSntfdw.txt', './data_60/Y_prediction_ggoYlZeQhATwb_yGSntfdw.txt' and './data_60/Y_actual_ggoYlZeQhATwb_yGSntfdw.txt' does not exist.
+224 # prediction
+mse is 2.03649734313
+business_id 1U1GRksKXF7q8FKcW0e5VQ
+'./data_60/training_data_1U1GRksKXF7q8FKcW0e5VQ.txt' and './data_60/test_data_1U1GRksKXF7q8FKcW0e5VQ.txt' does not exist
+'./data_60/X_1U1GRksKXF7q8FKcW0e5VQ.txt' and './data_60/Y_1U1GRksKXF7q8FKcW0e5VQ.txt' does not exist
+'./data_60/X_test_1U1GRksKXF7q8FKcW0e5VQ.txt', './data_60/Y_prediction_1U1GRksKXF7q8FKcW0e5VQ.txt' and './data_60/Y_actual_1U1GRksKXF7q8FKcW0e5VQ.txt' does not exist.
+223 # prediction
+mse is 1.1997757638
+business_id -2n-OHbbwIv3SY8RP9bgTQ
+'./data_60/training_data_-2n-OHbbwIv3SY8RP9bgTQ.txt' and './data_60/test_data_-2n-OHbbwIv3SY8RP9bgTQ.txt' does not exist
+'./data_60/X_-2n-OHbbwIv3SY8RP9bgTQ.txt' and './data_60/Y_-2n-OHbbwIv3SY8RP9bgTQ.txt' does not exist
+'./data_60/X_test_-2n-OHbbwIv3SY8RP9bgTQ.txt', './data_60/Y_prediction_-2n-OHbbwIv3SY8RP9bgTQ.txt' and './data_60/Y_actual_-2n-OHbbwIv3SY8RP9bgTQ.txt' does not exist.
+223 # prediction
+mse is 1.15793228424
+business_id nZgYNbl1XlZyyKlISMoG6w
+'./data_60/training_data_nZgYNbl1XlZyyKlISMoG6w.txt' and './data_60/test_data_nZgYNbl1XlZyyKlISMoG6w.txt' does not exist
+'./data_60/X_nZgYNbl1XlZyyKlISMoG6w.txt' and './data_60/Y_nZgYNbl1XlZyyKlISMoG6w.txt' does not exist
+'./data_60/X_test_nZgYNbl1XlZyyKlISMoG6w.txt', './data_60/Y_prediction_nZgYNbl1XlZyyKlISMoG6w.txt' and './data_60/Y_actual_nZgYNbl1XlZyyKlISMoG6w.txt' does not exist.
+222 # prediction
+mse is 1.66170432426
+business_id tn5SXZvWiT-uVsjXLGSrww
+'./data_60/training_data_tn5SXZvWiT-uVsjXLGSrww.txt' and './data_60/test_data_tn5SXZvWiT-uVsjXLGSrww.txt' does not exist
+'./data_60/X_tn5SXZvWiT-uVsjXLGSrww.txt' and './data_60/Y_tn5SXZvWiT-uVsjXLGSrww.txt' does not exist
+'./data_60/X_test_tn5SXZvWiT-uVsjXLGSrww.txt', './data_60/Y_prediction_tn5SXZvWiT-uVsjXLGSrww.txt' and './data_60/Y_actual_tn5SXZvWiT-uVsjXLGSrww.txt' does not exist.
+222 # prediction
+mse is 1.36064372683
+business_id OFBJtqWGSx6n6CchtVmoRw
+'./data_60/training_data_OFBJtqWGSx6n6CchtVmoRw.txt' and './data_60/test_data_OFBJtqWGSx6n6CchtVmoRw.txt' does not exist
+'./data_60/X_OFBJtqWGSx6n6CchtVmoRw.txt' and './data_60/Y_OFBJtqWGSx6n6CchtVmoRw.txt' does not exist
+'./data_60/X_test_OFBJtqWGSx6n6CchtVmoRw.txt', './data_60/Y_prediction_OFBJtqWGSx6n6CchtVmoRw.txt' and './data_60/Y_actual_OFBJtqWGSx6n6CchtVmoRw.txt' does not exist.
+222 # prediction
+mse is 1.0354091327
+business_id OiCxoAIoBvEWxf7p1qVVmA
+'./data_60/training_data_OiCxoAIoBvEWxf7p1qVVmA.txt' and './data_60/test_data_OiCxoAIoBvEWxf7p1qVVmA.txt' does not exist
+'./data_60/X_OiCxoAIoBvEWxf7p1qVVmA.txt' and './data_60/Y_OiCxoAIoBvEWxf7p1qVVmA.txt' does not exist
+'./data_60/X_test_OiCxoAIoBvEWxf7p1qVVmA.txt', './data_60/Y_prediction_OiCxoAIoBvEWxf7p1qVVmA.txt' and './data_60/Y_actual_OiCxoAIoBvEWxf7p1qVVmA.txt' does not exist.
+221 # prediction
+mse is 1.25305057624
+business_id FHqwLwpLjUjeLP-IdG_o_w
+'./data_60/training_data_FHqwLwpLjUjeLP-IdG_o_w.txt' and './data_60/test_data_FHqwLwpLjUjeLP-IdG_o_w.txt' does not exist
+'./data_60/X_FHqwLwpLjUjeLP-IdG_o_w.txt' and './data_60/Y_FHqwLwpLjUjeLP-IdG_o_w.txt' does not exist
+'./data_60/X_test_FHqwLwpLjUjeLP-IdG_o_w.txt', './data_60/Y_prediction_FHqwLwpLjUjeLP-IdG_o_w.txt' and './data_60/Y_actual_FHqwLwpLjUjeLP-IdG_o_w.txt' does not exist.
+220 # prediction
+mse is 0.899494807706
+business_id 3n9mSKySEv3G03YjcU-YOQ
+'./data_60/training_data_3n9mSKySEv3G03YjcU-YOQ.txt' and './data_60/test_data_3n9mSKySEv3G03YjcU-YOQ.txt' does not exist
+'./data_60/X_3n9mSKySEv3G03YjcU-YOQ.txt' and './data_60/Y_3n9mSKySEv3G03YjcU-YOQ.txt' does not exist
+'./data_60/X_test_3n9mSKySEv3G03YjcU-YOQ.txt', './data_60/Y_prediction_3n9mSKySEv3G03YjcU-YOQ.txt' and './data_60/Y_actual_3n9mSKySEv3G03YjcU-YOQ.txt' does not exist.
+217 # prediction
+mse is 0.995381037663
+business_id cN6qpVw6RaSrSI-JGGF4Tw
+'./data_60/training_data_cN6qpVw6RaSrSI-JGGF4Tw.txt' and './data_60/test_data_cN6qpVw6RaSrSI-JGGF4Tw.txt' does not exist
+'./data_60/X_cN6qpVw6RaSrSI-JGGF4Tw.txt' and './data_60/Y_cN6qpVw6RaSrSI-JGGF4Tw.txt' does not exist
+'./data_60/X_test_cN6qpVw6RaSrSI-JGGF4Tw.txt', './data_60/Y_prediction_cN6qpVw6RaSrSI-JGGF4Tw.txt' and './data_60/Y_actual_cN6qpVw6RaSrSI-JGGF4Tw.txt' does not exist.
+216 # prediction
+mse is 1.25830573921
+business_id 8Pzdk19tA2bKlKDSgwWqoQ
+'./data_60/training_data_8Pzdk19tA2bKlKDSgwWqoQ.txt' and './data_60/test_data_8Pzdk19tA2bKlKDSgwWqoQ.txt' does not exist
+'./data_60/X_8Pzdk19tA2bKlKDSgwWqoQ.txt' and './data_60/Y_8Pzdk19tA2bKlKDSgwWqoQ.txt' does not exist
+'./data_60/X_test_8Pzdk19tA2bKlKDSgwWqoQ.txt', './data_60/Y_prediction_8Pzdk19tA2bKlKDSgwWqoQ.txt' and './data_60/Y_actual_8Pzdk19tA2bKlKDSgwWqoQ.txt' does not exist.
+216 # prediction
+mse is 1.24163870215
+business_id L9UYbtAUOcfTgZFimehlXw
+'./data_60/training_data_L9UYbtAUOcfTgZFimehlXw.txt' and './data_60/test_data_L9UYbtAUOcfTgZFimehlXw.txt' does not exist
+'./data_60/X_L9UYbtAUOcfTgZFimehlXw.txt' and './data_60/Y_L9UYbtAUOcfTgZFimehlXw.txt' does not exist
+'./data_60/X_test_L9UYbtAUOcfTgZFimehlXw.txt', './data_60/Y_prediction_L9UYbtAUOcfTgZFimehlXw.txt' and './data_60/Y_actual_L9UYbtAUOcfTgZFimehlXw.txt' does not exist.
+216 # prediction
+mse is 1.18829164646
+business_id 4uGHPY-OpJN08CabtTAvNg
+'./data_60/training_data_4uGHPY-OpJN08CabtTAvNg.txt' and './data_60/test_data_4uGHPY-OpJN08CabtTAvNg.txt' does not exist
+'./data_60/X_4uGHPY-OpJN08CabtTAvNg.txt' and './data_60/Y_4uGHPY-OpJN08CabtTAvNg.txt' does not exist
+'./data_60/X_test_4uGHPY-OpJN08CabtTAvNg.txt', './data_60/Y_prediction_4uGHPY-OpJN08CabtTAvNg.txt' and './data_60/Y_actual_4uGHPY-OpJN08CabtTAvNg.txt' does not exist.
+215 # prediction
+mse is 1.26674826339
+business_id QRXv7Jvq_SuiiT_SKvbdig
+'./data_60/training_data_QRXv7Jvq_SuiiT_SKvbdig.txt' and './data_60/test_data_QRXv7Jvq_SuiiT_SKvbdig.txt' does not exist
+'./data_60/X_QRXv7Jvq_SuiiT_SKvbdig.txt' and './data_60/Y_QRXv7Jvq_SuiiT_SKvbdig.txt' does not exist
+'./data_60/X_test_QRXv7Jvq_SuiiT_SKvbdig.txt', './data_60/Y_prediction_QRXv7Jvq_SuiiT_SKvbdig.txt' and './data_60/Y_actual_QRXv7Jvq_SuiiT_SKvbdig.txt' does not exist.
+215 # prediction
+mse is 1.23326000201
+business_id Zf7fMSe7yuW727JyikdBsg
+'./data_60/training_data_Zf7fMSe7yuW727JyikdBsg.txt' and './data_60/test_data_Zf7fMSe7yuW727JyikdBsg.txt' does not exist
+'./data_60/X_Zf7fMSe7yuW727JyikdBsg.txt' and './data_60/Y_Zf7fMSe7yuW727JyikdBsg.txt' does not exist
+'./data_60/X_test_Zf7fMSe7yuW727JyikdBsg.txt', './data_60/Y_prediction_Zf7fMSe7yuW727JyikdBsg.txt' and './data_60/Y_actual_Zf7fMSe7yuW727JyikdBsg.txt' does not exist.
+214 # prediction
+mse is 1.84188038821
+business_id yJDSMugu_Pom3pJE8MRrJA
+'./data_60/training_data_yJDSMugu_Pom3pJE8MRrJA.txt' and './data_60/test_data_yJDSMugu_Pom3pJE8MRrJA.txt' does not exist
+'./data_60/X_yJDSMugu_Pom3pJE8MRrJA.txt' and './data_60/Y_yJDSMugu_Pom3pJE8MRrJA.txt' does not exist
+'./data_60/X_test_yJDSMugu_Pom3pJE8MRrJA.txt', './data_60/Y_prediction_yJDSMugu_Pom3pJE8MRrJA.txt' and './data_60/Y_actual_yJDSMugu_Pom3pJE8MRrJA.txt' does not exist.
+212 # prediction
+mse is 1.70044389321
+business_id t6SuvEq9PPVGzNv5bJzDtw
+'./data_60/training_data_t6SuvEq9PPVGzNv5bJzDtw.txt' and './data_60/test_data_t6SuvEq9PPVGzNv5bJzDtw.txt' does not exist
+'./data_60/X_t6SuvEq9PPVGzNv5bJzDtw.txt' and './data_60/Y_t6SuvEq9PPVGzNv5bJzDtw.txt' does not exist
+'./data_60/X_test_t6SuvEq9PPVGzNv5bJzDtw.txt', './data_60/Y_prediction_t6SuvEq9PPVGzNv5bJzDtw.txt' and './data_60/Y_actual_t6SuvEq9PPVGzNv5bJzDtw.txt' does not exist.
+212 # prediction
+mse is 1.61508221649
+business_id UEUQS4z7s-DRzQjky92KYw
+'./data_60/training_data_UEUQS4z7s-DRzQjky92KYw.txt' and './data_60/test_data_UEUQS4z7s-DRzQjky92KYw.txt' does not exist
+'./data_60/X_UEUQS4z7s-DRzQjky92KYw.txt' and './data_60/Y_UEUQS4z7s-DRzQjky92KYw.txt' does not exist
+'./data_60/X_test_UEUQS4z7s-DRzQjky92KYw.txt', './data_60/Y_prediction_UEUQS4z7s-DRzQjky92KYw.txt' and './data_60/Y_actual_UEUQS4z7s-DRzQjky92KYw.txt' does not exist.
+211 # prediction
+mse is 1.3116322453
+business_id vARjqeIkSNsazHltujiq4Q
+'./data_60/training_data_vARjqeIkSNsazHltujiq4Q.txt' and './data_60/test_data_vARjqeIkSNsazHltujiq4Q.txt' does not exist
+'./data_60/X_vARjqeIkSNsazHltujiq4Q.txt' and './data_60/Y_vARjqeIkSNsazHltujiq4Q.txt' does not exist
+'./data_60/X_test_vARjqeIkSNsazHltujiq4Q.txt', './data_60/Y_prediction_vARjqeIkSNsazHltujiq4Q.txt' and './data_60/Y_actual_vARjqeIkSNsazHltujiq4Q.txt' does not exist.
+211 # prediction
+mse is 1.13538518841
+business_id rfDTJLEwZZ2EGOZiTDdqQA
+'./data_60/training_data_rfDTJLEwZZ2EGOZiTDdqQA.txt' and './data_60/test_data_rfDTJLEwZZ2EGOZiTDdqQA.txt' does not exist
+'./data_60/X_rfDTJLEwZZ2EGOZiTDdqQA.txt' and './data_60/Y_rfDTJLEwZZ2EGOZiTDdqQA.txt' does not exist
+'./data_60/X_test_rfDTJLEwZZ2EGOZiTDdqQA.txt', './data_60/Y_prediction_rfDTJLEwZZ2EGOZiTDdqQA.txt' and './data_60/Y_actual_rfDTJLEwZZ2EGOZiTDdqQA.txt' does not exist.
+210 # prediction
+mse is 1.04425867987
+business_id dVAurLD1bBIi9IvuMFoL5g
+'./data_60/training_data_dVAurLD1bBIi9IvuMFoL5g.txt' and './data_60/test_data_dVAurLD1bBIi9IvuMFoL5g.txt' does not exist
+'./data_60/X_dVAurLD1bBIi9IvuMFoL5g.txt' and './data_60/Y_dVAurLD1bBIi9IvuMFoL5g.txt' does not exist
+'./data_60/X_test_dVAurLD1bBIi9IvuMFoL5g.txt', './data_60/Y_prediction_dVAurLD1bBIi9IvuMFoL5g.txt' and './data_60/Y_actual_dVAurLD1bBIi9IvuMFoL5g.txt' does not exist.
+210 # prediction
+mse is 1.39044357431
+business_id 1NZLxU5WvB5roPFzneAlLw
+'./data_60/training_data_1NZLxU5WvB5roPFzneAlLw.txt' and './data_60/test_data_1NZLxU5WvB5roPFzneAlLw.txt' does not exist
+'./data_60/X_1NZLxU5WvB5roPFzneAlLw.txt' and './data_60/Y_1NZLxU5WvB5roPFzneAlLw.txt' does not exist
+'./data_60/X_test_1NZLxU5WvB5roPFzneAlLw.txt', './data_60/Y_prediction_1NZLxU5WvB5roPFzneAlLw.txt' and './data_60/Y_actual_1NZLxU5WvB5roPFzneAlLw.txt' does not exist.
+209 # prediction
+mse is 1.52334308765
+business_id y6NFyThUU2wtTNa0rX7VrA
+'./data_60/training_data_y6NFyThUU2wtTNa0rX7VrA.txt' and './data_60/test_data_y6NFyThUU2wtTNa0rX7VrA.txt' does not exist
+'./data_60/X_y6NFyThUU2wtTNa0rX7VrA.txt' and './data_60/Y_y6NFyThUU2wtTNa0rX7VrA.txt' does not exist
+'./data_60/X_test_y6NFyThUU2wtTNa0rX7VrA.txt', './data_60/Y_prediction_y6NFyThUU2wtTNa0rX7VrA.txt' and './data_60/Y_actual_y6NFyThUU2wtTNa0rX7VrA.txt' does not exist.
+207 # prediction
+mse is 1.11641247377
+business_id uEJQSIjWui-TDWXaGlcqyQ
+'./data_60/training_data_uEJQSIjWui-TDWXaGlcqyQ.txt' and './data_60/test_data_uEJQSIjWui-TDWXaGlcqyQ.txt' does not exist
+'./data_60/X_uEJQSIjWui-TDWXaGlcqyQ.txt' and './data_60/Y_uEJQSIjWui-TDWXaGlcqyQ.txt' does not exist
+'./data_60/X_test_uEJQSIjWui-TDWXaGlcqyQ.txt', './data_60/Y_prediction_uEJQSIjWui-TDWXaGlcqyQ.txt' and './data_60/Y_actual_uEJQSIjWui-TDWXaGlcqyQ.txt' does not exist.
+205 # prediction
+mse is 1.16031955228
+business_id J4qLz0nGzCTMf6-kf_SiQg
+'./data_60/training_data_J4qLz0nGzCTMf6-kf_SiQg.txt' and './data_60/test_data_J4qLz0nGzCTMf6-kf_SiQg.txt' does not exist
+'./data_60/X_J4qLz0nGzCTMf6-kf_SiQg.txt' and './data_60/Y_J4qLz0nGzCTMf6-kf_SiQg.txt' does not exist
+'./data_60/X_test_J4qLz0nGzCTMf6-kf_SiQg.txt', './data_60/Y_prediction_J4qLz0nGzCTMf6-kf_SiQg.txt' and './data_60/Y_actual_J4qLz0nGzCTMf6-kf_SiQg.txt' does not exist.
+204 # prediction
+mse is 1.29289157606
+business_id R8VwdLyvsp9iybNqRvm94g
+'./data_60/training_data_R8VwdLyvsp9iybNqRvm94g.txt' and './data_60/test_data_R8VwdLyvsp9iybNqRvm94g.txt' does not exist
+'./data_60/X_R8VwdLyvsp9iybNqRvm94g.txt' and './data_60/Y_R8VwdLyvsp9iybNqRvm94g.txt' does not exist
+'./data_60/X_test_R8VwdLyvsp9iybNqRvm94g.txt', './data_60/Y_prediction_R8VwdLyvsp9iybNqRvm94g.txt' and './data_60/Y_actual_R8VwdLyvsp9iybNqRvm94g.txt' does not exist.
+204 # prediction
+mse is 0.896616734523
+business_id Xq9tkiHhyN_aBFswFeGLvA
+'./data_60/training_data_Xq9tkiHhyN_aBFswFeGLvA.txt' and './data_60/test_data_Xq9tkiHhyN_aBFswFeGLvA.txt' does not exist
+'./data_60/X_Xq9tkiHhyN_aBFswFeGLvA.txt' and './data_60/Y_Xq9tkiHhyN_aBFswFeGLvA.txt' does not exist
+'./data_60/X_test_Xq9tkiHhyN_aBFswFeGLvA.txt', './data_60/Y_prediction_Xq9tkiHhyN_aBFswFeGLvA.txt' and './data_60/Y_actual_Xq9tkiHhyN_aBFswFeGLvA.txt' does not exist.
+203 # prediction
+mse is 0.936401244468
+business_id 05fTEsjUPVo5jks8PpNKCQ
+'./data_60/training_data_05fTEsjUPVo5jks8PpNKCQ.txt' and './data_60/test_data_05fTEsjUPVo5jks8PpNKCQ.txt' does not exist
+'./data_60/X_05fTEsjUPVo5jks8PpNKCQ.txt' and './data_60/Y_05fTEsjUPVo5jks8PpNKCQ.txt' does not exist
+'./data_60/X_test_05fTEsjUPVo5jks8PpNKCQ.txt', './data_60/Y_prediction_05fTEsjUPVo5jks8PpNKCQ.txt' and './data_60/Y_actual_05fTEsjUPVo5jks8PpNKCQ.txt' does not exist.
+201 # prediction
+mse is 1.1241359313
+business_id 9Bnc9YP0n5cR57xkP6fQmQ
+'./data_60/training_data_9Bnc9YP0n5cR57xkP6fQmQ.txt' and './data_60/test_data_9Bnc9YP0n5cR57xkP6fQmQ.txt' does not exist
+'./data_60/X_9Bnc9YP0n5cR57xkP6fQmQ.txt' and './data_60/Y_9Bnc9YP0n5cR57xkP6fQmQ.txt' does not exist
+'./data_60/X_test_9Bnc9YP0n5cR57xkP6fQmQ.txt', './data_60/Y_prediction_9Bnc9YP0n5cR57xkP6fQmQ.txt' and './data_60/Y_actual_9Bnc9YP0n5cR57xkP6fQmQ.txt' does not exist.
+200 # prediction
+mse is 1.80138835347
+business_id yD1dRYi7USzhYVKiqZ7JVg
+'./data_60/training_data_yD1dRYi7USzhYVKiqZ7JVg.txt' and './data_60/test_data_yD1dRYi7USzhYVKiqZ7JVg.txt' does not exist
+'./data_60/X_yD1dRYi7USzhYVKiqZ7JVg.txt' and './data_60/Y_yD1dRYi7USzhYVKiqZ7JVg.txt' does not exist
+'./data_60/X_test_yD1dRYi7USzhYVKiqZ7JVg.txt', './data_60/Y_prediction_yD1dRYi7USzhYVKiqZ7JVg.txt' and './data_60/Y_actual_yD1dRYi7USzhYVKiqZ7JVg.txt' does not exist.
+197 # prediction
+mse is 1.56094465736
+business_id FURgKkRFtMK5yKbjYZVVwA
+'./data_60/training_data_FURgKkRFtMK5yKbjYZVVwA.txt' and './data_60/test_data_FURgKkRFtMK5yKbjYZVVwA.txt' does not exist
+'./data_60/X_FURgKkRFtMK5yKbjYZVVwA.txt' and './data_60/Y_FURgKkRFtMK5yKbjYZVVwA.txt' does not exist
+'./data_60/X_test_FURgKkRFtMK5yKbjYZVVwA.txt', './data_60/Y_prediction_FURgKkRFtMK5yKbjYZVVwA.txt' and './data_60/Y_actual_FURgKkRFtMK5yKbjYZVVwA.txt' does not exist.
+196 # prediction
+mse is 1.27775313
+business_id H6CJflwclNpttYrtsBMsVg
+'./data_60/training_data_H6CJflwclNpttYrtsBMsVg.txt' and './data_60/test_data_H6CJflwclNpttYrtsBMsVg.txt' does not exist
+'./data_60/X_H6CJflwclNpttYrtsBMsVg.txt' and './data_60/Y_H6CJflwclNpttYrtsBMsVg.txt' does not exist
+'./data_60/X_test_H6CJflwclNpttYrtsBMsVg.txt', './data_60/Y_prediction_H6CJflwclNpttYrtsBMsVg.txt' and './data_60/Y_actual_H6CJflwclNpttYrtsBMsVg.txt' does not exist.
+193 # prediction
+mse is 1.31944406569
+business_id Yq8LiVymGA7vBpGCQuDfRw
+'./data_60/training_data_Yq8LiVymGA7vBpGCQuDfRw.txt' and './data_60/test_data_Yq8LiVymGA7vBpGCQuDfRw.txt' does not exist
+'./data_60/X_Yq8LiVymGA7vBpGCQuDfRw.txt' and './data_60/Y_Yq8LiVymGA7vBpGCQuDfRw.txt' does not exist
+'./data_60/X_test_Yq8LiVymGA7vBpGCQuDfRw.txt', './data_60/Y_prediction_Yq8LiVymGA7vBpGCQuDfRw.txt' and './data_60/Y_actual_Yq8LiVymGA7vBpGCQuDfRw.txt' does not exist.
+191 # prediction
+mse is 1.18233064714
+business_id 5rDosv0aIBhLg81IMSnlyg
+'./data_60/training_data_5rDosv0aIBhLg81IMSnlyg.txt' and './data_60/test_data_5rDosv0aIBhLg81IMSnlyg.txt' does not exist
+'./data_60/X_5rDosv0aIBhLg81IMSnlyg.txt' and './data_60/Y_5rDosv0aIBhLg81IMSnlyg.txt' does not exist
+'./data_60/X_test_5rDosv0aIBhLg81IMSnlyg.txt', './data_60/Y_prediction_5rDosv0aIBhLg81IMSnlyg.txt' and './data_60/Y_actual_5rDosv0aIBhLg81IMSnlyg.txt' does not exist.
+190 # prediction
+mse is 1.35530148132
+business_id uqisw8IXD5ZutU4MT2MQVw
+'./data_60/training_data_uqisw8IXD5ZutU4MT2MQVw.txt' and './data_60/test_data_uqisw8IXD5ZutU4MT2MQVw.txt' does not exist
+'./data_60/X_uqisw8IXD5ZutU4MT2MQVw.txt' and './data_60/Y_uqisw8IXD5ZutU4MT2MQVw.txt' does not exist
+'./data_60/X_test_uqisw8IXD5ZutU4MT2MQVw.txt', './data_60/Y_prediction_uqisw8IXD5ZutU4MT2MQVw.txt' and './data_60/Y_actual_uqisw8IXD5ZutU4MT2MQVw.txt' does not exist.
+190 # prediction
+mse is 1.04880884817
+business_id wfofFm3AqtyK_ujNQ893mQ
+'./data_60/training_data_wfofFm3AqtyK_ujNQ893mQ.txt' and './data_60/test_data_wfofFm3AqtyK_ujNQ893mQ.txt' does not exist
+'./data_60/X_wfofFm3AqtyK_ujNQ893mQ.txt' and './data_60/Y_wfofFm3AqtyK_ujNQ893mQ.txt' does not exist
+'./data_60/X_test_wfofFm3AqtyK_ujNQ893mQ.txt', './data_60/Y_prediction_wfofFm3AqtyK_ujNQ893mQ.txt' and './data_60/Y_actual_wfofFm3AqtyK_ujNQ893mQ.txt' does not exist.
+190 # prediction
+mse is 1.03364454849
+business_id I4bSn5gXsHuSPu7L-d_8nQ
+'./data_60/training_data_I4bSn5gXsHuSPu7L-d_8nQ.txt' and './data_60/test_data_I4bSn5gXsHuSPu7L-d_8nQ.txt' does not exist
+'./data_60/X_I4bSn5gXsHuSPu7L-d_8nQ.txt' and './data_60/Y_I4bSn5gXsHuSPu7L-d_8nQ.txt' does not exist
+'./data_60/X_test_I4bSn5gXsHuSPu7L-d_8nQ.txt', './data_60/Y_prediction_I4bSn5gXsHuSPu7L-d_8nQ.txt' and './data_60/Y_actual_I4bSn5gXsHuSPu7L-d_8nQ.txt' does not exist.
+190 # prediction
+mse is 1.55597321043
+business_id bmNPNlCLDplWB55ic3Bixg
+'./data_60/training_data_bmNPNlCLDplWB55ic3Bixg.txt' and './data_60/test_data_bmNPNlCLDplWB55ic3Bixg.txt' does not exist
+'./data_60/X_bmNPNlCLDplWB55ic3Bixg.txt' and './data_60/Y_bmNPNlCLDplWB55ic3Bixg.txt' does not exist
+'./data_60/X_test_bmNPNlCLDplWB55ic3Bixg.txt', './data_60/Y_prediction_bmNPNlCLDplWB55ic3Bixg.txt' and './data_60/Y_actual_bmNPNlCLDplWB55ic3Bixg.txt' does not exist.
+189 # prediction
+mse is 1.61179514762
+business_id b25jGkZerj2M4WAy95n1Tg
+'./data_60/training_data_b25jGkZerj2M4WAy95n1Tg.txt' and './data_60/test_data_b25jGkZerj2M4WAy95n1Tg.txt' does not exist
+'./data_60/X_b25jGkZerj2M4WAy95n1Tg.txt' and './data_60/Y_b25jGkZerj2M4WAy95n1Tg.txt' does not exist
+'./data_60/X_test_b25jGkZerj2M4WAy95n1Tg.txt', './data_60/Y_prediction_b25jGkZerj2M4WAy95n1Tg.txt' and './data_60/Y_actual_b25jGkZerj2M4WAy95n1Tg.txt' does not exist.
+189 # prediction
+mse is 1.37436854187
+business_id Ensu96ecI0OReupNS2x7ig
+'./data_60/training_data_Ensu96ecI0OReupNS2x7ig.txt' and './data_60/test_data_Ensu96ecI0OReupNS2x7ig.txt' does not exist
+'./data_60/X_Ensu96ecI0OReupNS2x7ig.txt' and './data_60/Y_Ensu96ecI0OReupNS2x7ig.txt' does not exist
+'./data_60/X_test_Ensu96ecI0OReupNS2x7ig.txt', './data_60/Y_prediction_Ensu96ecI0OReupNS2x7ig.txt' and './data_60/Y_actual_Ensu96ecI0OReupNS2x7ig.txt' does not exist.
+187 # prediction
+mse is 1.55814231912
+business_id IVc23uY-36WUNYoIbz42Fg
+'./data_60/training_data_IVc23uY-36WUNYoIbz42Fg.txt' and './data_60/test_data_IVc23uY-36WUNYoIbz42Fg.txt' does not exist
+'./data_60/X_IVc23uY-36WUNYoIbz42Fg.txt' and './data_60/Y_IVc23uY-36WUNYoIbz42Fg.txt' does not exist
+'./data_60/X_test_IVc23uY-36WUNYoIbz42Fg.txt', './data_60/Y_prediction_IVc23uY-36WUNYoIbz42Fg.txt' and './data_60/Y_actual_IVc23uY-36WUNYoIbz42Fg.txt' does not exist.
+186 # prediction
+mse is 1.00268456859
+business_id rNahhyqDlouyDMHh57p3ug
+'./data_60/training_data_rNahhyqDlouyDMHh57p3ug.txt' and './data_60/test_data_rNahhyqDlouyDMHh57p3ug.txt' does not exist
+'./data_60/X_rNahhyqDlouyDMHh57p3ug.txt' and './data_60/Y_rNahhyqDlouyDMHh57p3ug.txt' does not exist
+'./data_60/X_test_rNahhyqDlouyDMHh57p3ug.txt', './data_60/Y_prediction_rNahhyqDlouyDMHh57p3ug.txt' and './data_60/Y_actual_rNahhyqDlouyDMHh57p3ug.txt' does not exist.
+185 # prediction
+mse is 2.22151640443
+business_id 79EG9Pv0bxNTmBjTVCd4CQ
+'./data_60/training_data_79EG9Pv0bxNTmBjTVCd4CQ.txt' and './data_60/test_data_79EG9Pv0bxNTmBjTVCd4CQ.txt' does not exist
+'./data_60/X_79EG9Pv0bxNTmBjTVCd4CQ.txt' and './data_60/Y_79EG9Pv0bxNTmBjTVCd4CQ.txt' does not exist
+'./data_60/X_test_79EG9Pv0bxNTmBjTVCd4CQ.txt', './data_60/Y_prediction_79EG9Pv0bxNTmBjTVCd4CQ.txt' and './data_60/Y_actual_79EG9Pv0bxNTmBjTVCd4CQ.txt' does not exist.
+185 # prediction
+mse is 1.07803625271
+business_id Gn7bMxhZgY0bivsthvJWJQ
+'./data_60/training_data_Gn7bMxhZgY0bivsthvJWJQ.txt' and './data_60/test_data_Gn7bMxhZgY0bivsthvJWJQ.txt' does not exist
+'./data_60/X_Gn7bMxhZgY0bivsthvJWJQ.txt' and './data_60/Y_Gn7bMxhZgY0bivsthvJWJQ.txt' does not exist
+'./data_60/X_test_Gn7bMxhZgY0bivsthvJWJQ.txt', './data_60/Y_prediction_Gn7bMxhZgY0bivsthvJWJQ.txt' and './data_60/Y_actual_Gn7bMxhZgY0bivsthvJWJQ.txt' does not exist.
+184 # prediction
+mse is 1.15155849027
+business_id 83DsSlg-swjLzmZnUzq2UA
+'./data_60/training_data_83DsSlg-swjLzmZnUzq2UA.txt' and './data_60/test_data_83DsSlg-swjLzmZnUzq2UA.txt' does not exist
+'./data_60/X_83DsSlg-swjLzmZnUzq2UA.txt' and './data_60/Y_83DsSlg-swjLzmZnUzq2UA.txt' does not exist
+'./data_60/X_test_83DsSlg-swjLzmZnUzq2UA.txt', './data_60/Y_prediction_83DsSlg-swjLzmZnUzq2UA.txt' and './data_60/Y_actual_83DsSlg-swjLzmZnUzq2UA.txt' does not exist.
+184 # prediction
+mse is 1.30217209842
+business_id pPfQ73--Y_h5Or0aqDgEGA
+'./data_60/training_data_pPfQ73--Y_h5Or0aqDgEGA.txt' and './data_60/test_data_pPfQ73--Y_h5Or0aqDgEGA.txt' does not exist
+'./data_60/X_pPfQ73--Y_h5Or0aqDgEGA.txt' and './data_60/Y_pPfQ73--Y_h5Or0aqDgEGA.txt' does not exist
+'./data_60/X_test_pPfQ73--Y_h5Or0aqDgEGA.txt', './data_60/Y_prediction_pPfQ73--Y_h5Or0aqDgEGA.txt' and './data_60/Y_actual_pPfQ73--Y_h5Or0aqDgEGA.txt' does not exist.
+184 # prediction
+mse is 1.51083046556
+business_id 5VMajxduxfLPSyQkVFKESg
+'./data_60/training_data_5VMajxduxfLPSyQkVFKESg.txt' and './data_60/test_data_5VMajxduxfLPSyQkVFKESg.txt' does not exist
+'./data_60/X_5VMajxduxfLPSyQkVFKESg.txt' and './data_60/Y_5VMajxduxfLPSyQkVFKESg.txt' does not exist
+'./data_60/X_test_5VMajxduxfLPSyQkVFKESg.txt', './data_60/Y_prediction_5VMajxduxfLPSyQkVFKESg.txt' and './data_60/Y_actual_5VMajxduxfLPSyQkVFKESg.txt' does not exist.
+182 # prediction
+mse is 1.42389343965
+business_id tcphcsPONrP82kUyvcELoA
+'./data_60/training_data_tcphcsPONrP82kUyvcELoA.txt' and './data_60/test_data_tcphcsPONrP82kUyvcELoA.txt' does not exist
+'./data_60/X_tcphcsPONrP82kUyvcELoA.txt' and './data_60/Y_tcphcsPONrP82kUyvcELoA.txt' does not exist
+'./data_60/X_test_tcphcsPONrP82kUyvcELoA.txt', './data_60/Y_prediction_tcphcsPONrP82kUyvcELoA.txt' and './data_60/Y_actual_tcphcsPONrP82kUyvcELoA.txt' does not exist.
+182 # prediction
+mse is 1.0767268267
+business_id 05tazaFQt1EnQ_Gk_1AFyg
+'./data_60/training_data_05tazaFQt1EnQ_Gk_1AFyg.txt' and './data_60/test_data_05tazaFQt1EnQ_Gk_1AFyg.txt' does not exist
+'./data_60/X_05tazaFQt1EnQ_Gk_1AFyg.txt' and './data_60/Y_05tazaFQt1EnQ_Gk_1AFyg.txt' does not exist
+'./data_60/X_test_05tazaFQt1EnQ_Gk_1AFyg.txt', './data_60/Y_prediction_05tazaFQt1EnQ_Gk_1AFyg.txt' and './data_60/Y_actual_05tazaFQt1EnQ_Gk_1AFyg.txt' does not exist.
+180 # prediction
+mse is 1.10805134257
+business_id APe_0I6DqbNQonSlEkMSEQ
+'./data_60/training_data_APe_0I6DqbNQonSlEkMSEQ.txt' and './data_60/test_data_APe_0I6DqbNQonSlEkMSEQ.txt' does not exist
+'./data_60/X_APe_0I6DqbNQonSlEkMSEQ.txt' and './data_60/Y_APe_0I6DqbNQonSlEkMSEQ.txt' does not exist
+'./data_60/X_test_APe_0I6DqbNQonSlEkMSEQ.txt', './data_60/Y_prediction_APe_0I6DqbNQonSlEkMSEQ.txt' and './data_60/Y_actual_APe_0I6DqbNQonSlEkMSEQ.txt' does not exist.
+180 # prediction
+mse is 1.09290642072
+business_id Fh6OndE60vzvyhCX1Wg7Aw
+'./data_60/training_data_Fh6OndE60vzvyhCX1Wg7Aw.txt' and './data_60/test_data_Fh6OndE60vzvyhCX1Wg7Aw.txt' does not exist
+'./data_60/X_Fh6OndE60vzvyhCX1Wg7Aw.txt' and './data_60/Y_Fh6OndE60vzvyhCX1Wg7Aw.txt' does not exist
+'./data_60/X_test_Fh6OndE60vzvyhCX1Wg7Aw.txt', './data_60/Y_prediction_Fh6OndE60vzvyhCX1Wg7Aw.txt' and './data_60/Y_actual_Fh6OndE60vzvyhCX1Wg7Aw.txt' does not exist.
+179 # prediction
+mse is 1.29027302121
+business_id zp713qNhx8d9KCJJnrw1xA
+'./data_60/training_data_zp713qNhx8d9KCJJnrw1xA.txt' and './data_60/test_data_zp713qNhx8d9KCJJnrw1xA.txt' does not exist
+'./data_60/X_zp713qNhx8d9KCJJnrw1xA.txt' and './data_60/Y_zp713qNhx8d9KCJJnrw1xA.txt' does not exist
+'./data_60/X_test_zp713qNhx8d9KCJJnrw1xA.txt', './data_60/Y_prediction_zp713qNhx8d9KCJJnrw1xA.txt' and './data_60/Y_actual_zp713qNhx8d9KCJJnrw1xA.txt' does not exist.
+178 # prediction
+mse is 1.18036368419
+business_id 25fxw_jOqZtJwl18cCarIA
+'./data_60/training_data_25fxw_jOqZtJwl18cCarIA.txt' and './data_60/test_data_25fxw_jOqZtJwl18cCarIA.txt' does not exist
+'./data_60/X_25fxw_jOqZtJwl18cCarIA.txt' and './data_60/Y_25fxw_jOqZtJwl18cCarIA.txt' does not exist
+'./data_60/X_test_25fxw_jOqZtJwl18cCarIA.txt', './data_60/Y_prediction_25fxw_jOqZtJwl18cCarIA.txt' and './data_60/Y_actual_25fxw_jOqZtJwl18cCarIA.txt' does not exist.
+178 # prediction
+mse is 1.61454066937
+business_id Gvw2ewUbqq7PWkxKwjqifA
+'./data_60/training_data_Gvw2ewUbqq7PWkxKwjqifA.txt' and './data_60/test_data_Gvw2ewUbqq7PWkxKwjqifA.txt' does not exist
+'./data_60/X_Gvw2ewUbqq7PWkxKwjqifA.txt' and './data_60/Y_Gvw2ewUbqq7PWkxKwjqifA.txt' does not exist
+'./data_60/X_test_Gvw2ewUbqq7PWkxKwjqifA.txt', './data_60/Y_prediction_Gvw2ewUbqq7PWkxKwjqifA.txt' and './data_60/Y_actual_Gvw2ewUbqq7PWkxKwjqifA.txt' does not exist.
+177 # prediction
+mse is 1.2599883418
+business_id FV0BkoGOd3Yu_eJnXY15ZA
+'./data_60/training_data_FV0BkoGOd3Yu_eJnXY15ZA.txt' and './data_60/test_data_FV0BkoGOd3Yu_eJnXY15ZA.txt' does not exist
+'./data_60/X_FV0BkoGOd3Yu_eJnXY15ZA.txt' and './data_60/Y_FV0BkoGOd3Yu_eJnXY15ZA.txt' does not exist
+'./data_60/X_test_FV0BkoGOd3Yu_eJnXY15ZA.txt', './data_60/Y_prediction_FV0BkoGOd3Yu_eJnXY15ZA.txt' and './data_60/Y_actual_FV0BkoGOd3Yu_eJnXY15ZA.txt' does not exist.
+177 # prediction
+mse is 1.52567480671
+business_id _VN5hYv1VgNIBgwxTQZ_1Q
+'./data_60/training_data__VN5hYv1VgNIBgwxTQZ_1Q.txt' and './data_60/test_data__VN5hYv1VgNIBgwxTQZ_1Q.txt' does not exist
+'./data_60/X__VN5hYv1VgNIBgwxTQZ_1Q.txt' and './data_60/Y__VN5hYv1VgNIBgwxTQZ_1Q.txt' does not exist
+'./data_60/X_test__VN5hYv1VgNIBgwxTQZ_1Q.txt', './data_60/Y_prediction__VN5hYv1VgNIBgwxTQZ_1Q.txt' and './data_60/Y_actual__VN5hYv1VgNIBgwxTQZ_1Q.txt' does not exist.
+176 # prediction
+mse is 1.38785314916
+business_id ZHDf8TUICsB2peQ9AmXeFw
+'./data_60/training_data_ZHDf8TUICsB2peQ9AmXeFw.txt' and './data_60/test_data_ZHDf8TUICsB2peQ9AmXeFw.txt' does not exist
+'./data_60/X_ZHDf8TUICsB2peQ9AmXeFw.txt' and './data_60/Y_ZHDf8TUICsB2peQ9AmXeFw.txt' does not exist
+'./data_60/X_test_ZHDf8TUICsB2peQ9AmXeFw.txt', './data_60/Y_prediction_ZHDf8TUICsB2peQ9AmXeFw.txt' and './data_60/Y_actual_ZHDf8TUICsB2peQ9AmXeFw.txt' does not exist.
+176 # prediction
+mse is 1.1750241777
+business_id e8FMAuTswDueAlLsNyLhcA
+'./data_60/training_data_e8FMAuTswDueAlLsNyLhcA.txt' and './data_60/test_data_e8FMAuTswDueAlLsNyLhcA.txt' does not exist
+'./data_60/X_e8FMAuTswDueAlLsNyLhcA.txt' and './data_60/Y_e8FMAuTswDueAlLsNyLhcA.txt' does not exist
+'./data_60/X_test_e8FMAuTswDueAlLsNyLhcA.txt', './data_60/Y_prediction_e8FMAuTswDueAlLsNyLhcA.txt' and './data_60/Y_actual_e8FMAuTswDueAlLsNyLhcA.txt' does not exist.
+176 # prediction
+mse is 0.994301947919
+business_id AkOruz5CrCxUmXe1p_WoRg
+'./data_60/training_data_AkOruz5CrCxUmXe1p_WoRg.txt' and './data_60/test_data_AkOruz5CrCxUmXe1p_WoRg.txt' does not exist
+'./data_60/X_AkOruz5CrCxUmXe1p_WoRg.txt' and './data_60/Y_AkOruz5CrCxUmXe1p_WoRg.txt' does not exist
+'./data_60/X_test_AkOruz5CrCxUmXe1p_WoRg.txt', './data_60/Y_prediction_AkOruz5CrCxUmXe1p_WoRg.txt' and './data_60/Y_actual_AkOruz5CrCxUmXe1p_WoRg.txt' does not exist.
+175 # prediction
+mse is 1.1313708499
+business_id v7OwbHgNgy_VQ9eP5FjvUA
+'./data_60/training_data_v7OwbHgNgy_VQ9eP5FjvUA.txt' and './data_60/test_data_v7OwbHgNgy_VQ9eP5FjvUA.txt' does not exist
+'./data_60/X_v7OwbHgNgy_VQ9eP5FjvUA.txt' and './data_60/Y_v7OwbHgNgy_VQ9eP5FjvUA.txt' does not exist
+'./data_60/X_test_v7OwbHgNgy_VQ9eP5FjvUA.txt', './data_60/Y_prediction_v7OwbHgNgy_VQ9eP5FjvUA.txt' and './data_60/Y_actual_v7OwbHgNgy_VQ9eP5FjvUA.txt' does not exist.
+174 # prediction
+mse is 1.1396712573
+business_id E9ZsPtGovfEPHlMHkDdlQA
+'./data_60/training_data_E9ZsPtGovfEPHlMHkDdlQA.txt' and './data_60/test_data_E9ZsPtGovfEPHlMHkDdlQA.txt' does not exist
+'./data_60/X_E9ZsPtGovfEPHlMHkDdlQA.txt' and './data_60/Y_E9ZsPtGovfEPHlMHkDdlQA.txt' does not exist
+'./data_60/X_test_E9ZsPtGovfEPHlMHkDdlQA.txt', './data_60/Y_prediction_E9ZsPtGovfEPHlMHkDdlQA.txt' and './data_60/Y_actual_E9ZsPtGovfEPHlMHkDdlQA.txt' does not exist.
+173 # prediction
+mse is 1.40806923109
+business_id VkPzsY09S4zO0XqhA1mc6Q
+'./data_60/training_data_VkPzsY09S4zO0XqhA1mc6Q.txt' and './data_60/test_data_VkPzsY09S4zO0XqhA1mc6Q.txt' does not exist
+'./data_60/X_VkPzsY09S4zO0XqhA1mc6Q.txt' and './data_60/Y_VkPzsY09S4zO0XqhA1mc6Q.txt' does not exist
+'./data_60/X_test_VkPzsY09S4zO0XqhA1mc6Q.txt', './data_60/Y_prediction_VkPzsY09S4zO0XqhA1mc6Q.txt' and './data_60/Y_actual_VkPzsY09S4zO0XqhA1mc6Q.txt' does not exist.
+173 # prediction
+mse is 0.988371697651
+business_id c12WDNrP2wyQgbnEYDdxCw
+'./data_60/training_data_c12WDNrP2wyQgbnEYDdxCw.txt' and './data_60/test_data_c12WDNrP2wyQgbnEYDdxCw.txt' does not exist
+'./data_60/X_c12WDNrP2wyQgbnEYDdxCw.txt' and './data_60/Y_c12WDNrP2wyQgbnEYDdxCw.txt' does not exist
+'./data_60/X_test_c12WDNrP2wyQgbnEYDdxCw.txt', './data_60/Y_prediction_c12WDNrP2wyQgbnEYDdxCw.txt' and './data_60/Y_actual_c12WDNrP2wyQgbnEYDdxCw.txt' does not exist.
+171 # prediction
+mse is 1.16729306492
+business_id wNsmt1hF1uv3YvbwXZMAoQ
+'./data_60/training_data_wNsmt1hF1uv3YvbwXZMAoQ.txt' and './data_60/test_data_wNsmt1hF1uv3YvbwXZMAoQ.txt' does not exist
+'./data_60/X_wNsmt1hF1uv3YvbwXZMAoQ.txt' and './data_60/Y_wNsmt1hF1uv3YvbwXZMAoQ.txt' does not exist
+'./data_60/X_test_wNsmt1hF1uv3YvbwXZMAoQ.txt', './data_60/Y_prediction_wNsmt1hF1uv3YvbwXZMAoQ.txt' and './data_60/Y_actual_wNsmt1hF1uv3YvbwXZMAoQ.txt' does not exist.
+169 # prediction
+mse is 1.07417231106
+business_id z3yFuLVrmH-3RJruPEMYKw
+'./data_60/training_data_z3yFuLVrmH-3RJruPEMYKw.txt' and './data_60/test_data_z3yFuLVrmH-3RJruPEMYKw.txt' does not exist
+'./data_60/X_z3yFuLVrmH-3RJruPEMYKw.txt' and './data_60/Y_z3yFuLVrmH-3RJruPEMYKw.txt' does not exist
+'./data_60/X_test_z3yFuLVrmH-3RJruPEMYKw.txt', './data_60/Y_prediction_z3yFuLVrmH-3RJruPEMYKw.txt' and './data_60/Y_actual_z3yFuLVrmH-3RJruPEMYKw.txt' does not exist.
+169 # prediction
+mse is 1.26163226668
+business_id YQvg0JCGRFUkb6reMMf3Iw
+'./data_60/training_data_YQvg0JCGRFUkb6reMMf3Iw.txt' and './data_60/test_data_YQvg0JCGRFUkb6reMMf3Iw.txt' does not exist
+'./data_60/X_YQvg0JCGRFUkb6reMMf3Iw.txt' and './data_60/Y_YQvg0JCGRFUkb6reMMf3Iw.txt' does not exist
+'./data_60/X_test_YQvg0JCGRFUkb6reMMf3Iw.txt', './data_60/Y_prediction_YQvg0JCGRFUkb6reMMf3Iw.txt' and './data_60/Y_actual_YQvg0JCGRFUkb6reMMf3Iw.txt' does not exist.
+169 # prediction
+mse is 1.02339497659
+business_id mxrXVZWc6PWk81gvOVNOUw
+'./data_60/training_data_mxrXVZWc6PWk81gvOVNOUw.txt' and './data_60/test_data_mxrXVZWc6PWk81gvOVNOUw.txt' does not exist
+'./data_60/X_mxrXVZWc6PWk81gvOVNOUw.txt' and './data_60/Y_mxrXVZWc6PWk81gvOVNOUw.txt' does not exist
+'./data_60/X_test_mxrXVZWc6PWk81gvOVNOUw.txt', './data_60/Y_prediction_mxrXVZWc6PWk81gvOVNOUw.txt' and './data_60/Y_actual_mxrXVZWc6PWk81gvOVNOUw.txt' does not exist.
+168 # prediction
+mse is 0.978945010373
+business_id Gq092IH6eZqhAXwtXcwc6A
+'./data_60/training_data_Gq092IH6eZqhAXwtXcwc6A.txt' and './data_60/test_data_Gq092IH6eZqhAXwtXcwc6A.txt' does not exist
+'./data_60/X_Gq092IH6eZqhAXwtXcwc6A.txt' and './data_60/Y_Gq092IH6eZqhAXwtXcwc6A.txt' does not exist
+'./data_60/X_test_Gq092IH6eZqhAXwtXcwc6A.txt', './data_60/Y_prediction_Gq092IH6eZqhAXwtXcwc6A.txt' and './data_60/Y_actual_Gq092IH6eZqhAXwtXcwc6A.txt' does not exist.
+168 # prediction
+mse is 0.954313515421
+business_id NxsCqQCpofRx08m535JYIA
+'./data_60/training_data_NxsCqQCpofRx08m535JYIA.txt' and './data_60/test_data_NxsCqQCpofRx08m535JYIA.txt' does not exist
+'./data_60/X_NxsCqQCpofRx08m535JYIA.txt' and './data_60/Y_NxsCqQCpofRx08m535JYIA.txt' does not exist
+'./data_60/X_test_NxsCqQCpofRx08m535JYIA.txt', './data_60/Y_prediction_NxsCqQCpofRx08m535JYIA.txt' and './data_60/Y_actual_NxsCqQCpofRx08m535JYIA.txt' does not exist.
+168 # prediction
+mse is 1.11536882646
+business_id -5RN56jH78MV2oquLV_G8g
+'./data_60/training_data_-5RN56jH78MV2oquLV_G8g.txt' and './data_60/test_data_-5RN56jH78MV2oquLV_G8g.txt' does not exist
+'./data_60/X_-5RN56jH78MV2oquLV_G8g.txt' and './data_60/Y_-5RN56jH78MV2oquLV_G8g.txt' does not exist
+'./data_60/X_test_-5RN56jH78MV2oquLV_G8g.txt', './data_60/Y_prediction_-5RN56jH78MV2oquLV_G8g.txt' and './data_60/Y_actual_-5RN56jH78MV2oquLV_G8g.txt' does not exist.
+166 # prediction
+mse is 1.00899568342
+business_id O-Xa9GCFWI65YiBD5Jw_hA
+'./data_60/training_data_O-Xa9GCFWI65YiBD5Jw_hA.txt' and './data_60/test_data_O-Xa9GCFWI65YiBD5Jw_hA.txt' does not exist
+'./data_60/X_O-Xa9GCFWI65YiBD5Jw_hA.txt' and './data_60/Y_O-Xa9GCFWI65YiBD5Jw_hA.txt' does not exist
+'./data_60/X_test_O-Xa9GCFWI65YiBD5Jw_hA.txt', './data_60/Y_prediction_O-Xa9GCFWI65YiBD5Jw_hA.txt' and './data_60/Y_actual_O-Xa9GCFWI65YiBD5Jw_hA.txt' does not exist.
+166 # prediction
+mse is 1.18219725996
+business_id xheJf3qJLLf4-Ck8ay3GFg
+'./data_60/training_data_xheJf3qJLLf4-Ck8ay3GFg.txt' and './data_60/test_data_xheJf3qJLLf4-Ck8ay3GFg.txt' does not exist
+'./data_60/X_xheJf3qJLLf4-Ck8ay3GFg.txt' and './data_60/Y_xheJf3qJLLf4-Ck8ay3GFg.txt' does not exist
+'./data_60/X_test_xheJf3qJLLf4-Ck8ay3GFg.txt', './data_60/Y_prediction_xheJf3qJLLf4-Ck8ay3GFg.txt' and './data_60/Y_actual_xheJf3qJLLf4-Ck8ay3GFg.txt' does not exist.
+166 # prediction
+mse is 1.67907031075
+business_id V6BYjHM9SnXscfkln3hCdA
+'./data_60/training_data_V6BYjHM9SnXscfkln3hCdA.txt' and './data_60/test_data_V6BYjHM9SnXscfkln3hCdA.txt' does not exist
+'./data_60/X_V6BYjHM9SnXscfkln3hCdA.txt' and './data_60/Y_V6BYjHM9SnXscfkln3hCdA.txt' does not exist
+'./data_60/X_test_V6BYjHM9SnXscfkln3hCdA.txt', './data_60/Y_prediction_V6BYjHM9SnXscfkln3hCdA.txt' and './data_60/Y_actual_V6BYjHM9SnXscfkln3hCdA.txt' does not exist.
+165 # prediction
+mse is 1.6422453218
+business_id Lq6CDJ2yHmMs4N7jscQhHQ
+'./data_60/training_data_Lq6CDJ2yHmMs4N7jscQhHQ.txt' and './data_60/test_data_Lq6CDJ2yHmMs4N7jscQhHQ.txt' does not exist
+'./data_60/X_Lq6CDJ2yHmMs4N7jscQhHQ.txt' and './data_60/Y_Lq6CDJ2yHmMs4N7jscQhHQ.txt' does not exist
+'./data_60/X_test_Lq6CDJ2yHmMs4N7jscQhHQ.txt', './data_60/Y_prediction_Lq6CDJ2yHmMs4N7jscQhHQ.txt' and './data_60/Y_actual_Lq6CDJ2yHmMs4N7jscQhHQ.txt' does not exist.
+165 # prediction
+mse is 1.27683320379
+business_id cp39VURFby4A6u9m2It8jg
+'./data_60/training_data_cp39VURFby4A6u9m2It8jg.txt' and './data_60/test_data_cp39VURFby4A6u9m2It8jg.txt' does not exist
+'./data_60/X_cp39VURFby4A6u9m2It8jg.txt' and './data_60/Y_cp39VURFby4A6u9m2It8jg.txt' does not exist
+'./data_60/X_test_cp39VURFby4A6u9m2It8jg.txt', './data_60/Y_prediction_cp39VURFby4A6u9m2It8jg.txt' and './data_60/Y_actual_cp39VURFby4A6u9m2It8jg.txt' does not exist.
+164 # prediction
+mse is 1.05922198783
+business_id OHsuvX4rmhnPvvRBb-QK7A
+'./data_60/training_data_OHsuvX4rmhnPvvRBb-QK7A.txt' and './data_60/test_data_OHsuvX4rmhnPvvRBb-QK7A.txt' does not exist
+'./data_60/X_OHsuvX4rmhnPvvRBb-QK7A.txt' and './data_60/Y_OHsuvX4rmhnPvvRBb-QK7A.txt' does not exist
+'./data_60/X_test_OHsuvX4rmhnPvvRBb-QK7A.txt', './data_60/Y_prediction_OHsuvX4rmhnPvvRBb-QK7A.txt' and './data_60/Y_actual_OHsuvX4rmhnPvvRBb-QK7A.txt' does not exist.
+164 # prediction
+mse is 0.917313149712
+business_id nREHMbIzWdfWtOh4l1bT3g
+'./data_60/training_data_nREHMbIzWdfWtOh4l1bT3g.txt' and './data_60/test_data_nREHMbIzWdfWtOh4l1bT3g.txt' does not exist
+'./data_60/X_nREHMbIzWdfWtOh4l1bT3g.txt' and './data_60/Y_nREHMbIzWdfWtOh4l1bT3g.txt' does not exist
+'./data_60/X_test_nREHMbIzWdfWtOh4l1bT3g.txt', './data_60/Y_prediction_nREHMbIzWdfWtOh4l1bT3g.txt' and './data_60/Y_actual_nREHMbIzWdfWtOh4l1bT3g.txt' does not exist.
+164 # prediction
+mse is 1.58499057472
+business_id gkWEjZIVcrUerEzed6IKpg
+'./data_60/training_data_gkWEjZIVcrUerEzed6IKpg.txt' and './data_60/test_data_gkWEjZIVcrUerEzed6IKpg.txt' does not exist
+'./data_60/X_gkWEjZIVcrUerEzed6IKpg.txt' and './data_60/Y_gkWEjZIVcrUerEzed6IKpg.txt' does not exist
+'./data_60/X_test_gkWEjZIVcrUerEzed6IKpg.txt', './data_60/Y_prediction_gkWEjZIVcrUerEzed6IKpg.txt' and './data_60/Y_actual_gkWEjZIVcrUerEzed6IKpg.txt' does not exist.
+164 # prediction
+mse is 1.27355848688
+business_id M2SjLXsuAy5RNKwxaA5E1g
+'./data_60/training_data_M2SjLXsuAy5RNKwxaA5E1g.txt' and './data_60/test_data_M2SjLXsuAy5RNKwxaA5E1g.txt' does not exist
+'./data_60/X_M2SjLXsuAy5RNKwxaA5E1g.txt' and './data_60/Y_M2SjLXsuAy5RNKwxaA5E1g.txt' does not exist
+'./data_60/X_test_M2SjLXsuAy5RNKwxaA5E1g.txt', './data_60/Y_prediction_M2SjLXsuAy5RNKwxaA5E1g.txt' and './data_60/Y_actual_M2SjLXsuAy5RNKwxaA5E1g.txt' does not exist.
+164 # prediction
+mse is 1.42281068449
+business_id k8bSp5BfCNCKqTXcKALXtw
+'./data_60/training_data_k8bSp5BfCNCKqTXcKALXtw.txt' and './data_60/test_data_k8bSp5BfCNCKqTXcKALXtw.txt' does not exist
+'./data_60/X_k8bSp5BfCNCKqTXcKALXtw.txt' and './data_60/Y_k8bSp5BfCNCKqTXcKALXtw.txt' does not exist
+'./data_60/X_test_k8bSp5BfCNCKqTXcKALXtw.txt', './data_60/Y_prediction_k8bSp5BfCNCKqTXcKALXtw.txt' and './data_60/Y_actual_k8bSp5BfCNCKqTXcKALXtw.txt' does not exist.
+162 # prediction
+mse is 1.05409255339
+business_id 2ceeU8e3nZjaPfGmLwh4kg
+'./data_60/training_data_2ceeU8e3nZjaPfGmLwh4kg.txt' and './data_60/test_data_2ceeU8e3nZjaPfGmLwh4kg.txt' does not exist
+'./data_60/X_2ceeU8e3nZjaPfGmLwh4kg.txt' and './data_60/Y_2ceeU8e3nZjaPfGmLwh4kg.txt' does not exist
+'./data_60/X_test_2ceeU8e3nZjaPfGmLwh4kg.txt', './data_60/Y_prediction_2ceeU8e3nZjaPfGmLwh4kg.txt' and './data_60/Y_actual_2ceeU8e3nZjaPfGmLwh4kg.txt' does not exist.
+162 # prediction
+mse is 1.13855008511
+business_id _6gbnNRPIc-iM_0cBLPX1A
+'./data_60/training_data__6gbnNRPIc-iM_0cBLPX1A.txt' and './data_60/test_data__6gbnNRPIc-iM_0cBLPX1A.txt' does not exist
+'./data_60/X__6gbnNRPIc-iM_0cBLPX1A.txt' and './data_60/Y__6gbnNRPIc-iM_0cBLPX1A.txt' does not exist
+'./data_60/X_test__6gbnNRPIc-iM_0cBLPX1A.txt', './data_60/Y_prediction__6gbnNRPIc-iM_0cBLPX1A.txt' and './data_60/Y_actual__6gbnNRPIc-iM_0cBLPX1A.txt' does not exist.
+162 # prediction
+mse is 1.80705066303
+business_id 3w5gd4EuSc75UKYMJiNUPA
+'./data_60/training_data_3w5gd4EuSc75UKYMJiNUPA.txt' and './data_60/test_data_3w5gd4EuSc75UKYMJiNUPA.txt' does not exist
+'./data_60/X_3w5gd4EuSc75UKYMJiNUPA.txt' and './data_60/Y_3w5gd4EuSc75UKYMJiNUPA.txt' does not exist
+'./data_60/X_test_3w5gd4EuSc75UKYMJiNUPA.txt', './data_60/Y_prediction_3w5gd4EuSc75UKYMJiNUPA.txt' and './data_60/Y_actual_3w5gd4EuSc75UKYMJiNUPA.txt' does not exist.
+160 # prediction
+mse is 1.89076704012
+business_id pVH6ngKnMdJSpkFEw0XKlQ
+'./data_60/training_data_pVH6ngKnMdJSpkFEw0XKlQ.txt' and './data_60/test_data_pVH6ngKnMdJSpkFEw0XKlQ.txt' does not exist
+'./data_60/X_pVH6ngKnMdJSpkFEw0XKlQ.txt' and './data_60/Y_pVH6ngKnMdJSpkFEw0XKlQ.txt' does not exist
+'./data_60/X_test_pVH6ngKnMdJSpkFEw0XKlQ.txt', './data_60/Y_prediction_pVH6ngKnMdJSpkFEw0XKlQ.txt' and './data_60/Y_actual_pVH6ngKnMdJSpkFEw0XKlQ.txt' does not exist.
+160 # prediction
+mse is 0.942072184071
+business_id YppzR-sn8y15dmUd1lLcfw
+'./data_60/training_data_YppzR-sn8y15dmUd1lLcfw.txt' and './data_60/test_data_YppzR-sn8y15dmUd1lLcfw.txt' does not exist
+'./data_60/X_YppzR-sn8y15dmUd1lLcfw.txt' and './data_60/Y_YppzR-sn8y15dmUd1lLcfw.txt' does not exist
+'./data_60/X_test_YppzR-sn8y15dmUd1lLcfw.txt', './data_60/Y_prediction_YppzR-sn8y15dmUd1lLcfw.txt' and './data_60/Y_actual_YppzR-sn8y15dmUd1lLcfw.txt' does not exist.
+160 # prediction
+mse is 1.1401754251
+business_id kgt13cwkP03NS8FJKgdLMw
+'./data_60/training_data_kgt13cwkP03NS8FJKgdLMw.txt' and './data_60/test_data_kgt13cwkP03NS8FJKgdLMw.txt' does not exist
+'./data_60/X_kgt13cwkP03NS8FJKgdLMw.txt' and './data_60/Y_kgt13cwkP03NS8FJKgdLMw.txt' does not exist
+'./data_60/X_test_kgt13cwkP03NS8FJKgdLMw.txt', './data_60/Y_prediction_kgt13cwkP03NS8FJKgdLMw.txt' and './data_60/Y_actual_kgt13cwkP03NS8FJKgdLMw.txt' does not exist.
+160 # prediction
+mse is 1.13468057179
+business_id r0ZoytDjK4CY5ytFNjZLvw
+'./data_60/training_data_r0ZoytDjK4CY5ytFNjZLvw.txt' and './data_60/test_data_r0ZoytDjK4CY5ytFNjZLvw.txt' does not exist
+'./data_60/X_r0ZoytDjK4CY5ytFNjZLvw.txt' and './data_60/Y_r0ZoytDjK4CY5ytFNjZLvw.txt' does not exist
+'./data_60/X_test_r0ZoytDjK4CY5ytFNjZLvw.txt', './data_60/Y_prediction_r0ZoytDjK4CY5ytFNjZLvw.txt' and './data_60/Y_actual_r0ZoytDjK4CY5ytFNjZLvw.txt' does not exist.
+160 # prediction
+mse is 1.0307764064
+business_id 5FLRsYrT6w2VSDvQDhphXg
+'./data_60/training_data_5FLRsYrT6w2VSDvQDhphXg.txt' and './data_60/test_data_5FLRsYrT6w2VSDvQDhphXg.txt' does not exist
+'./data_60/X_5FLRsYrT6w2VSDvQDhphXg.txt' and './data_60/Y_5FLRsYrT6w2VSDvQDhphXg.txt' does not exist
+'./data_60/X_test_5FLRsYrT6w2VSDvQDhphXg.txt', './data_60/Y_prediction_5FLRsYrT6w2VSDvQDhphXg.txt' and './data_60/Y_actual_5FLRsYrT6w2VSDvQDhphXg.txt' does not exist.
+160 # prediction
+mse is 1.13192314227
+business_id bgTB6MgdVQssXhkNJ7qIfw
+'./data_60/training_data_bgTB6MgdVQssXhkNJ7qIfw.txt' and './data_60/test_data_bgTB6MgdVQssXhkNJ7qIfw.txt' does not exist
+'./data_60/X_bgTB6MgdVQssXhkNJ7qIfw.txt' and './data_60/Y_bgTB6MgdVQssXhkNJ7qIfw.txt' does not exist
+'./data_60/X_test_bgTB6MgdVQssXhkNJ7qIfw.txt', './data_60/Y_prediction_bgTB6MgdVQssXhkNJ7qIfw.txt' and './data_60/Y_actual_bgTB6MgdVQssXhkNJ7qIfw.txt' does not exist.
+159 # prediction
+mse is 1.43408638986
+business_id i3ogCoQD4MY_sR73GCk-BA
+'./data_60/training_data_i3ogCoQD4MY_sR73GCk-BA.txt' and './data_60/test_data_i3ogCoQD4MY_sR73GCk-BA.txt' does not exist
+'./data_60/X_i3ogCoQD4MY_sR73GCk-BA.txt' and './data_60/Y_i3ogCoQD4MY_sR73GCk-BA.txt' does not exist
+'./data_60/X_test_i3ogCoQD4MY_sR73GCk-BA.txt', './data_60/Y_prediction_i3ogCoQD4MY_sR73GCk-BA.txt' and './data_60/Y_actual_i3ogCoQD4MY_sR73GCk-BA.txt' does not exist.
+159 # prediction
+mse is 1.26142576815
+business_id 9Y3aQAVITkEJYe5vLZr13w
+'./data_60/training_data_9Y3aQAVITkEJYe5vLZr13w.txt' and './data_60/test_data_9Y3aQAVITkEJYe5vLZr13w.txt' does not exist
+'./data_60/X_9Y3aQAVITkEJYe5vLZr13w.txt' and './data_60/Y_9Y3aQAVITkEJYe5vLZr13w.txt' does not exist
+'./data_60/X_test_9Y3aQAVITkEJYe5vLZr13w.txt', './data_60/Y_prediction_9Y3aQAVITkEJYe5vLZr13w.txt' and './data_60/Y_actual_9Y3aQAVITkEJYe5vLZr13w.txt' does not exist.
+158 # prediction
+mse is 1.2117567538
+business_id JsDZZ9S3qntzCfo5N_Ci6A
+'./data_60/training_data_JsDZZ9S3qntzCfo5N_Ci6A.txt' and './data_60/test_data_JsDZZ9S3qntzCfo5N_Ci6A.txt' does not exist
+'./data_60/X_JsDZZ9S3qntzCfo5N_Ci6A.txt' and './data_60/Y_JsDZZ9S3qntzCfo5N_Ci6A.txt' does not exist
+'./data_60/X_test_JsDZZ9S3qntzCfo5N_Ci6A.txt', './data_60/Y_prediction_JsDZZ9S3qntzCfo5N_Ci6A.txt' and './data_60/Y_actual_JsDZZ9S3qntzCfo5N_Ci6A.txt' does not exist.
+158 # prediction
+mse is 1.86574721177
+business_id UpMR63WZgIn8VDKnYpDwXA
+'./data_60/training_data_UpMR63WZgIn8VDKnYpDwXA.txt' and './data_60/test_data_UpMR63WZgIn8VDKnYpDwXA.txt' does not exist
+'./data_60/X_UpMR63WZgIn8VDKnYpDwXA.txt' and './data_60/Y_UpMR63WZgIn8VDKnYpDwXA.txt' does not exist
+'./data_60/X_test_UpMR63WZgIn8VDKnYpDwXA.txt', './data_60/Y_prediction_UpMR63WZgIn8VDKnYpDwXA.txt' and './data_60/Y_actual_UpMR63WZgIn8VDKnYpDwXA.txt' does not exist.
+157 # prediction
+mse is 1.43655639204
+business_id Zh_y9AmSfWZpR2JB9wye-A
+'./data_60/training_data_Zh_y9AmSfWZpR2JB9wye-A.txt' and './data_60/test_data_Zh_y9AmSfWZpR2JB9wye-A.txt' does not exist
+'./data_60/X_Zh_y9AmSfWZpR2JB9wye-A.txt' and './data_60/Y_Zh_y9AmSfWZpR2JB9wye-A.txt' does not exist
+'./data_60/X_test_Zh_y9AmSfWZpR2JB9wye-A.txt', './data_60/Y_prediction_Zh_y9AmSfWZpR2JB9wye-A.txt' and './data_60/Y_actual_Zh_y9AmSfWZpR2JB9wye-A.txt' does not exist.
+156 # prediction
+mse is 1.10360713932
+business_id npfVfumxVAkQNYpY1fSvew
+'./data_60/training_data_npfVfumxVAkQNYpY1fSvew.txt' and './data_60/test_data_npfVfumxVAkQNYpY1fSvew.txt' does not exist
+'./data_60/X_npfVfumxVAkQNYpY1fSvew.txt' and './data_60/Y_npfVfumxVAkQNYpY1fSvew.txt' does not exist
+'./data_60/X_test_npfVfumxVAkQNYpY1fSvew.txt', './data_60/Y_prediction_npfVfumxVAkQNYpY1fSvew.txt' and './data_60/Y_actual_npfVfumxVAkQNYpY1fSvew.txt' does not exist.
+156 # prediction
+mse is 1.38675049056
+business_id 7SO_rX1F6rQEl-5s3wZxgQ
+'./data_60/training_data_7SO_rX1F6rQEl-5s3wZxgQ.txt' and './data_60/test_data_7SO_rX1F6rQEl-5s3wZxgQ.txt' does not exist
+'./data_60/X_7SO_rX1F6rQEl-5s3wZxgQ.txt' and './data_60/Y_7SO_rX1F6rQEl-5s3wZxgQ.txt' does not exist
+'./data_60/X_test_7SO_rX1F6rQEl-5s3wZxgQ.txt', './data_60/Y_prediction_7SO_rX1F6rQEl-5s3wZxgQ.txt' and './data_60/Y_actual_7SO_rX1F6rQEl-5s3wZxgQ.txt' does not exist.
+156 # prediction
+mse is 1.02844168901
+business_id 6imLt53br7SJ3av07jjH7w
+'./data_60/training_data_6imLt53br7SJ3av07jjH7w.txt' and './data_60/test_data_6imLt53br7SJ3av07jjH7w.txt' does not exist
+'./data_60/X_6imLt53br7SJ3av07jjH7w.txt' and './data_60/Y_6imLt53br7SJ3av07jjH7w.txt' does not exist
+'./data_60/X_test_6imLt53br7SJ3av07jjH7w.txt', './data_60/Y_prediction_6imLt53br7SJ3av07jjH7w.txt' and './data_60/Y_actual_6imLt53br7SJ3av07jjH7w.txt' does not exist.
+156 # prediction
+mse is 1.01273936708
+business_id 84bLhe1aibxNmogtqSO4rA
+'./data_60/training_data_84bLhe1aibxNmogtqSO4rA.txt' and './data_60/test_data_84bLhe1aibxNmogtqSO4rA.txt' does not exist
+'./data_60/X_84bLhe1aibxNmogtqSO4rA.txt' and './data_60/Y_84bLhe1aibxNmogtqSO4rA.txt' does not exist
+'./data_60/X_test_84bLhe1aibxNmogtqSO4rA.txt', './data_60/Y_prediction_84bLhe1aibxNmogtqSO4rA.txt' and './data_60/Y_actual_84bLhe1aibxNmogtqSO4rA.txt' does not exist.
+156 # prediction
+mse is 1.28352479424
+business_id 1bJjWGYip-V2PGj4VIwbiQ
+'./data_60/training_data_1bJjWGYip-V2PGj4VIwbiQ.txt' and './data_60/test_data_1bJjWGYip-V2PGj4VIwbiQ.txt' does not exist
+'./data_60/X_1bJjWGYip-V2PGj4VIwbiQ.txt' and './data_60/Y_1bJjWGYip-V2PGj4VIwbiQ.txt' does not exist
+'./data_60/X_test_1bJjWGYip-V2PGj4VIwbiQ.txt', './data_60/Y_prediction_1bJjWGYip-V2PGj4VIwbiQ.txt' and './data_60/Y_actual_1bJjWGYip-V2PGj4VIwbiQ.txt' does not exist.
+155 # prediction
+mse is 1.47013275679
+business_id Pgp3gbOQaJIdyjqC9AOz6g
+'./data_60/training_data_Pgp3gbOQaJIdyjqC9AOz6g.txt' and './data_60/test_data_Pgp3gbOQaJIdyjqC9AOz6g.txt' does not exist
+'./data_60/X_Pgp3gbOQaJIdyjqC9AOz6g.txt' and './data_60/Y_Pgp3gbOQaJIdyjqC9AOz6g.txt' does not exist
+'./data_60/X_test_Pgp3gbOQaJIdyjqC9AOz6g.txt', './data_60/Y_prediction_Pgp3gbOQaJIdyjqC9AOz6g.txt' and './data_60/Y_actual_Pgp3gbOQaJIdyjqC9AOz6g.txt' does not exist.
+155 # prediction
+mse is 0.983738753676
+business_id bqYrEwL5xjqv0u8XAij--Q
+'./data_60/training_data_bqYrEwL5xjqv0u8XAij--Q.txt' and './data_60/test_data_bqYrEwL5xjqv0u8XAij--Q.txt' does not exist
+'./data_60/X_bqYrEwL5xjqv0u8XAij--Q.txt' and './data_60/Y_bqYrEwL5xjqv0u8XAij--Q.txt' does not exist
+'./data_60/X_test_bqYrEwL5xjqv0u8XAij--Q.txt', './data_60/Y_prediction_bqYrEwL5xjqv0u8XAij--Q.txt' and './data_60/Y_actual_bqYrEwL5xjqv0u8XAij--Q.txt' does not exist.
+154 # prediction
+mse is 1.53529894716
+business_id EKzMHI1tip8rC1-ZAy64yg
+'./data_60/training_data_EKzMHI1tip8rC1-ZAy64yg.txt' and './data_60/test_data_EKzMHI1tip8rC1-ZAy64yg.txt' does not exist
+'./data_60/X_EKzMHI1tip8rC1-ZAy64yg.txt' and './data_60/Y_EKzMHI1tip8rC1-ZAy64yg.txt' does not exist
+'./data_60/X_test_EKzMHI1tip8rC1-ZAy64yg.txt', './data_60/Y_prediction_EKzMHI1tip8rC1-ZAy64yg.txt' and './data_60/Y_actual_EKzMHI1tip8rC1-ZAy64yg.txt' does not exist.
+154 # prediction
+mse is 1.51400389438
+business_id fwcoLKfZYMH6nZbAaeD6sw
+'./data_60/training_data_fwcoLKfZYMH6nZbAaeD6sw.txt' and './data_60/test_data_fwcoLKfZYMH6nZbAaeD6sw.txt' does not exist
+'./data_60/X_fwcoLKfZYMH6nZbAaeD6sw.txt' and './data_60/Y_fwcoLKfZYMH6nZbAaeD6sw.txt' does not exist
+'./data_60/X_test_fwcoLKfZYMH6nZbAaeD6sw.txt', './data_60/Y_prediction_fwcoLKfZYMH6nZbAaeD6sw.txt' and './data_60/Y_actual_fwcoLKfZYMH6nZbAaeD6sw.txt' does not exist.
+153 # prediction
+mse is 1.13183291684
+business_id FqzgT9Y-Yu7jiWdHnGW-kQ
+'./data_60/training_data_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' and './data_60/test_data_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' does not exist
+'./data_60/X_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' and './data_60/Y_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' does not exist
+'./data_60/X_test_FqzgT9Y-Yu7jiWdHnGW-kQ.txt', './data_60/Y_prediction_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' and './data_60/Y_actual_FqzgT9Y-Yu7jiWdHnGW-kQ.txt' does not exist.
+152 # prediction
+mse is 1.08821437517
+business_id qLa_684GMvVfR4WNHshQSA
+'./data_60/training_data_qLa_684GMvVfR4WNHshQSA.txt' and './data_60/test_data_qLa_684GMvVfR4WNHshQSA.txt' does not exist
+'./data_60/X_qLa_684GMvVfR4WNHshQSA.txt' and './data_60/Y_qLa_684GMvVfR4WNHshQSA.txt' does not exist
+'./data_60/X_test_qLa_684GMvVfR4WNHshQSA.txt', './data_60/Y_prediction_qLa_684GMvVfR4WNHshQSA.txt' and './data_60/Y_actual_qLa_684GMvVfR4WNHshQSA.txt' does not exist.
+152 # prediction
+mse is 1.17260393996
+business_id PmPOuRvuN3CoNOi1nBj_TQ
+'./data_60/training_data_PmPOuRvuN3CoNOi1nBj_TQ.txt' and './data_60/test_data_PmPOuRvuN3CoNOi1nBj_TQ.txt' does not exist
+'./data_60/X_PmPOuRvuN3CoNOi1nBj_TQ.txt' and './data_60/Y_PmPOuRvuN3CoNOi1nBj_TQ.txt' does not exist
+'./data_60/X_test_PmPOuRvuN3CoNOi1nBj_TQ.txt', './data_60/Y_prediction_PmPOuRvuN3CoNOi1nBj_TQ.txt' and './data_60/Y_actual_PmPOuRvuN3CoNOi1nBj_TQ.txt' does not exist.
+151 # prediction
+mse is 1.36415803788
+business_id Y-9dJvw-J2d9QKfuL7mKgA
+'./data_60/training_data_Y-9dJvw-J2d9QKfuL7mKgA.txt' and './data_60/test_data_Y-9dJvw-J2d9QKfuL7mKgA.txt' does not exist
+'./data_60/X_Y-9dJvw-J2d9QKfuL7mKgA.txt' and './data_60/Y_Y-9dJvw-J2d9QKfuL7mKgA.txt' does not exist
+'./data_60/X_test_Y-9dJvw-J2d9QKfuL7mKgA.txt', './data_60/Y_prediction_Y-9dJvw-J2d9QKfuL7mKgA.txt' and './data_60/Y_actual_Y-9dJvw-J2d9QKfuL7mKgA.txt' does not exist.
+151 # prediction
+mse is 1.34459920417
+business_id cN6aBxe2mQvrQlzk26LyRQ
+'./data_60/training_data_cN6aBxe2mQvrQlzk26LyRQ.txt' and './data_60/test_data_cN6aBxe2mQvrQlzk26LyRQ.txt' does not exist
+'./data_60/X_cN6aBxe2mQvrQlzk26LyRQ.txt' and './data_60/Y_cN6aBxe2mQvrQlzk26LyRQ.txt' does not exist
+'./data_60/X_test_cN6aBxe2mQvrQlzk26LyRQ.txt', './data_60/Y_prediction_cN6aBxe2mQvrQlzk26LyRQ.txt' and './data_60/Y_actual_cN6aBxe2mQvrQlzk26LyRQ.txt' does not exist.
+151 # prediction
+mse is 1.27378041918
+business_id N8cJk5s9yW3fLeJyHQeRAA
+'./data_60/training_data_N8cJk5s9yW3fLeJyHQeRAA.txt' and './data_60/test_data_N8cJk5s9yW3fLeJyHQeRAA.txt' does not exist
+'./data_60/X_N8cJk5s9yW3fLeJyHQeRAA.txt' and './data_60/Y_N8cJk5s9yW3fLeJyHQeRAA.txt' does not exist
+'./data_60/X_test_N8cJk5s9yW3fLeJyHQeRAA.txt', './data_60/Y_prediction_N8cJk5s9yW3fLeJyHQeRAA.txt' and './data_60/Y_actual_N8cJk5s9yW3fLeJyHQeRAA.txt' does not exist.
+151 # prediction
+mse is 0.931423463777
+business_id XWvht_1ZLdK7EHJ3jo4q0g
+'./data_60/training_data_XWvht_1ZLdK7EHJ3jo4q0g.txt' and './data_60/test_data_XWvht_1ZLdK7EHJ3jo4q0g.txt' does not exist
+'./data_60/X_XWvht_1ZLdK7EHJ3jo4q0g.txt' and './data_60/Y_XWvht_1ZLdK7EHJ3jo4q0g.txt' does not exist
+'./data_60/X_test_XWvht_1ZLdK7EHJ3jo4q0g.txt', './data_60/Y_prediction_XWvht_1ZLdK7EHJ3jo4q0g.txt' and './data_60/Y_actual_XWvht_1ZLdK7EHJ3jo4q0g.txt' does not exist.
+150 # prediction
+mse is 1.07393357957
+business_id -4A5xmN21zi_TXnUESauUQ
+'./data_60/training_data_-4A5xmN21zi_TXnUESauUQ.txt' and './data_60/test_data_-4A5xmN21zi_TXnUESauUQ.txt' does not exist
+'./data_60/X_-4A5xmN21zi_TXnUESauUQ.txt' and './data_60/Y_-4A5xmN21zi_TXnUESauUQ.txt' does not exist
+'./data_60/X_test_-4A5xmN21zi_TXnUESauUQ.txt', './data_60/Y_prediction_-4A5xmN21zi_TXnUESauUQ.txt' and './data_60/Y_actual_-4A5xmN21zi_TXnUESauUQ.txt' does not exist.
+150 # prediction
+mse is 1.02306728355
+business_id M-vOSYnyuaE2TsFJF0uMbQ
+'./data_60/training_data_M-vOSYnyuaE2TsFJF0uMbQ.txt' and './data_60/test_data_M-vOSYnyuaE2TsFJF0uMbQ.txt' does not exist
+'./data_60/X_M-vOSYnyuaE2TsFJF0uMbQ.txt' and './data_60/Y_M-vOSYnyuaE2TsFJF0uMbQ.txt' does not exist
+'./data_60/X_test_M-vOSYnyuaE2TsFJF0uMbQ.txt', './data_60/Y_prediction_M-vOSYnyuaE2TsFJF0uMbQ.txt' and './data_60/Y_actual_M-vOSYnyuaE2TsFJF0uMbQ.txt' does not exist.
+150 # prediction
+mse is 1.0677078252
+business_id blgSBn3CimrCHn2SuZvcZw
+'./data_60/training_data_blgSBn3CimrCHn2SuZvcZw.txt' and './data_60/test_data_blgSBn3CimrCHn2SuZvcZw.txt' does not exist
+'./data_60/X_blgSBn3CimrCHn2SuZvcZw.txt' and './data_60/Y_blgSBn3CimrCHn2SuZvcZw.txt' does not exist
+'./data_60/X_test_blgSBn3CimrCHn2SuZvcZw.txt', './data_60/Y_prediction_blgSBn3CimrCHn2SuZvcZw.txt' and './data_60/Y_actual_blgSBn3CimrCHn2SuZvcZw.txt' does not exist.
+149 # prediction
+mse is 1.12625768625
+business_id rP76z9iDOFczywAiee-l7A
+'./data_60/training_data_rP76z9iDOFczywAiee-l7A.txt' and './data_60/test_data_rP76z9iDOFczywAiee-l7A.txt' does not exist
+'./data_60/X_rP76z9iDOFczywAiee-l7A.txt' and './data_60/Y_rP76z9iDOFczywAiee-l7A.txt' does not exist
+'./data_60/X_test_rP76z9iDOFczywAiee-l7A.txt', './data_60/Y_prediction_rP76z9iDOFczywAiee-l7A.txt' and './data_60/Y_actual_rP76z9iDOFczywAiee-l7A.txt' does not exist.
+149 # prediction
+mse is 1.4354102844
+business_id JhupPnWfNlMJivnWB5druA
+'./data_60/training_data_JhupPnWfNlMJivnWB5druA.txt' and './data_60/test_data_JhupPnWfNlMJivnWB5druA.txt' does not exist
+'./data_60/X_JhupPnWfNlMJivnWB5druA.txt' and './data_60/Y_JhupPnWfNlMJivnWB5druA.txt' does not exist
+'./data_60/X_test_JhupPnWfNlMJivnWB5druA.txt', './data_60/Y_prediction_JhupPnWfNlMJivnWB5druA.txt' and './data_60/Y_actual_JhupPnWfNlMJivnWB5druA.txt' does not exist.
+148 # prediction
+mse is 1.0
+business_id pD7NzevYc6HhYu13wCxiiw
+'./data_60/training_data_pD7NzevYc6HhYu13wCxiiw.txt' and './data_60/test_data_pD7NzevYc6HhYu13wCxiiw.txt' does not exist
+'./data_60/X_pD7NzevYc6HhYu13wCxiiw.txt' and './data_60/Y_pD7NzevYc6HhYu13wCxiiw.txt' does not exist
+'./data_60/X_test_pD7NzevYc6HhYu13wCxiiw.txt', './data_60/Y_prediction_pD7NzevYc6HhYu13wCxiiw.txt' and './data_60/Y_actual_pD7NzevYc6HhYu13wCxiiw.txt' does not exist.
+148 # prediction
+mse is 0.838273644285
+business_id zNzJkzZxPTeTbRIRfeU9_Q
+'./data_60/training_data_zNzJkzZxPTeTbRIRfeU9_Q.txt' and './data_60/test_data_zNzJkzZxPTeTbRIRfeU9_Q.txt' does not exist
+'./data_60/X_zNzJkzZxPTeTbRIRfeU9_Q.txt' and './data_60/Y_zNzJkzZxPTeTbRIRfeU9_Q.txt' does not exist
+'./data_60/X_test_zNzJkzZxPTeTbRIRfeU9_Q.txt', './data_60/Y_prediction_zNzJkzZxPTeTbRIRfeU9_Q.txt' and './data_60/Y_actual_zNzJkzZxPTeTbRIRfeU9_Q.txt' does not exist.
+148 # prediction
+mse is 1.26277258229
+business_id dcd3C1gWv-vVdQ9XYV8Ubw
+'./data_60/training_data_dcd3C1gWv-vVdQ9XYV8Ubw.txt' and './data_60/test_data_dcd3C1gWv-vVdQ9XYV8Ubw.txt' does not exist
+'./data_60/X_dcd3C1gWv-vVdQ9XYV8Ubw.txt' and './data_60/Y_dcd3C1gWv-vVdQ9XYV8Ubw.txt' does not exist
+'./data_60/X_test_dcd3C1gWv-vVdQ9XYV8Ubw.txt', './data_60/Y_prediction_dcd3C1gWv-vVdQ9XYV8Ubw.txt' and './data_60/Y_actual_dcd3C1gWv-vVdQ9XYV8Ubw.txt' does not exist.
+147 # prediction
+mse is 1.02020406122
+business_id KwLfgeylp9d8zY3KacREiw
+'./data_60/training_data_KwLfgeylp9d8zY3KacREiw.txt' and './data_60/test_data_KwLfgeylp9d8zY3KacREiw.txt' does not exist
+'./data_60/X_KwLfgeylp9d8zY3KacREiw.txt' and './data_60/Y_KwLfgeylp9d8zY3KacREiw.txt' does not exist
+'./data_60/X_test_KwLfgeylp9d8zY3KacREiw.txt', './data_60/Y_prediction_KwLfgeylp9d8zY3KacREiw.txt' and './data_60/Y_actual_KwLfgeylp9d8zY3KacREiw.txt' does not exist.
+147 # prediction
+mse is 1.28306605574
+business_id Lp-A-JNRUUH72uou5-pMtQ
+'./data_60/training_data_Lp-A-JNRUUH72uou5-pMtQ.txt' and './data_60/test_data_Lp-A-JNRUUH72uou5-pMtQ.txt' does not exist
+'./data_60/X_Lp-A-JNRUUH72uou5-pMtQ.txt' and './data_60/Y_Lp-A-JNRUUH72uou5-pMtQ.txt' does not exist
+'./data_60/X_test_Lp-A-JNRUUH72uou5-pMtQ.txt', './data_60/Y_prediction_Lp-A-JNRUUH72uou5-pMtQ.txt' and './data_60/Y_actual_Lp-A-JNRUUH72uou5-pMtQ.txt' does not exist.
+147 # prediction
+mse is 1.63090893234
+business_id 07bUAD_qnrJAXvJou_ls4g
+'./data_60/training_data_07bUAD_qnrJAXvJou_ls4g.txt' and './data_60/test_data_07bUAD_qnrJAXvJou_ls4g.txt' does not exist
+'./data_60/X_07bUAD_qnrJAXvJou_ls4g.txt' and './data_60/Y_07bUAD_qnrJAXvJou_ls4g.txt' does not exist
+'./data_60/X_test_07bUAD_qnrJAXvJou_ls4g.txt', './data_60/Y_prediction_07bUAD_qnrJAXvJou_ls4g.txt' and './data_60/Y_actual_07bUAD_qnrJAXvJou_ls4g.txt' does not exist.
+147 # prediction
+mse is 1.49829835453
+business_id xnRljkaR6zaVTpLYolQteg
+'./data_60/training_data_xnRljkaR6zaVTpLYolQteg.txt' and './data_60/test_data_xnRljkaR6zaVTpLYolQteg.txt' does not exist
+'./data_60/X_xnRljkaR6zaVTpLYolQteg.txt' and './data_60/Y_xnRljkaR6zaVTpLYolQteg.txt' does not exist
+'./data_60/X_test_xnRljkaR6zaVTpLYolQteg.txt', './data_60/Y_prediction_xnRljkaR6zaVTpLYolQteg.txt' and './data_60/Y_actual_xnRljkaR6zaVTpLYolQteg.txt' does not exist.
+146 # prediction
+mse is 1.23587914469
+business_id b5cEoKR8iQliq-yT2_O0LQ
+'./data_60/training_data_b5cEoKR8iQliq-yT2_O0LQ.txt' and './data_60/test_data_b5cEoKR8iQliq-yT2_O0LQ.txt' does not exist
+'./data_60/X_b5cEoKR8iQliq-yT2_O0LQ.txt' and './data_60/Y_b5cEoKR8iQliq-yT2_O0LQ.txt' does not exist
+'./data_60/X_test_b5cEoKR8iQliq-yT2_O0LQ.txt', './data_60/Y_prediction_b5cEoKR8iQliq-yT2_O0LQ.txt' and './data_60/Y_actual_b5cEoKR8iQliq-yT2_O0LQ.txt' does not exist.
+146 # prediction
+mse is 1.1226192465
+business_id 6oRAC4uyJCsJl1X0WZpVSA
+'./data_60/training_data_6oRAC4uyJCsJl1X0WZpVSA.txt' and './data_60/test_data_6oRAC4uyJCsJl1X0WZpVSA.txt' does not exist
+'./data_60/X_6oRAC4uyJCsJl1X0WZpVSA.txt' and './data_60/Y_6oRAC4uyJCsJl1X0WZpVSA.txt' does not exist
+'./data_60/X_test_6oRAC4uyJCsJl1X0WZpVSA.txt', './data_60/Y_prediction_6oRAC4uyJCsJl1X0WZpVSA.txt' and './data_60/Y_actual_6oRAC4uyJCsJl1X0WZpVSA.txt' does not exist.
+146 # prediction
+mse is 1.11650138489
+business_id fkVBloMEFJG2HTgeCxeNDg
+'./data_60/training_data_fkVBloMEFJG2HTgeCxeNDg.txt' and './data_60/test_data_fkVBloMEFJG2HTgeCxeNDg.txt' does not exist
+'./data_60/X_fkVBloMEFJG2HTgeCxeNDg.txt' and './data_60/Y_fkVBloMEFJG2HTgeCxeNDg.txt' does not exist
+'./data_60/X_test_fkVBloMEFJG2HTgeCxeNDg.txt', './data_60/Y_prediction_fkVBloMEFJG2HTgeCxeNDg.txt' and './data_60/Y_actual_fkVBloMEFJG2HTgeCxeNDg.txt' does not exist.
+146 # prediction
+mse is 1.45479839021
+business_id OwBPjUz2o0J5K3DzcHkBtg
+'./data_60/training_data_OwBPjUz2o0J5K3DzcHkBtg.txt' and './data_60/test_data_OwBPjUz2o0J5K3DzcHkBtg.txt' does not exist
+'./data_60/X_OwBPjUz2o0J5K3DzcHkBtg.txt' and './data_60/Y_OwBPjUz2o0J5K3DzcHkBtg.txt' does not exist
+'./data_60/X_test_OwBPjUz2o0J5K3DzcHkBtg.txt', './data_60/Y_prediction_OwBPjUz2o0J5K3DzcHkBtg.txt' and './data_60/Y_actual_OwBPjUz2o0J5K3DzcHkBtg.txt' does not exist.
+145 # prediction
+mse is 0.557086014531
+business_id OE5nAmaSVaopeRS1Cs9Kuw
+'./data_60/training_data_OE5nAmaSVaopeRS1Cs9Kuw.txt' and './data_60/test_data_OE5nAmaSVaopeRS1Cs9Kuw.txt' does not exist
+'./data_60/X_OE5nAmaSVaopeRS1Cs9Kuw.txt' and './data_60/Y_OE5nAmaSVaopeRS1Cs9Kuw.txt' does not exist
+'./data_60/X_test_OE5nAmaSVaopeRS1Cs9Kuw.txt', './data_60/Y_prediction_OE5nAmaSVaopeRS1Cs9Kuw.txt' and './data_60/Y_actual_OE5nAmaSVaopeRS1Cs9Kuw.txt' does not exist.
+144 # prediction
+mse is 1.41666666667
+business_id WhBxWYRj6rycigYqdXY9cA
+'./data_60/training_data_WhBxWYRj6rycigYqdXY9cA.txt' and './data_60/test_data_WhBxWYRj6rycigYqdXY9cA.txt' does not exist
+'./data_60/X_WhBxWYRj6rycigYqdXY9cA.txt' and './data_60/Y_WhBxWYRj6rycigYqdXY9cA.txt' does not exist
+'./data_60/X_test_WhBxWYRj6rycigYqdXY9cA.txt', './data_60/Y_prediction_WhBxWYRj6rycigYqdXY9cA.txt' and './data_60/Y_actual_WhBxWYRj6rycigYqdXY9cA.txt' does not exist.
+144 # prediction
+mse is 1.08012344973
+business_id V9euJerhCkh7PXKjtsE2rQ
+'./data_60/training_data_V9euJerhCkh7PXKjtsE2rQ.txt' and './data_60/test_data_V9euJerhCkh7PXKjtsE2rQ.txt' does not exist
+'./data_60/X_V9euJerhCkh7PXKjtsE2rQ.txt' and './data_60/Y_V9euJerhCkh7PXKjtsE2rQ.txt' does not exist
+'./data_60/X_test_V9euJerhCkh7PXKjtsE2rQ.txt', './data_60/Y_prediction_V9euJerhCkh7PXKjtsE2rQ.txt' and './data_60/Y_actual_V9euJerhCkh7PXKjtsE2rQ.txt' does not exist.
+144 # prediction
+mse is 1.03749163317
+business_id 23SJEjfyU5gxY2chAKhgcw
+'./data_60/training_data_23SJEjfyU5gxY2chAKhgcw.txt' and './data_60/test_data_23SJEjfyU5gxY2chAKhgcw.txt' does not exist
+'./data_60/X_23SJEjfyU5gxY2chAKhgcw.txt' and './data_60/Y_23SJEjfyU5gxY2chAKhgcw.txt' does not exist
+'./data_60/X_test_23SJEjfyU5gxY2chAKhgcw.txt', './data_60/Y_prediction_23SJEjfyU5gxY2chAKhgcw.txt' and './data_60/Y_actual_23SJEjfyU5gxY2chAKhgcw.txt' does not exist.
+144 # prediction
+mse is 1.2665570128
+business_id ZxmKA8b7njab1DNzCEU4Ow
+'./data_60/training_data_ZxmKA8b7njab1DNzCEU4Ow.txt' and './data_60/test_data_ZxmKA8b7njab1DNzCEU4Ow.txt' does not exist
+'./data_60/X_ZxmKA8b7njab1DNzCEU4Ow.txt' and './data_60/Y_ZxmKA8b7njab1DNzCEU4Ow.txt' does not exist
+'./data_60/X_test_ZxmKA8b7njab1DNzCEU4Ow.txt', './data_60/Y_prediction_ZxmKA8b7njab1DNzCEU4Ow.txt' and './data_60/Y_actual_ZxmKA8b7njab1DNzCEU4Ow.txt' does not exist.
+144 # prediction
+mse is 1.71796067734
+business_id sbsFamEj5wDxNAjUKrMcSw
+'./data_60/training_data_sbsFamEj5wDxNAjUKrMcSw.txt' and './data_60/test_data_sbsFamEj5wDxNAjUKrMcSw.txt' does not exist
+'./data_60/X_sbsFamEj5wDxNAjUKrMcSw.txt' and './data_60/Y_sbsFamEj5wDxNAjUKrMcSw.txt' does not exist
+'./data_60/X_test_sbsFamEj5wDxNAjUKrMcSw.txt', './data_60/Y_prediction_sbsFamEj5wDxNAjUKrMcSw.txt' and './data_60/Y_actual_sbsFamEj5wDxNAjUKrMcSw.txt' does not exist.
+144 # prediction
+mse is 1.39940463531
+business_id QozXMHqNzkVutP-FhcP30w
+'./data_60/training_data_QozXMHqNzkVutP-FhcP30w.txt' and './data_60/test_data_QozXMHqNzkVutP-FhcP30w.txt' does not exist
+'./data_60/X_QozXMHqNzkVutP-FhcP30w.txt' and './data_60/Y_QozXMHqNzkVutP-FhcP30w.txt' does not exist
+'./data_60/X_test_QozXMHqNzkVutP-FhcP30w.txt', './data_60/Y_prediction_QozXMHqNzkVutP-FhcP30w.txt' and './data_60/Y_actual_QozXMHqNzkVutP-FhcP30w.txt' does not exist.
+144 # prediction
+mse is 1.19895788083
+business_id c8Xamwyv5Tyi2VjjyQcwaw
+'./data_60/training_data_c8Xamwyv5Tyi2VjjyQcwaw.txt' and './data_60/test_data_c8Xamwyv5Tyi2VjjyQcwaw.txt' does not exist
+'./data_60/X_c8Xamwyv5Tyi2VjjyQcwaw.txt' and './data_60/Y_c8Xamwyv5Tyi2VjjyQcwaw.txt' does not exist
+'./data_60/X_test_c8Xamwyv5Tyi2VjjyQcwaw.txt', './data_60/Y_prediction_c8Xamwyv5Tyi2VjjyQcwaw.txt' and './data_60/Y_actual_c8Xamwyv5Tyi2VjjyQcwaw.txt' does not exist.
+143 # prediction
+mse is 1.42406882838
+business_id _zrSQdISpB_qry9tb098rw
+'./data_60/training_data__zrSQdISpB_qry9tb098rw.txt' and './data_60/test_data__zrSQdISpB_qry9tb098rw.txt' does not exist
+'./data_60/X__zrSQdISpB_qry9tb098rw.txt' and './data_60/Y__zrSQdISpB_qry9tb098rw.txt' does not exist
+'./data_60/X_test__zrSQdISpB_qry9tb098rw.txt', './data_60/Y_prediction__zrSQdISpB_qry9tb098rw.txt' and './data_60/Y_actual__zrSQdISpB_qry9tb098rw.txt' does not exist.
+142 # prediction
+mse is 1.31620453053
+business_id a4cMKOjdVLTmJNhRl6-17g
+'./data_60/training_data_a4cMKOjdVLTmJNhRl6-17g.txt' and './data_60/test_data_a4cMKOjdVLTmJNhRl6-17g.txt' does not exist
+'./data_60/X_a4cMKOjdVLTmJNhRl6-17g.txt' and './data_60/Y_a4cMKOjdVLTmJNhRl6-17g.txt' does not exist
+'./data_60/X_test_a4cMKOjdVLTmJNhRl6-17g.txt', './data_60/Y_prediction_a4cMKOjdVLTmJNhRl6-17g.txt' and './data_60/Y_actual_a4cMKOjdVLTmJNhRl6-17g.txt' does not exist.
+142 # prediction
+mse is 1.18083284049
+business_id z67yrh03lRSANrpPsRcTfw
+'./data_60/training_data_z67yrh03lRSANrpPsRcTfw.txt' and './data_60/test_data_z67yrh03lRSANrpPsRcTfw.txt' does not exist
+'./data_60/X_z67yrh03lRSANrpPsRcTfw.txt' and './data_60/Y_z67yrh03lRSANrpPsRcTfw.txt' does not exist
+'./data_60/X_test_z67yrh03lRSANrpPsRcTfw.txt', './data_60/Y_prediction_z67yrh03lRSANrpPsRcTfw.txt' and './data_60/Y_actual_z67yrh03lRSANrpPsRcTfw.txt' does not exist.
+141 # prediction
+mse is 1.37092400377
+business_id PPwJTT-eLjapipmyQSgi9A
+'./data_60/training_data_PPwJTT-eLjapipmyQSgi9A.txt' and './data_60/test_data_PPwJTT-eLjapipmyQSgi9A.txt' does not exist
+'./data_60/X_PPwJTT-eLjapipmyQSgi9A.txt' and './data_60/Y_PPwJTT-eLjapipmyQSgi9A.txt' does not exist
+'./data_60/X_test_PPwJTT-eLjapipmyQSgi9A.txt', './data_60/Y_prediction_PPwJTT-eLjapipmyQSgi9A.txt' and './data_60/Y_actual_PPwJTT-eLjapipmyQSgi9A.txt' does not exist.
+141 # prediction
+mse is 1.29920870626
+business_id kKcniirsMqUd_x0pZEGcWA
+'./data_60/training_data_kKcniirsMqUd_x0pZEGcWA.txt' and './data_60/test_data_kKcniirsMqUd_x0pZEGcWA.txt' does not exist
+'./data_60/X_kKcniirsMqUd_x0pZEGcWA.txt' and './data_60/Y_kKcniirsMqUd_x0pZEGcWA.txt' does not exist
+'./data_60/X_test_kKcniirsMqUd_x0pZEGcWA.txt', './data_60/Y_prediction_kKcniirsMqUd_x0pZEGcWA.txt' and './data_60/Y_actual_kKcniirsMqUd_x0pZEGcWA.txt' does not exist.
+141 # prediction
+mse is 1.37608757762
+business_id xxOQ7h6s3InV8o8DOVHlMA
+'./data_60/training_data_xxOQ7h6s3InV8o8DOVHlMA.txt' and './data_60/test_data_xxOQ7h6s3InV8o8DOVHlMA.txt' does not exist
+'./data_60/X_xxOQ7h6s3InV8o8DOVHlMA.txt' and './data_60/Y_xxOQ7h6s3InV8o8DOVHlMA.txt' does not exist
+'./data_60/X_test_xxOQ7h6s3InV8o8DOVHlMA.txt', './data_60/Y_prediction_xxOQ7h6s3InV8o8DOVHlMA.txt' and './data_60/Y_actual_xxOQ7h6s3InV8o8DOVHlMA.txt' does not exist.
+141 # prediction
+mse is 1.03827461897
+business_id jmgKs7CTqSWWwJnFnPIf4A
+'./data_60/training_data_jmgKs7CTqSWWwJnFnPIf4A.txt' and './data_60/test_data_jmgKs7CTqSWWwJnFnPIf4A.txt' does not exist
+'./data_60/X_jmgKs7CTqSWWwJnFnPIf4A.txt' and './data_60/Y_jmgKs7CTqSWWwJnFnPIf4A.txt' does not exist
+'./data_60/X_test_jmgKs7CTqSWWwJnFnPIf4A.txt', './data_60/Y_prediction_jmgKs7CTqSWWwJnFnPIf4A.txt' and './data_60/Y_actual_jmgKs7CTqSWWwJnFnPIf4A.txt' does not exist.
+140 # prediction
+mse is 1.34960311626
+business_id 3OB5gQqibKGTzx9R1w7wKQ
+'./data_60/training_data_3OB5gQqibKGTzx9R1w7wKQ.txt' and './data_60/test_data_3OB5gQqibKGTzx9R1w7wKQ.txt' does not exist
+'./data_60/X_3OB5gQqibKGTzx9R1w7wKQ.txt' and './data_60/Y_3OB5gQqibKGTzx9R1w7wKQ.txt' does not exist
+'./data_60/X_test_3OB5gQqibKGTzx9R1w7wKQ.txt', './data_60/Y_prediction_3OB5gQqibKGTzx9R1w7wKQ.txt' and './data_60/Y_actual_3OB5gQqibKGTzx9R1w7wKQ.txt' does not exist.
+140 # prediction
+mse is 1.03164224142
+business_id k-D2NUfaUbuQzPaMXniXcA
+'./data_60/training_data_k-D2NUfaUbuQzPaMXniXcA.txt' and './data_60/test_data_k-D2NUfaUbuQzPaMXniXcA.txt' does not exist
+'./data_60/X_k-D2NUfaUbuQzPaMXniXcA.txt' and './data_60/Y_k-D2NUfaUbuQzPaMXniXcA.txt' does not exist
+'./data_60/X_test_k-D2NUfaUbuQzPaMXniXcA.txt', './data_60/Y_prediction_k-D2NUfaUbuQzPaMXniXcA.txt' and './data_60/Y_actual_k-D2NUfaUbuQzPaMXniXcA.txt' does not exist.
+140 # prediction
+mse is 1.21596522507
+business_id jRfdz5voj40P6WS9L54caw
+'./data_60/training_data_jRfdz5voj40P6WS9L54caw.txt' and './data_60/test_data_jRfdz5voj40P6WS9L54caw.txt' does not exist
+'./data_60/X_jRfdz5voj40P6WS9L54caw.txt' and './data_60/Y_jRfdz5voj40P6WS9L54caw.txt' does not exist
+'./data_60/X_test_jRfdz5voj40P6WS9L54caw.txt', './data_60/Y_prediction_jRfdz5voj40P6WS9L54caw.txt' and './data_60/Y_actual_jRfdz5voj40P6WS9L54caw.txt' does not exist.
+140 # prediction
+mse is 1.03854293535
+business_id 5kRug3bEienrpovtPRVVwg
+'./data_60/training_data_5kRug3bEienrpovtPRVVwg.txt' and './data_60/test_data_5kRug3bEienrpovtPRVVwg.txt' does not exist
+'./data_60/X_5kRug3bEienrpovtPRVVwg.txt' and './data_60/Y_5kRug3bEienrpovtPRVVwg.txt' does not exist
+'./data_60/X_test_5kRug3bEienrpovtPRVVwg.txt', './data_60/Y_prediction_5kRug3bEienrpovtPRVVwg.txt' and './data_60/Y_actual_5kRug3bEienrpovtPRVVwg.txt' does not exist.
+139 # prediction
+mse is 1.27510755647
+business_id D_BMUHbZk67hzRcK3xQQmg
+'./data_60/training_data_D_BMUHbZk67hzRcK3xQQmg.txt' and './data_60/test_data_D_BMUHbZk67hzRcK3xQQmg.txt' does not exist
+'./data_60/X_D_BMUHbZk67hzRcK3xQQmg.txt' and './data_60/Y_D_BMUHbZk67hzRcK3xQQmg.txt' does not exist
+'./data_60/X_test_D_BMUHbZk67hzRcK3xQQmg.txt', './data_60/Y_prediction_D_BMUHbZk67hzRcK3xQQmg.txt' and './data_60/Y_actual_D_BMUHbZk67hzRcK3xQQmg.txt' does not exist.
+139 # prediction
+mse is 0.970796602366
+business_id _fn0UIgqzCtxXcmHRi8FOw
+'./data_60/training_data__fn0UIgqzCtxXcmHRi8FOw.txt' and './data_60/test_data__fn0UIgqzCtxXcmHRi8FOw.txt' does not exist
+'./data_60/X__fn0UIgqzCtxXcmHRi8FOw.txt' and './data_60/Y__fn0UIgqzCtxXcmHRi8FOw.txt' does not exist
+'./data_60/X_test__fn0UIgqzCtxXcmHRi8FOw.txt', './data_60/Y_prediction__fn0UIgqzCtxXcmHRi8FOw.txt' and './data_60/Y_actual__fn0UIgqzCtxXcmHRi8FOw.txt' does not exist.
+139 # prediction
+mse is 1.36239315468
+business_id _tS0YfyPDxOXxrN4Kl2_HQ
+'./data_60/training_data__tS0YfyPDxOXxrN4Kl2_HQ.txt' and './data_60/test_data__tS0YfyPDxOXxrN4Kl2_HQ.txt' does not exist
+'./data_60/X__tS0YfyPDxOXxrN4Kl2_HQ.txt' and './data_60/Y__tS0YfyPDxOXxrN4Kl2_HQ.txt' does not exist
+'./data_60/X_test__tS0YfyPDxOXxrN4Kl2_HQ.txt', './data_60/Y_prediction__tS0YfyPDxOXxrN4Kl2_HQ.txt' and './data_60/Y_actual__tS0YfyPDxOXxrN4Kl2_HQ.txt' does not exist.
+138 # prediction
+mse is 1.35934766964
+business_id pwF_phwjD1ZHsY1xC9H7mA
+'./data_60/training_data_pwF_phwjD1ZHsY1xC9H7mA.txt' and './data_60/test_data_pwF_phwjD1ZHsY1xC9H7mA.txt' does not exist
+'./data_60/X_pwF_phwjD1ZHsY1xC9H7mA.txt' and './data_60/Y_pwF_phwjD1ZHsY1xC9H7mA.txt' does not exist
+'./data_60/X_test_pwF_phwjD1ZHsY1xC9H7mA.txt', './data_60/Y_prediction_pwF_phwjD1ZHsY1xC9H7mA.txt' and './data_60/Y_actual_pwF_phwjD1ZHsY1xC9H7mA.txt' does not exist.
+138 # prediction
+mse is 0.816496580928
+business_id GJp4zTQPPsCEkUitopGfAQ
+'./data_60/training_data_GJp4zTQPPsCEkUitopGfAQ.txt' and './data_60/test_data_GJp4zTQPPsCEkUitopGfAQ.txt' does not exist
+'./data_60/X_GJp4zTQPPsCEkUitopGfAQ.txt' and './data_60/Y_GJp4zTQPPsCEkUitopGfAQ.txt' does not exist
+'./data_60/X_test_GJp4zTQPPsCEkUitopGfAQ.txt', './data_60/Y_prediction_GJp4zTQPPsCEkUitopGfAQ.txt' and './data_60/Y_actual_GJp4zTQPPsCEkUitopGfAQ.txt' does not exist.
+138 # prediction
+mse is 1.11316235778
+business_id LXrq0Fw6MCz70KMA928ldQ
+'./data_60/training_data_LXrq0Fw6MCz70KMA928ldQ.txt' and './data_60/test_data_LXrq0Fw6MCz70KMA928ldQ.txt' does not exist
+'./data_60/X_LXrq0Fw6MCz70KMA928ldQ.txt' and './data_60/Y_LXrq0Fw6MCz70KMA928ldQ.txt' does not exist
+'./data_60/X_test_LXrq0Fw6MCz70KMA928ldQ.txt', './data_60/Y_prediction_LXrq0Fw6MCz70KMA928ldQ.txt' and './data_60/Y_actual_LXrq0Fw6MCz70KMA928ldQ.txt' does not exist.
+137 # prediction
+mse is 1.2380818694
+business_id ADTZPVMIYJN0jAvvHxcBMw
+'./data_60/training_data_ADTZPVMIYJN0jAvvHxcBMw.txt' and './data_60/test_data_ADTZPVMIYJN0jAvvHxcBMw.txt' does not exist
+'./data_60/X_ADTZPVMIYJN0jAvvHxcBMw.txt' and './data_60/Y_ADTZPVMIYJN0jAvvHxcBMw.txt' does not exist
+'./data_60/X_test_ADTZPVMIYJN0jAvvHxcBMw.txt', './data_60/Y_prediction_ADTZPVMIYJN0jAvvHxcBMw.txt' and './data_60/Y_actual_ADTZPVMIYJN0jAvvHxcBMw.txt' does not exist.
+137 # prediction
+mse is 1.22026681299
+business_id bCRrLdBLel3y73tA8w6C3Q
+'./data_60/training_data_bCRrLdBLel3y73tA8w6C3Q.txt' and './data_60/test_data_bCRrLdBLel3y73tA8w6C3Q.txt' does not exist
+'./data_60/X_bCRrLdBLel3y73tA8w6C3Q.txt' and './data_60/Y_bCRrLdBLel3y73tA8w6C3Q.txt' does not exist
+'./data_60/X_test_bCRrLdBLel3y73tA8w6C3Q.txt', './data_60/Y_prediction_bCRrLdBLel3y73tA8w6C3Q.txt' and './data_60/Y_actual_bCRrLdBLel3y73tA8w6C3Q.txt' does not exist.
+136 # prediction
+mse is 1.31171194829
+business_id 8HCC8NuJmdHnEg2XC00NPg
+'./data_60/training_data_8HCC8NuJmdHnEg2XC00NPg.txt' and './data_60/test_data_8HCC8NuJmdHnEg2XC00NPg.txt' does not exist
+'./data_60/X_8HCC8NuJmdHnEg2XC00NPg.txt' and './data_60/Y_8HCC8NuJmdHnEg2XC00NPg.txt' does not exist
+'./data_60/X_test_8HCC8NuJmdHnEg2XC00NPg.txt', './data_60/Y_prediction_8HCC8NuJmdHnEg2XC00NPg.txt' and './data_60/Y_actual_8HCC8NuJmdHnEg2XC00NPg.txt' does not exist.
+135 # prediction
+mse is 1.01835015443
+business_id m9haUi2_1lHR2eAKBhKwDg
+'./data_60/training_data_m9haUi2_1lHR2eAKBhKwDg.txt' and './data_60/test_data_m9haUi2_1lHR2eAKBhKwDg.txt' does not exist
+'./data_60/X_m9haUi2_1lHR2eAKBhKwDg.txt' and './data_60/Y_m9haUi2_1lHR2eAKBhKwDg.txt' does not exist
+'./data_60/X_test_m9haUi2_1lHR2eAKBhKwDg.txt', './data_60/Y_prediction_m9haUi2_1lHR2eAKBhKwDg.txt' and './data_60/Y_actual_m9haUi2_1lHR2eAKBhKwDg.txt' does not exist.
+135 # prediction
+mse is 1.48074055546
+business_id rMSje59v2QY82OBvE1zBuA
+'./data_60/training_data_rMSje59v2QY82OBvE1zBuA.txt' and './data_60/test_data_rMSje59v2QY82OBvE1zBuA.txt' does not exist
+'./data_60/X_rMSje59v2QY82OBvE1zBuA.txt' and './data_60/Y_rMSje59v2QY82OBvE1zBuA.txt' does not exist
+'./data_60/X_test_rMSje59v2QY82OBvE1zBuA.txt', './data_60/Y_prediction_rMSje59v2QY82OBvE1zBuA.txt' and './data_60/Y_actual_rMSje59v2QY82OBvE1zBuA.txt' does not exist.
+135 # prediction
+mse is 1.3716710544
+business_id s1dex3Z3QoqiK7V-zXUgAw
+'./data_60/training_data_s1dex3Z3QoqiK7V-zXUgAw.txt' and './data_60/test_data_s1dex3Z3QoqiK7V-zXUgAw.txt' does not exist
+'./data_60/X_s1dex3Z3QoqiK7V-zXUgAw.txt' and './data_60/Y_s1dex3Z3QoqiK7V-zXUgAw.txt' does not exist
+'./data_60/X_test_s1dex3Z3QoqiK7V-zXUgAw.txt', './data_60/Y_prediction_s1dex3Z3QoqiK7V-zXUgAw.txt' and './data_60/Y_actual_s1dex3Z3QoqiK7V-zXUgAw.txt' does not exist.
+135 # prediction
+mse is 0.910840068085
+business_id MN0OLvP8i0SirMJ7AMuMzA
+'./data_60/training_data_MN0OLvP8i0SirMJ7AMuMzA.txt' and './data_60/test_data_MN0OLvP8i0SirMJ7AMuMzA.txt' does not exist
+'./data_60/X_MN0OLvP8i0SirMJ7AMuMzA.txt' and './data_60/Y_MN0OLvP8i0SirMJ7AMuMzA.txt' does not exist
+'./data_60/X_test_MN0OLvP8i0SirMJ7AMuMzA.txt', './data_60/Y_prediction_MN0OLvP8i0SirMJ7AMuMzA.txt' and './data_60/Y_actual_MN0OLvP8i0SirMJ7AMuMzA.txt' does not exist.
+135 # prediction
+mse is 1.2736648783
+business_id XHr5mXFgobOHoxbPJxmYdg
+'./data_60/training_data_XHr5mXFgobOHoxbPJxmYdg.txt' and './data_60/test_data_XHr5mXFgobOHoxbPJxmYdg.txt' does not exist
+'./data_60/X_XHr5mXFgobOHoxbPJxmYdg.txt' and './data_60/Y_XHr5mXFgobOHoxbPJxmYdg.txt' does not exist
+'./data_60/X_test_XHr5mXFgobOHoxbPJxmYdg.txt', './data_60/Y_prediction_XHr5mXFgobOHoxbPJxmYdg.txt' and './data_60/Y_actual_XHr5mXFgobOHoxbPJxmYdg.txt' does not exist.
+135 # prediction
+mse is 0.950633317165
+business_id 9BJ5h9X1krpXFjKj0a6wbg
+'./data_60/training_data_9BJ5h9X1krpXFjKj0a6wbg.txt' and './data_60/test_data_9BJ5h9X1krpXFjKj0a6wbg.txt' does not exist
+'./data_60/X_9BJ5h9X1krpXFjKj0a6wbg.txt' and './data_60/Y_9BJ5h9X1krpXFjKj0a6wbg.txt' does not exist
+'./data_60/X_test_9BJ5h9X1krpXFjKj0a6wbg.txt', './data_60/Y_prediction_9BJ5h9X1krpXFjKj0a6wbg.txt' and './data_60/Y_actual_9BJ5h9X1krpXFjKj0a6wbg.txt' does not exist.
+135 # prediction
+mse is 1.2262559699
+business_id -SNpLwJNup8N96yq7sBJyw
+'./data_60/training_data_-SNpLwJNup8N96yq7sBJyw.txt' and './data_60/test_data_-SNpLwJNup8N96yq7sBJyw.txt' does not exist
+'./data_60/X_-SNpLwJNup8N96yq7sBJyw.txt' and './data_60/Y_-SNpLwJNup8N96yq7sBJyw.txt' does not exist
+'./data_60/X_test_-SNpLwJNup8N96yq7sBJyw.txt', './data_60/Y_prediction_-SNpLwJNup8N96yq7sBJyw.txt' and './data_60/Y_actual_-SNpLwJNup8N96yq7sBJyw.txt' does not exist.
+134 # prediction
+mse is 1.02578692035
+business_id tI3J5jomrBs--n7r92186g
+'./data_60/training_data_tI3J5jomrBs--n7r92186g.txt' and './data_60/test_data_tI3J5jomrBs--n7r92186g.txt' does not exist
+'./data_60/X_tI3J5jomrBs--n7r92186g.txt' and './data_60/Y_tI3J5jomrBs--n7r92186g.txt' does not exist
+'./data_60/X_test_tI3J5jomrBs--n7r92186g.txt', './data_60/Y_prediction_tI3J5jomrBs--n7r92186g.txt' and './data_60/Y_actual_tI3J5jomrBs--n7r92186g.txt' does not exist.
+134 # prediction
+mse is 1.23687135397
+business_id bGj9djLAHjNR55OXsIDrAg
+'./data_60/training_data_bGj9djLAHjNR55OXsIDrAg.txt' and './data_60/test_data_bGj9djLAHjNR55OXsIDrAg.txt' does not exist
+'./data_60/X_bGj9djLAHjNR55OXsIDrAg.txt' and './data_60/Y_bGj9djLAHjNR55OXsIDrAg.txt' does not exist
+'./data_60/X_test_bGj9djLAHjNR55OXsIDrAg.txt', './data_60/Y_prediction_bGj9djLAHjNR55OXsIDrAg.txt' and './data_60/Y_actual_bGj9djLAHjNR55OXsIDrAg.txt' does not exist.
+134 # prediction
+mse is 1.22474487139
+business_id 0i0PwU8lpj4evYKQogWxcA
+'./data_60/training_data_0i0PwU8lpj4evYKQogWxcA.txt' and './data_60/test_data_0i0PwU8lpj4evYKQogWxcA.txt' does not exist
+'./data_60/X_0i0PwU8lpj4evYKQogWxcA.txt' and './data_60/Y_0i0PwU8lpj4evYKQogWxcA.txt' does not exist
+'./data_60/X_test_0i0PwU8lpj4evYKQogWxcA.txt', './data_60/Y_prediction_0i0PwU8lpj4evYKQogWxcA.txt' and './data_60/Y_actual_0i0PwU8lpj4evYKQogWxcA.txt' does not exist.
+134 # prediction
+mse is 1.10291337395
+business_id M6fjHpkL9IRI-nI0BattRw
+'./data_60/training_data_M6fjHpkL9IRI-nI0BattRw.txt' and './data_60/test_data_M6fjHpkL9IRI-nI0BattRw.txt' does not exist
+'./data_60/X_M6fjHpkL9IRI-nI0BattRw.txt' and './data_60/Y_M6fjHpkL9IRI-nI0BattRw.txt' does not exist
+'./data_60/X_test_M6fjHpkL9IRI-nI0BattRw.txt', './data_60/Y_prediction_M6fjHpkL9IRI-nI0BattRw.txt' and './data_60/Y_actual_M6fjHpkL9IRI-nI0BattRw.txt' does not exist.
+133 # prediction
+mse is 0.996233508274
+business_id PNThcRNEFI3azvfhvhd_KA
+'./data_60/training_data_PNThcRNEFI3azvfhvhd_KA.txt' and './data_60/test_data_PNThcRNEFI3azvfhvhd_KA.txt' does not exist
+'./data_60/X_PNThcRNEFI3azvfhvhd_KA.txt' and './data_60/Y_PNThcRNEFI3azvfhvhd_KA.txt' does not exist
+'./data_60/X_test_PNThcRNEFI3azvfhvhd_KA.txt', './data_60/Y_prediction_PNThcRNEFI3azvfhvhd_KA.txt' and './data_60/Y_actual_PNThcRNEFI3azvfhvhd_KA.txt' does not exist.
+132 # prediction
+mse is 1.21854359169
+business_id QcTj9AgGJA0ifMHCCPNblg
+'./data_60/training_data_QcTj9AgGJA0ifMHCCPNblg.txt' and './data_60/test_data_QcTj9AgGJA0ifMHCCPNblg.txt' does not exist
+'./data_60/X_QcTj9AgGJA0ifMHCCPNblg.txt' and './data_60/Y_QcTj9AgGJA0ifMHCCPNblg.txt' does not exist
+'./data_60/X_test_QcTj9AgGJA0ifMHCCPNblg.txt', './data_60/Y_prediction_QcTj9AgGJA0ifMHCCPNblg.txt' and './data_60/Y_actual_QcTj9AgGJA0ifMHCCPNblg.txt' does not exist.
+132 # prediction
+mse is 1.71225529108
+business_id M3sHcgWd1gqw5c3L8QnAHQ
+'./data_60/training_data_M3sHcgWd1gqw5c3L8QnAHQ.txt' and './data_60/test_data_M3sHcgWd1gqw5c3L8QnAHQ.txt' does not exist
+'./data_60/X_M3sHcgWd1gqw5c3L8QnAHQ.txt' and './data_60/Y_M3sHcgWd1gqw5c3L8QnAHQ.txt' does not exist
+'./data_60/X_test_M3sHcgWd1gqw5c3L8QnAHQ.txt', './data_60/Y_prediction_M3sHcgWd1gqw5c3L8QnAHQ.txt' and './data_60/Y_actual_M3sHcgWd1gqw5c3L8QnAHQ.txt' does not exist.
+132 # prediction
+mse is 1.23091490979
+business_id 5IWu0xhlZEopvIz3w7o_3w
+'./data_60/training_data_5IWu0xhlZEopvIz3w7o_3w.txt' and './data_60/test_data_5IWu0xhlZEopvIz3w7o_3w.txt' does not exist
+'./data_60/X_5IWu0xhlZEopvIz3w7o_3w.txt' and './data_60/Y_5IWu0xhlZEopvIz3w7o_3w.txt' does not exist
+'./data_60/X_test_5IWu0xhlZEopvIz3w7o_3w.txt', './data_60/Y_prediction_5IWu0xhlZEopvIz3w7o_3w.txt' and './data_60/Y_actual_5IWu0xhlZEopvIz3w7o_3w.txt' does not exist.
+132 # prediction
+mse is 1.65831239518
+business_id PiV7phVMf7glDpH_J630Ow
+'./data_60/training_data_PiV7phVMf7glDpH_J630Ow.txt' and './data_60/test_data_PiV7phVMf7glDpH_J630Ow.txt' does not exist
+'./data_60/X_PiV7phVMf7glDpH_J630Ow.txt' and './data_60/Y_PiV7phVMf7glDpH_J630Ow.txt' does not exist
+'./data_60/X_test_PiV7phVMf7glDpH_J630Ow.txt', './data_60/Y_prediction_PiV7phVMf7glDpH_J630Ow.txt' and './data_60/Y_actual_PiV7phVMf7glDpH_J630Ow.txt' does not exist.
+132 # prediction
+mse is 1.39533855998
+business_id vPnwX30Gn0oa4dVBL0W4Ww
+'./data_60/training_data_vPnwX30Gn0oa4dVBL0W4Ww.txt' and './data_60/test_data_vPnwX30Gn0oa4dVBL0W4Ww.txt' does not exist
+'./data_60/X_vPnwX30Gn0oa4dVBL0W4Ww.txt' and './data_60/Y_vPnwX30Gn0oa4dVBL0W4Ww.txt' does not exist
+'./data_60/X_test_vPnwX30Gn0oa4dVBL0W4Ww.txt', './data_60/Y_prediction_vPnwX30Gn0oa4dVBL0W4Ww.txt' and './data_60/Y_actual_vPnwX30Gn0oa4dVBL0W4Ww.txt' does not exist.
+131 # prediction
+mse is 1.22941058304
+business_id aYAlzKHwXQn6JNLweRnZjQ
+'./data_60/training_data_aYAlzKHwXQn6JNLweRnZjQ.txt' and './data_60/test_data_aYAlzKHwXQn6JNLweRnZjQ.txt' does not exist
+'./data_60/X_aYAlzKHwXQn6JNLweRnZjQ.txt' and './data_60/Y_aYAlzKHwXQn6JNLweRnZjQ.txt' does not exist
+'./data_60/X_test_aYAlzKHwXQn6JNLweRnZjQ.txt', './data_60/Y_prediction_aYAlzKHwXQn6JNLweRnZjQ.txt' and './data_60/Y_actual_aYAlzKHwXQn6JNLweRnZjQ.txt' does not exist.
+131 # prediction
+mse is 1.93993782855
+business_id 1nO6ffHEwZYFBzEsyw1w7w
+'./data_60/training_data_1nO6ffHEwZYFBzEsyw1w7w.txt' and './data_60/test_data_1nO6ffHEwZYFBzEsyw1w7w.txt' does not exist
+'./data_60/X_1nO6ffHEwZYFBzEsyw1w7w.txt' and './data_60/Y_1nO6ffHEwZYFBzEsyw1w7w.txt' does not exist
+'./data_60/X_test_1nO6ffHEwZYFBzEsyw1w7w.txt', './data_60/Y_prediction_1nO6ffHEwZYFBzEsyw1w7w.txt' and './data_60/Y_actual_1nO6ffHEwZYFBzEsyw1w7w.txt' does not exist.
+131 # prediction
+mse is 1.26007391035
+business_id _45p8kOA__aNycVVe-n-KA
+'./data_60/training_data__45p8kOA__aNycVVe-n-KA.txt' and './data_60/test_data__45p8kOA__aNycVVe-n-KA.txt' does not exist
+'./data_60/X__45p8kOA__aNycVVe-n-KA.txt' and './data_60/Y__45p8kOA__aNycVVe-n-KA.txt' does not exist
+'./data_60/X_test__45p8kOA__aNycVVe-n-KA.txt', './data_60/Y_prediction__45p8kOA__aNycVVe-n-KA.txt' and './data_60/Y_actual__45p8kOA__aNycVVe-n-KA.txt' does not exist.
+131 # prediction
+mse is 1.18192494046
+business_id G6mZKMiDqHDgH92IOg9QhQ
+'./data_60/training_data_G6mZKMiDqHDgH92IOg9QhQ.txt' and './data_60/test_data_G6mZKMiDqHDgH92IOg9QhQ.txt' does not exist
+'./data_60/X_G6mZKMiDqHDgH92IOg9QhQ.txt' and './data_60/Y_G6mZKMiDqHDgH92IOg9QhQ.txt' does not exist
+'./data_60/X_test_G6mZKMiDqHDgH92IOg9QhQ.txt', './data_60/Y_prediction_G6mZKMiDqHDgH92IOg9QhQ.txt' and './data_60/Y_actual_G6mZKMiDqHDgH92IOg9QhQ.txt' does not exist.
+131 # prediction
+mse is 0.936943218888
+business_id vvur3WRgdgnhYoMUXMZZCA
+'./data_60/training_data_vvur3WRgdgnhYoMUXMZZCA.txt' and './data_60/test_data_vvur3WRgdgnhYoMUXMZZCA.txt' does not exist
+'./data_60/X_vvur3WRgdgnhYoMUXMZZCA.txt' and './data_60/Y_vvur3WRgdgnhYoMUXMZZCA.txt' does not exist
+'./data_60/X_test_vvur3WRgdgnhYoMUXMZZCA.txt', './data_60/Y_prediction_vvur3WRgdgnhYoMUXMZZCA.txt' and './data_60/Y_actual_vvur3WRgdgnhYoMUXMZZCA.txt' does not exist.
+131 # prediction
+mse is 0.899533382006
+business_id f6KGn2OyYk6LWEpnUEgerw
+'./data_60/training_data_f6KGn2OyYk6LWEpnUEgerw.txt' and './data_60/test_data_f6KGn2OyYk6LWEpnUEgerw.txt' does not exist
+'./data_60/X_f6KGn2OyYk6LWEpnUEgerw.txt' and './data_60/Y_f6KGn2OyYk6LWEpnUEgerw.txt' does not exist
+'./data_60/X_test_f6KGn2OyYk6LWEpnUEgerw.txt', './data_60/Y_prediction_f6KGn2OyYk6LWEpnUEgerw.txt' and './data_60/Y_actual_f6KGn2OyYk6LWEpnUEgerw.txt' does not exist.
+131 # prediction
+mse is 1.28407747501
+business_id ZNdsRbGeOfrYYPRl6AziCQ
+'./data_60/training_data_ZNdsRbGeOfrYYPRl6AziCQ.txt' and './data_60/test_data_ZNdsRbGeOfrYYPRl6AziCQ.txt' does not exist
+'./data_60/X_ZNdsRbGeOfrYYPRl6AziCQ.txt' and './data_60/Y_ZNdsRbGeOfrYYPRl6AziCQ.txt' does not exist
+'./data_60/X_test_ZNdsRbGeOfrYYPRl6AziCQ.txt', './data_60/Y_prediction_ZNdsRbGeOfrYYPRl6AziCQ.txt' and './data_60/Y_actual_ZNdsRbGeOfrYYPRl6AziCQ.txt' does not exist.
+130 # prediction
+mse is 1.31850731453
+business_id bzDs0u8I-z231QVdIQWkrA
+'./data_60/training_data_bzDs0u8I-z231QVdIQWkrA.txt' and './data_60/test_data_bzDs0u8I-z231QVdIQWkrA.txt' does not exist
+'./data_60/X_bzDs0u8I-z231QVdIQWkrA.txt' and './data_60/Y_bzDs0u8I-z231QVdIQWkrA.txt' does not exist
+'./data_60/X_test_bzDs0u8I-z231QVdIQWkrA.txt', './data_60/Y_prediction_bzDs0u8I-z231QVdIQWkrA.txt' and './data_60/Y_actual_bzDs0u8I-z231QVdIQWkrA.txt' does not exist.
+130 # prediction
+mse is 1.02281662391
+business_id cmv6wUUe-H0xRiFEY0__iQ
+'./data_60/training_data_cmv6wUUe-H0xRiFEY0__iQ.txt' and './data_60/test_data_cmv6wUUe-H0xRiFEY0__iQ.txt' does not exist
+'./data_60/X_cmv6wUUe-H0xRiFEY0__iQ.txt' and './data_60/Y_cmv6wUUe-H0xRiFEY0__iQ.txt' does not exist
+'./data_60/X_test_cmv6wUUe-H0xRiFEY0__iQ.txt', './data_60/Y_prediction_cmv6wUUe-H0xRiFEY0__iQ.txt' and './data_60/Y_actual_cmv6wUUe-H0xRiFEY0__iQ.txt' does not exist.
+130 # prediction
+mse is 0.956757344045
+business_id 4EhFsjWBSaSp_5TkkLp7LA
+'./data_60/training_data_4EhFsjWBSaSp_5TkkLp7LA.txt' and './data_60/test_data_4EhFsjWBSaSp_5TkkLp7LA.txt' does not exist
+'./data_60/X_4EhFsjWBSaSp_5TkkLp7LA.txt' and './data_60/Y_4EhFsjWBSaSp_5TkkLp7LA.txt' does not exist
+'./data_60/X_test_4EhFsjWBSaSp_5TkkLp7LA.txt', './data_60/Y_prediction_4EhFsjWBSaSp_5TkkLp7LA.txt' and './data_60/Y_actual_4EhFsjWBSaSp_5TkkLp7LA.txt' does not exist.
+130 # prediction
+mse is 1.1266014243
+business_id LnCbpxipUrA165zvfaePGw
+'./data_60/training_data_LnCbpxipUrA165zvfaePGw.txt' and './data_60/test_data_LnCbpxipUrA165zvfaePGw.txt' does not exist
+'./data_60/X_LnCbpxipUrA165zvfaePGw.txt' and './data_60/Y_LnCbpxipUrA165zvfaePGw.txt' does not exist
+'./data_60/X_test_LnCbpxipUrA165zvfaePGw.txt', './data_60/Y_prediction_LnCbpxipUrA165zvfaePGw.txt' and './data_60/Y_actual_LnCbpxipUrA165zvfaePGw.txt' does not exist.
+129 # prediction
+mse is 1.39211511597
+business_id SMpL3z4FLF07bRA6-y22JQ
+'./data_60/training_data_SMpL3z4FLF07bRA6-y22JQ.txt' and './data_60/test_data_SMpL3z4FLF07bRA6-y22JQ.txt' does not exist
+'./data_60/X_SMpL3z4FLF07bRA6-y22JQ.txt' and './data_60/Y_SMpL3z4FLF07bRA6-y22JQ.txt' does not exist
+'./data_60/X_test_SMpL3z4FLF07bRA6-y22JQ.txt', './data_60/Y_prediction_SMpL3z4FLF07bRA6-y22JQ.txt' and './data_60/Y_actual_SMpL3z4FLF07bRA6-y22JQ.txt' does not exist.
+129 # prediction
+mse is 1.44672846651
+business_id -AAig9FG0s8gYE4f8GfowQ
+'./data_60/training_data_-AAig9FG0s8gYE4f8GfowQ.txt' and './data_60/test_data_-AAig9FG0s8gYE4f8GfowQ.txt' does not exist
+'./data_60/X_-AAig9FG0s8gYE4f8GfowQ.txt' and './data_60/Y_-AAig9FG0s8gYE4f8GfowQ.txt' does not exist
+'./data_60/X_test_-AAig9FG0s8gYE4f8GfowQ.txt', './data_60/Y_prediction_-AAig9FG0s8gYE4f8GfowQ.txt' and './data_60/Y_actual_-AAig9FG0s8gYE4f8GfowQ.txt' does not exist.
+129 # prediction
+mse is 1.02299150921
+business_id EolW2H_wkpYwWbBURN_4gQ
+'./data_60/training_data_EolW2H_wkpYwWbBURN_4gQ.txt' and './data_60/test_data_EolW2H_wkpYwWbBURN_4gQ.txt' does not exist
+'./data_60/X_EolW2H_wkpYwWbBURN_4gQ.txt' and './data_60/Y_EolW2H_wkpYwWbBURN_4gQ.txt' does not exist
+'./data_60/X_test_EolW2H_wkpYwWbBURN_4gQ.txt', './data_60/Y_prediction_EolW2H_wkpYwWbBURN_4gQ.txt' and './data_60/Y_actual_EolW2H_wkpYwWbBURN_4gQ.txt' does not exist.
+128 # prediction
+mse is 2.05586052542
+business_id iNT6pcUugoXsDlZgRTyhtw
+'./data_60/training_data_iNT6pcUugoXsDlZgRTyhtw.txt' and './data_60/test_data_iNT6pcUugoXsDlZgRTyhtw.txt' does not exist
+'./data_60/X_iNT6pcUugoXsDlZgRTyhtw.txt' and './data_60/Y_iNT6pcUugoXsDlZgRTyhtw.txt' does not exist
+'./data_60/X_test_iNT6pcUugoXsDlZgRTyhtw.txt', './data_60/Y_prediction_iNT6pcUugoXsDlZgRTyhtw.txt' and './data_60/Y_actual_iNT6pcUugoXsDlZgRTyhtw.txt' does not exist.
+128 # prediction
+mse is 1.2624381173
+business_id alWTl5MRC4VE2t9W1mNSIQ
+'./data_60/training_data_alWTl5MRC4VE2t9W1mNSIQ.txt' and './data_60/test_data_alWTl5MRC4VE2t9W1mNSIQ.txt' does not exist
+'./data_60/X_alWTl5MRC4VE2t9W1mNSIQ.txt' and './data_60/Y_alWTl5MRC4VE2t9W1mNSIQ.txt' does not exist
+'./data_60/X_test_alWTl5MRC4VE2t9W1mNSIQ.txt', './data_60/Y_prediction_alWTl5MRC4VE2t9W1mNSIQ.txt' and './data_60/Y_actual_alWTl5MRC4VE2t9W1mNSIQ.txt' does not exist.
+128 # prediction
+mse is 1.49478259289
+business_id EUmfOpiQxJ5yaEMypI30gQ
+'./data_60/training_data_EUmfOpiQxJ5yaEMypI30gQ.txt' and './data_60/test_data_EUmfOpiQxJ5yaEMypI30gQ.txt' does not exist
+'./data_60/X_EUmfOpiQxJ5yaEMypI30gQ.txt' and './data_60/Y_EUmfOpiQxJ5yaEMypI30gQ.txt' does not exist
+'./data_60/X_test_EUmfOpiQxJ5yaEMypI30gQ.txt', './data_60/Y_prediction_EUmfOpiQxJ5yaEMypI30gQ.txt' and './data_60/Y_actual_EUmfOpiQxJ5yaEMypI30gQ.txt' does not exist.
+128 # prediction
+mse is 1.49739356884
+business_id eoDEx1GGQA0CBDhy2ql_Kw
+'./data_60/training_data_eoDEx1GGQA0CBDhy2ql_Kw.txt' and './data_60/test_data_eoDEx1GGQA0CBDhy2ql_Kw.txt' does not exist
+'./data_60/X_eoDEx1GGQA0CBDhy2ql_Kw.txt' and './data_60/Y_eoDEx1GGQA0CBDhy2ql_Kw.txt' does not exist
+'./data_60/X_test_eoDEx1GGQA0CBDhy2ql_Kw.txt', './data_60/Y_prediction_eoDEx1GGQA0CBDhy2ql_Kw.txt' and './data_60/Y_actual_eoDEx1GGQA0CBDhy2ql_Kw.txt' does not exist.
+128 # prediction
+mse is 1.05326872165
+business_id JauLZ0TL3D3VIGtSnStzhA
+'./data_60/training_data_JauLZ0TL3D3VIGtSnStzhA.txt' and './data_60/test_data_JauLZ0TL3D3VIGtSnStzhA.txt' does not exist
+'./data_60/X_JauLZ0TL3D3VIGtSnStzhA.txt' and './data_60/Y_JauLZ0TL3D3VIGtSnStzhA.txt' does not exist
+'./data_60/X_test_JauLZ0TL3D3VIGtSnStzhA.txt', './data_60/Y_prediction_JauLZ0TL3D3VIGtSnStzhA.txt' and './data_60/Y_actual_JauLZ0TL3D3VIGtSnStzhA.txt' does not exist.
+128 # prediction
+mse is 1.23110722522
+business_id Bt7lGzIlPGc13iCXoc-TIw
+'./data_60/training_data_Bt7lGzIlPGc13iCXoc-TIw.txt' and './data_60/test_data_Bt7lGzIlPGc13iCXoc-TIw.txt' does not exist
+'./data_60/X_Bt7lGzIlPGc13iCXoc-TIw.txt' and './data_60/Y_Bt7lGzIlPGc13iCXoc-TIw.txt' does not exist
+'./data_60/X_test_Bt7lGzIlPGc13iCXoc-TIw.txt', './data_60/Y_prediction_Bt7lGzIlPGc13iCXoc-TIw.txt' and './data_60/Y_actual_Bt7lGzIlPGc13iCXoc-TIw.txt' does not exist.
+128 # prediction
+mse is 1.50779226023
+business_id hfl62LX14YqNpG0g0Tj6_Q
+'./data_60/training_data_hfl62LX14YqNpG0g0Tj6_Q.txt' and './data_60/test_data_hfl62LX14YqNpG0g0Tj6_Q.txt' does not exist
+'./data_60/X_hfl62LX14YqNpG0g0Tj6_Q.txt' and './data_60/Y_hfl62LX14YqNpG0g0Tj6_Q.txt' does not exist
+'./data_60/X_test_hfl62LX14YqNpG0g0Tj6_Q.txt', './data_60/Y_prediction_hfl62LX14YqNpG0g0Tj6_Q.txt' and './data_60/Y_actual_hfl62LX14YqNpG0g0Tj6_Q.txt' does not exist.
+127 # prediction
+mse is 1.21019293054
+business_id dxY1gl4cO4-rEFATCkFUIw
+'./data_60/training_data_dxY1gl4cO4-rEFATCkFUIw.txt' and './data_60/test_data_dxY1gl4cO4-rEFATCkFUIw.txt' does not exist
+'./data_60/X_dxY1gl4cO4-rEFATCkFUIw.txt' and './data_60/Y_dxY1gl4cO4-rEFATCkFUIw.txt' does not exist
+'./data_60/X_test_dxY1gl4cO4-rEFATCkFUIw.txt', './data_60/Y_prediction_dxY1gl4cO4-rEFATCkFUIw.txt' and './data_60/Y_actual_dxY1gl4cO4-rEFATCkFUIw.txt' does not exist.
+127 # prediction
+mse is 1.65771876266
+business_id _xmJB767rROtAy6XepMlkQ
+'./data_60/training_data__xmJB767rROtAy6XepMlkQ.txt' and './data_60/test_data__xmJB767rROtAy6XepMlkQ.txt' does not exist
+'./data_60/X__xmJB767rROtAy6XepMlkQ.txt' and './data_60/Y__xmJB767rROtAy6XepMlkQ.txt' does not exist
+'./data_60/X_test__xmJB767rROtAy6XepMlkQ.txt', './data_60/Y_prediction__xmJB767rROtAy6XepMlkQ.txt' and './data_60/Y_actual__xmJB767rROtAy6XepMlkQ.txt' does not exist.
+126 # prediction
+mse is 1.2117153
+business_id Xsp9Dy4PQgAssCVk2-f73w
+'./data_60/training_data_Xsp9Dy4PQgAssCVk2-f73w.txt' and './data_60/test_data_Xsp9Dy4PQgAssCVk2-f73w.txt' does not exist
+'./data_60/X_Xsp9Dy4PQgAssCVk2-f73w.txt' and './data_60/Y_Xsp9Dy4PQgAssCVk2-f73w.txt' does not exist
+'./data_60/X_test_Xsp9Dy4PQgAssCVk2-f73w.txt', './data_60/Y_prediction_Xsp9Dy4PQgAssCVk2-f73w.txt' and './data_60/Y_actual_Xsp9Dy4PQgAssCVk2-f73w.txt' does not exist.
+126 # prediction
+mse is 1.2598815767
+business_id NVunai1t_GXQCAdDzFWJkQ
+'./data_60/training_data_NVunai1t_GXQCAdDzFWJkQ.txt' and './data_60/test_data_NVunai1t_GXQCAdDzFWJkQ.txt' does not exist
+'./data_60/X_NVunai1t_GXQCAdDzFWJkQ.txt' and './data_60/Y_NVunai1t_GXQCAdDzFWJkQ.txt' does not exist
+'./data_60/X_test_NVunai1t_GXQCAdDzFWJkQ.txt', './data_60/Y_prediction_NVunai1t_GXQCAdDzFWJkQ.txt' and './data_60/Y_actual_NVunai1t_GXQCAdDzFWJkQ.txt' does not exist.
+126 # prediction
+mse is 1.28483214888
+business_id d52zg-S0o940WUCK-nNiKw
+'./data_60/training_data_d52zg-S0o940WUCK-nNiKw.txt' and './data_60/test_data_d52zg-S0o940WUCK-nNiKw.txt' does not exist
+'./data_60/X_d52zg-S0o940WUCK-nNiKw.txt' and './data_60/Y_d52zg-S0o940WUCK-nNiKw.txt' does not exist
+'./data_60/X_test_d52zg-S0o940WUCK-nNiKw.txt', './data_60/Y_prediction_d52zg-S0o940WUCK-nNiKw.txt' and './data_60/Y_actual_d52zg-S0o940WUCK-nNiKw.txt' does not exist.
+126 # prediction
+mse is 1.28173988892
+business_id 4X_XAOeMw7AFkYhg3NINJA
+'./data_60/training_data_4X_XAOeMw7AFkYhg3NINJA.txt' and './data_60/test_data_4X_XAOeMw7AFkYhg3NINJA.txt' does not exist
+'./data_60/X_4X_XAOeMw7AFkYhg3NINJA.txt' and './data_60/Y_4X_XAOeMw7AFkYhg3NINJA.txt' does not exist
+'./data_60/X_test_4X_XAOeMw7AFkYhg3NINJA.txt', './data_60/Y_prediction_4X_XAOeMw7AFkYhg3NINJA.txt' and './data_60/Y_actual_4X_XAOeMw7AFkYhg3NINJA.txt' does not exist.
+126 # prediction
+mse is 1.2344267997
+business_id 41j3GB7M-Lwq284Pfb9zgw
+'./data_60/training_data_41j3GB7M-Lwq284Pfb9zgw.txt' and './data_60/test_data_41j3GB7M-Lwq284Pfb9zgw.txt' does not exist
+'./data_60/X_41j3GB7M-Lwq284Pfb9zgw.txt' and './data_60/Y_41j3GB7M-Lwq284Pfb9zgw.txt' does not exist
+'./data_60/X_test_41j3GB7M-Lwq284Pfb9zgw.txt', './data_60/Y_prediction_41j3GB7M-Lwq284Pfb9zgw.txt' and './data_60/Y_actual_41j3GB7M-Lwq284Pfb9zgw.txt' does not exist.
+126 # prediction
+mse is 0.930096427839
+business_id _Aq9R8FRoXq8HwC5qf80Xg
+'./data_60/training_data__Aq9R8FRoXq8HwC5qf80Xg.txt' and './data_60/test_data__Aq9R8FRoXq8HwC5qf80Xg.txt' does not exist
+'./data_60/X__Aq9R8FRoXq8HwC5qf80Xg.txt' and './data_60/Y__Aq9R8FRoXq8HwC5qf80Xg.txt' does not exist
+'./data_60/X_test__Aq9R8FRoXq8HwC5qf80Xg.txt', './data_60/Y_prediction__Aq9R8FRoXq8HwC5qf80Xg.txt' and './data_60/Y_actual__Aq9R8FRoXq8HwC5qf80Xg.txt' does not exist.
+126 # prediction
+mse is 2.16575072215
+business_id BUpMSaHWxlWTgKTDIzz5Lw
+'./data_60/training_data_BUpMSaHWxlWTgKTDIzz5Lw.txt' and './data_60/test_data_BUpMSaHWxlWTgKTDIzz5Lw.txt' does not exist
+'./data_60/X_BUpMSaHWxlWTgKTDIzz5Lw.txt' and './data_60/Y_BUpMSaHWxlWTgKTDIzz5Lw.txt' does not exist
+'./data_60/X_test_BUpMSaHWxlWTgKTDIzz5Lw.txt', './data_60/Y_prediction_BUpMSaHWxlWTgKTDIzz5Lw.txt' and './data_60/Y_actual_BUpMSaHWxlWTgKTDIzz5Lw.txt' does not exist.
+125 # prediction
+mse is 1.26491106407
+business_id FUI-hWH_bpis7AKZTWenUQ
+'./data_60/training_data_FUI-hWH_bpis7AKZTWenUQ.txt' and './data_60/test_data_FUI-hWH_bpis7AKZTWenUQ.txt' does not exist
+'./data_60/X_FUI-hWH_bpis7AKZTWenUQ.txt' and './data_60/Y_FUI-hWH_bpis7AKZTWenUQ.txt' does not exist
+'./data_60/X_test_FUI-hWH_bpis7AKZTWenUQ.txt', './data_60/Y_prediction_FUI-hWH_bpis7AKZTWenUQ.txt' and './data_60/Y_actual_FUI-hWH_bpis7AKZTWenUQ.txt' does not exist.
+125 # prediction
+mse is 0.975704873412
+business_id jh7S78tc9oXCDjAjP_OrLw
+'./data_60/training_data_jh7S78tc9oXCDjAjP_OrLw.txt' and './data_60/test_data_jh7S78tc9oXCDjAjP_OrLw.txt' does not exist
+'./data_60/X_jh7S78tc9oXCDjAjP_OrLw.txt' and './data_60/Y_jh7S78tc9oXCDjAjP_OrLw.txt' does not exist
+'./data_60/X_test_jh7S78tc9oXCDjAjP_OrLw.txt', './data_60/Y_prediction_jh7S78tc9oXCDjAjP_OrLw.txt' and './data_60/Y_actual_jh7S78tc9oXCDjAjP_OrLw.txt' does not exist.
+125 # prediction
+mse is 1.35351394526
+71532 # prediction
+mse is 1.30115507509
+total # prediction is 71532
+method 1 MSE is 1.3011550750934222
+method 2 MSE is 1.2735710976352186
