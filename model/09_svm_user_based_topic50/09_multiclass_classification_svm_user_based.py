@@ -66,7 +66,7 @@ GROUP BY business_id" % (user_id)
     cur.execute(sql)
     rows = cur.fetchall()
     data_len = len(rows)
-    training_size = int(data_len * 6 / 10)
+    training_size = int(data_len * 9 / 10)
 
     training_restaurant_data = []
     for i in range(training_size):
@@ -130,7 +130,7 @@ def mse(prediction, actual):
     return m
 
 def multiclass_svm(user_id):
-    path = './data_60'
+    path = './data_90'
     training_data_fname = os.path.join(path, "training_data_{}.txt".format(user_id))
     test_data_fname = os.path.join(path, "test_data_{}.txt".format(user_id))
 

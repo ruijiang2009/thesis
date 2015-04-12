@@ -64,7 +64,7 @@ GROUP BY user_id" % (business_id)
     cur.execute(sql)
     rows = cur.fetchall()
     data_len = len(rows)
-    training_size = int(data_len * 6 / 10)
+    training_size = int(data_len * 9 / 10)
 
     training_user_data = []
     for i in range(training_size):
@@ -155,7 +155,7 @@ def multiclass_svm(business_id):
         for i in range(number_training_data):
             user_data = training_user_data[i]
             user_id = user_data['user_id']
-            user_feature = get_user_feature_data(user_id)
+            user_feature = get_user_attribute_data(user_id)
             X[i] = user_feature
             Y[i] = user_data['stars']
         np.savetxt(fname=X_fname, X=X, delimiter=',')
@@ -182,7 +182,7 @@ def multiclass_svm(business_id):
         for i in range(number_test_data):
             user_data = test_user_data[i]
             user_id = user_data['user_id']
-            user_feature = get_user_feature_data(user_id)
+            user_feature = get_user_attribute_data(user_id)
             X_test[i] = user_feature
             Y_actual[i] = user_data['stars']
         Y_prediction = clf.predict(X_test.tolist())
